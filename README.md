@@ -24,5 +24,5 @@ To run the file, execute the following command:
 python3 gui.py
 ```
 
-The following screenshot shows the object labeling step of the prototype.
+The following screenshot shows the object labeling step of the prototype used on the Solve4X dataset ([Chvirova et al. 2024](https://doi.org/10.1016/j.dib.2024.110716)).
 ![Alt text](https://github.com/550e8400e29b41d4a716446655440000/object-centric-video-sensor-mining/blob/main/figures/OCVSM_prototype_screenshot.PNG?raw=true "Screenshot")
