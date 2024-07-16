@@ -23,3 +23,6 @@ To run the file, execute the following command:
 ```
 python3 gui.py
 ```
+
+The following screenshot shows the object labeling step of the prototype.
+![Alt text](https://github.com/550e8400e29b41d4a716446655440000/object-centric-video-sensor-mining/blob/main/figures/OCVSM_prototype_screenshot.PNG?raw=true "Screenshot")
