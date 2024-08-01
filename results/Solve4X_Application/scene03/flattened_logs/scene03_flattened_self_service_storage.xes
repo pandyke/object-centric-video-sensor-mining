@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="self_service_storage" />
+		<string key="ocel:type" value="self_service_storage" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_8120a0e8-3d12-452b-bc2c-823043a76519" />
+			<date key="time:timestamp" value="2024-03-25T09:14:17+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_d2418b09-e005-4637-a535-0050572a8850" />
+			<date key="time:timestamp" value="2024-03-25T09:14:23+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_208c7485-0ec8-47a2-98b0-6bf1af52a6f4" />
+			<date key="time:timestamp" value="2024-03-25T09:14:41+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_430fba35-cbd9-4e41-a43d-2d54df614d9d" />
+			<date key="time:timestamp" value="2024-03-25T09:16:03+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_eb62c2c6-874e-43d2-a6ec-15f169bb14bf" />
+			<date key="time:timestamp" value="2024-03-25T09:16:38+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_4c1e25ee-8d9c-48b2-a71f-1349f666e59e" />
+			<date key="time:timestamp" value="2024-03-25T09:17:02+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+	</trace>
+</log>

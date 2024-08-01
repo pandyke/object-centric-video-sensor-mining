@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="Webcam USB" />
+		<string key="ocel:type" value="item_accessory" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<string key="obj.type" value="item_accessory" />
+		<string key="obj.relationType" value="item" />
+		<string key="obj.id_full" value="item_accessory_68" />
+		<string key="obj.link" value="accessories/68" />
+		<string key="obj.id" value="Webcam USB" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="44394" />
+			<date key="time:timestamp" value="2024-03-25T09:13:56+00:00" />
+			<string key="concept:name" value="checkout" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<string key="action_date" value="2024-03-25T09:13:56Z" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44396" />
+			<date key="time:timestamp" value="2024-03-25T09:15:48+00:00" />
+			<string key="concept:name" value="accepted" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<string key="filename" value="accepted-eula-2024-03-25-08-15-48.pdf" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Headset USB" />
+		<string key="ocel:type" value="item_accessory" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<string key="obj.type" value="item_accessory" />
+		<string key="obj.relationType" value="item" />
+		<string key="obj.id_full" value="item_accessory_67" />
+		<string key="obj.link" value="accessories/67" />
+		<string key="obj.id" value="Headset USB" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="44397" />
+			<date key="time:timestamp" value="2024-03-25T09:17:00+00:00" />
+			<string key="concept:name" value="checkout" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<string key="action_date" value="2024-03-25T09:17:00Z" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44398" />
+			<date key="time:timestamp" value="2024-03-25T09:18:06+00:00" />
+			<string key="concept:name" value="accepted" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<string key="filename" value="accepted-eula-2024-03-25-08-18-06.pdf" />
+		</event>
+	</trace>
+</log>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="L5" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<string key="obj.type" value="item_asset" />
+		<string key="obj.relationType" value="item" />
+		<string key="obj.id_full" value="item_asset_10229" />
+		<string key="obj.link" value="hardware/10229" />
+		<string key="obj.id" value="L5" />
+		<string key="name" value="tintenklecks" />
+		<string key="asset_tag" value="L5" />
+		<string key="physical" value="1" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<string key="model.name" value="Latitude E7450" />
+		<string key="model.manufacturer.name" value="Dell" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="44390" />
+			<date key="time:timestamp" value="2024-03-25T09:08:59+00:00" />
+			<string key="concept:name" value="create" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44391" />
+			<date key="time:timestamp" value="2024-03-25T09:09:14+00:00" />
+			<string key="concept:name" value="update" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<string key="action_source" value="gui" />
+			<string key="log_meta" value='{"status_id":{"old":11,"new":"13"}}' />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44399" />
+			<date key="time:timestamp" value="2024-03-25T09:18:36+00:00" />
+			<string key="concept:name" value="update" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<string key="action_source" value="gui" />
+			<string key="log_meta" value='{"status_id":{"old":13,"new":"11"}}' />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="L1" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<string key="obj.type" value="item_asset" />
+		<string key="obj.relationType" value="item" />
+		<string key="obj.id_full" value="item_asset_6030" />
+		<string key="obj.link" value="hardware/6030" />
+		<string key="obj.id" value="L1" />
+		<string key="name" value="tintenklecks" />
+		<string key="asset_tag" value="L1" />
+		<string key="physical" value="1" />
+		<string key="last_checkout" value="2024-03-25T17:19:16Z" />
+		<string key="last_checkin" value="2024-03-25T17:11:18Z" />
+		<string key="checkin_counter" value="5" />
+		<string key="checkout_counter" value="6" />
+		<string key="model.name" value="Latitude E7450" />
+		<string key="model.manufacturer.name" value="Dell" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="44392" />
+			<date key="time:timestamp" value="2024-03-25T09:11:10+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<string key="action_source" value="gui" />
+			<string key="log_meta" value='{"status_id":{"old":11,"new":"13"},"location_id":{"old":null,"new":1490}}' />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<string key="action_date" value="2024-03-25T09:11:10Z" />
+			<string key="note" value="checked in for repair by client 1" />
+			<float key="filename" value="nan" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="L3" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<string key="obj.type" value="item_asset" />
+		<string key="obj.relationType" value="item" />
+		<string key="obj.id_full" value="item_asset_6060" />
+		<string key="obj.link" value="hardware/6060" />
+		<string key="obj.id" value="L3" />
+		<string key="name" value="mikesch" />
+		<string key="asset_tag" value="L3" />
+		<string key="physical" value="1" />
+		<string key="last_checkout" value="2024-03-25T15:27:58Z" />
+		<string key="last_checkin" value="2024-03-25T11:41:50Z" />
+		<string key="checkin_counter" value="3" />
+		<string key="checkout_counter" value="5" />
+		<string key="model.name" value="Latitude E7450" />
+		<string key="model.manufacturer.name" value="Dell" />
+		<string key="requestable" value="1" />
+		<event>
+			<string key="ocel:eid" value="44393" />
+			<date key="time:timestamp" value="2024-03-25T09:12:21+00:00" />
+			<string key="concept:name" value="checkout" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<string key="action_source" value="gui" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<string key="action_date" value="2024-03-25T09:12:21Z" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44395" />
+			<date key="time:timestamp" value="2024-03-25T09:14:37+00:00" />
+			<string key="concept:name" value="accepted" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<string key="filename" value="accepted-eula-2024-03-25-08-14-37.pdf" />
+		</event>
+	</trace>
+</log>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="repair_desk" />
+		<string key="ocel:type" value="repair_desk" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_f57ae8b5-87bf-484e-95ce-97c5c1f67c70" />
+			<date key="time:timestamp" value="2024-03-25T09:06:49+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_74a51f97-9d35-42bc-85f9-0f77ef2729db" />
+			<date key="time:timestamp" value="2024-03-25T09:09:21+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_37453579-b2a0-415f-b59d-8b42ef90008f" />
+			<date key="time:timestamp" value="2024-03-25T09:12:59+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_490063df-0f1d-4261-810b-08fd1ca6e2a7" />
+			<date key="time:timestamp" value="2024-03-25T09:13:56+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_4a61a054-4671-40c3-bd72-e05efdfc6048" />
+			<date key="time:timestamp" value="2024-03-25T09:14:44+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_dd6c99e2-80a2-4236-b9ac-05925f166789" />
+			<date key="time:timestamp" value="2024-03-25T09:14:55+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_b7b3d371-14df-4976-90c2-5f53f9318320" />
+			<date key="time:timestamp" value="2024-03-25T09:15:50+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_61bbbfce-6a76-40e2-85e1-914b650cd57c" />
+			<date key="time:timestamp" value="2024-03-25T09:15:59+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_6426c40a-d33c-42c3-9713-079aefc457f2" />
+			<date key="time:timestamp" value="2024-03-25T09:16:03+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_40c486f0-ef21-4449-99d0-4d956e2ca1aa" />
+			<date key="time:timestamp" value="2024-03-25T09:16:33+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_9a6640ed-2ba1-4203-88e6-c94fa16a5aa6" />
+			<date key="time:timestamp" value="2024-03-25T09:17:02+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_4dc47543-fb3a-44e7-bc45-1dc4e1b337a7" />
+			<date key="time:timestamp" value="2024-03-25T09:17:31+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_a10db197-604c-4956-82c9-c433bf355aba" />
+			<date key="time:timestamp" value="2024-03-25T09:18:16+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+	</trace>
+</log>

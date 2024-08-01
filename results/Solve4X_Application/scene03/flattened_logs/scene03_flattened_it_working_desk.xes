@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="it_working_desk" />
+		<string key="ocel:type" value="it_working_desk" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_955b1151-cee3-4dfb-a535-badc15463d0d" />
+			<date key="time:timestamp" value="2024-03-25T09:06:13+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_4bc538ce-abe6-4574-ad61-45af165c232d" />
+			<date key="time:timestamp" value="2024-03-25T09:08:31+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_cacd4862-bb6d-4ee9-ae4e-e8acd5f35869" />
+			<date key="time:timestamp" value="2024-03-25T09:10:35+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_9d753054-20fd-4aba-97f3-22fc452fae05" />
+			<date key="time:timestamp" value="2024-03-25T09:11:44+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_8b66b830-dbb4-4c91-9a8c-d092235f05f6" />
+			<date key="time:timestamp" value="2024-03-25T09:12:29+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_27b8653a-7f4a-4d2e-9991-c4994fa2e5e3" />
+			<date key="time:timestamp" value="2024-03-25T09:12:40+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_d07f0416-e7a6-43c3-b660-44ef6b974bf0" />
+			<date key="time:timestamp" value="2024-03-25T09:12:58+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_97d144a3-47a9-4aa7-aabd-b222d29474b3" />
+			<date key="time:timestamp" value="2024-03-25T09:16:32+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_35e36832-0756-4af4-9373-4133a47152fb" />
+			<date key="time:timestamp" value="2024-03-25T09:16:34+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_1d1d02c3-fcbc-4fd5-bacb-bd0536c0342c" />
+			<date key="time:timestamp" value="2024-03-25T09:18:12+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_bdad23cf-e14c-4fd0-b8c1-52232ab28300" />
+			<date key="time:timestamp" value="2024-03-25T09:18:20+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+	</trace>
+</log>

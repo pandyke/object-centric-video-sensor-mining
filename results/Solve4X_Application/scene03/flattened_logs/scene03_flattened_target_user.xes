@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="C1" />
+		<string key="ocel:type" value="target_user" />
+		<string key="email" value="client1@fim-rc.de" />
+		<string key="first_name" value="Client 1" />
+		<string key="obj.type" value="target_user" />
+		<string key="obj.relationType" value="target" />
+		<string key="obj.id_full" value="target_user_1094" />
+		<string key="obj.link" value="users/1094" />
+		<string key="obj.id" value="C1" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Enter room/Leave room_01c0311d-ea16-466c-a665-03f6ec5c877c" />
+			<date key="time:timestamp" value="2024-03-25T09:09:42+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44392" />
+			<date key="time:timestamp" value="2024-03-25T09:11:10+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<string key="action_source" value="gui" />
+			<string key="log_meta" value='{"status_id":{"old":11,"new":"13"},"location_id":{"old":null,"new":1490}}' />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<string key="action_date" value="2024-03-25T09:11:10Z" />
+			<string key="note" value="checked in for repair by client 1" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44393" />
+			<date key="time:timestamp" value="2024-03-25T09:12:21+00:00" />
+			<string key="concept:name" value="checkout" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<string key="action_source" value="gui" />
+			<string key="log_meta" value='{"location_id":{"old":1490,"new":null}}' />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<string key="action_date" value="2024-03-25T09:12:21Z" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Enter room/Leave room_69514522-65ed-45d3-b37c-b2459f4af37d" />
+			<date key="time:timestamp" value="2024-03-25T09:12:36+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Enter room/Leave room_542a6e77-2524-419f-ae40-23f6279b3fa8" />
+			<date key="time:timestamp" value="2024-03-25T09:12:40+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44395" />
+			<date key="time:timestamp" value="2024-03-25T09:14:37+00:00" />
+			<string key="concept:name" value="accepted" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<string key="filename" value="accepted-eula-2024-03-25-08-14-37.pdf" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="C6" />
+		<string key="ocel:type" value="target_user" />
+		<string key="email" value="client6@fim-rc.de" />
+		<string key="first_name" value="Client 6" />
+		<string key="obj.type" value="target_user" />
+		<string key="obj.relationType" value="target" />
+		<string key="obj.id_full" value="target_user_1014" />
+		<string key="obj.link" value="users/1014" />
+		<string key="obj.id" value="C6" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Enter room/Leave room_45bd644c-62c3-4df3-967f-37b4dc9f157b" />
+			<date key="time:timestamp" value="2024-03-25T09:15:58+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_430fba35-cbd9-4e41-a43d-2d54df614d9d" />
+			<date key="time:timestamp" value="2024-03-25T09:16:03+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_eb62c2c6-874e-43d2-a6ec-15f169bb14bf" />
+			<date key="time:timestamp" value="2024-03-25T09:16:38+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44397" />
+			<date key="time:timestamp" value="2024-03-25T09:17:00+00:00" />
+			<string key="concept:name" value="checkout" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<string key="action_date" value="2024-03-25T09:17:00Z" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_4c1e25ee-8d9c-48b2-a71f-1349f666e59e" />
+			<date key="time:timestamp" value="2024-03-25T09:17:02+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Enter room/Leave room_be525b43-73ec-43ed-b6c6-1e9f1d310a29" />
+			<date key="time:timestamp" value="2024-03-25T09:17:04+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene03" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44398" />
+			<date key="time:timestamp" value="2024-03-25T09:18:06+00:00" />
+			<string key="concept:name" value="accepted" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<string key="filename" value="accepted-eula-2024-03-25-08-18-06.pdf" />
+		</event>
+	</trace>
+</log>
