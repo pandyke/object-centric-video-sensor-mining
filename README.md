@@ -6,13 +6,12 @@ For a more comprehensive overview of the approach we refer to the paper.
 
 ## Installation
 
-Execute the following commands to check out the repository, create a new Python virtual environment, and install the dependencies:
+Execute the following commands to check out the repository, and create a new Python virtual environment.
 
 ```
 git clone https://github.com/550e8400e29b41d4a716446655440000/object-centric-video-sensor-mining
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
 ```
 
 
