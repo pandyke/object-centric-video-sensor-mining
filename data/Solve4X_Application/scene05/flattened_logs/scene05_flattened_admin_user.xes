@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="A1" />
+		<string key="ocel:type" value="admin_user" />
+		<string key="email" value="admin1@fim-rc.de" />
+		<string key="first_name" value="Admin 1" />
+		<string key="obj.type" value="admin_user" />
+		<string key="obj.relationType" value="admin" />
+		<string key="obj.id_full" value="admin_user_4" />
+		<string key="obj.link" value="users/4" />
+		<string key="obj.id" value="A1" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="room_location" value="nan" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<float key="type" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Open window_3c428351-b6ec-477b-b69c-b394194149ed" />
+			<date key="time:timestamp" value="2024-03-25T09:24:18+00:00" />
+			<string key="concept:name" value="Open window" />
+			<string key="scene" value="5" />
+			<string key="end_time" value="2024-03-25T09:24:25.216" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="other, see notes_5d801654-f8fe-4ffe-ba9c-2b8c7ad2e0da" />
+			<date key="time:timestamp" value="2024-03-25T09:24:31+00:00" />
+			<string key="concept:name" value="Carry out repair/Check asset quality/Update asset status in the system/other, see notes" />
+			<string key="scene" value="5" />
+			<string key="end_time" value="2024-03-25T09:24:36.077" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Chat_cb09fd36-3a3a-4dbd-b3fe-58ef601dfef2" />
+			<date key="time:timestamp" value="2024-03-25T09:26:16+00:00" />
+			<string key="concept:name" value="Chat" />
+			<string key="scene" value="5" />
+			<string key="end_time" value="2024-03-25T09:26:19.155" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Check asset quality_cb105aa1-bf1a-4e47-ac50-01cfa6054b11" />
+			<date key="time:timestamp" value="2024-03-25T09:26:27+00:00" />
+			<string key="concept:name" value="Carry out repair/Check asset quality/Update asset status in the system/other, see notes" />
+			<string key="scene" value="5" />
+			<string key="end_time" value="2024-03-25T09:26:52.165" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Update asset status in the system_b09526ab-3021-4fbf-a5ca-27935e8eb8ee" />
+			<date key="time:timestamp" value="2024-03-25T09:27:02+00:00" />
+			<string key="concept:name" value="Carry out repair/Check asset quality/Update asset status in the system/other, see notes" />
+			<string key="scene" value="5" />
+			<string key="end_time" value="2024-03-25T09:27:14.238" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44403" />
+			<date key="time:timestamp" value="2024-03-25T09:27:13+00:00" />
+			<string key="concept:name" value="update" />
+			<float key="scene" value="nan" />
+			<float key="end_time" value="nan" />
+			<float key="action_date" value="nan" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<string key="log_meta" value='{"status_id":{"old":13,"new":"11"}}' />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Move asset to storage_809104e9-7ce7-45da-802a-fbbf13e10918" />
+			<date key="time:timestamp" value="2024-03-25T09:27:15+00:00" />
+			<string key="concept:name" value="Move asset to storage" />
+			<string key="scene" value="5" />
+			<string key="end_time" value="2024-03-25T09:27:22.475" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="C4" />
+		<string key="ocel:type" value="admin_user" />
+		<string key="email" value="client4@fim-rc.de" />
+		<string key="first_name" value="Client 4" />
+		<string key="obj.type" value="admin_user" />
+		<string key="obj.relationType" value="admin" />
+		<string key="obj.id_full" value="admin_user_1095" />
+		<string key="obj.link" value="users/1095" />
+		<string key="obj.id" value="C4" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="room_location" value="nan" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<float key="type" value="nan" />
+		<event>
+			<string key="ocel:eid" value="44401" />
+			<date key="time:timestamp" value="2024-03-25T09:25:02+00:00" />
+			<string key="concept:name" value="checkout" />
+			<float key="scene" value="nan" />
+			<float key="end_time" value="nan" />
+			<string key="action_date" value="2024-03-25T09:25:02Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Enter room_d953c051-bc69-40ee-98e0-4813611ea1d3" />
+			<date key="time:timestamp" value="2024-03-25T09:26:10+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<string key="scene" value="5" />
+			<string key="end_time" value="2024-03-25T09:26:16.496" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Chat_cb09fd36-3a3a-4dbd-b3fe-58ef601dfef2" />
+			<date key="time:timestamp" value="2024-03-25T09:26:16+00:00" />
+			<string key="concept:name" value="Chat" />
+			<string key="scene" value="5" />
+			<string key="end_time" value="2024-03-25T09:26:19.155" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_1e5f3504-d367-4a8b-b81d-970c4139be7d" />
+			<date key="time:timestamp" value="2024-03-25T09:26:17+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<string key="scene" value="5" />
+			<string key="end_time" value="2024-03-25T09:26:17.417" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Leave room_cc8d5904-c2b4-4106-8e65-d38d3dd5d1ff" />
+			<date key="time:timestamp" value="2024-03-25T09:26:23+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<string key="scene" value="5" />
+			<string key="end_time" value="2024-03-25T09:26:29.508" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44402" />
+			<date key="time:timestamp" value="2024-03-25T09:26:58+00:00" />
+			<string key="concept:name" value="accepted" />
+			<float key="scene" value="nan" />
+			<float key="end_time" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="filename" value="accepted-eula-2024-03-25-08-26-58.pdf" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+	</trace>
+</log>
