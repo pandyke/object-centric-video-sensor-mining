@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="repair_desk" />
+		<string key="ocel:type" value="repair_desk" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="name" value="nan" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_558c534e-4179-4258-9ea5-176b9e479adb" />
+			<date key="time:timestamp" value="2024-03-25T09:30:12+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene06" />
+			<float key="sensor_value" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_91094cae-b9e4-4eb6-a554-5cfb0a03998a" />
+			<date key="time:timestamp" value="2024-03-25T09:30:59+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene06" />
+			<float key="sensor_value" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_ff8c32e9-35cb-4aa4-ba13-605bd1601186" />
+			<date key="time:timestamp" value="2024-03-25T09:31:00+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene06" />
+			<float key="sensor_value" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_b9ca06e9-d526-4abc-a3c0-81a19e1cee35" />
+			<date key="time:timestamp" value="2024-03-25T09:31:08+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene06" />
+			<float key="sensor_value" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_e060f61d-a928-4ca6-8cbc-f76f8e0a4384" />
+			<date key="time:timestamp" value="2024-03-25T09:31:20+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene06" />
+			<float key="sensor_value" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_c3a82b70-e45c-4852-a098-3da24c572d31" />
+			<date key="time:timestamp" value="2024-03-25T09:31:27+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene06" />
+			<float key="sensor_value" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_0e939246-39b5-4cfc-bf64-9a6929fd346d" />
+			<date key="time:timestamp" value="2024-03-25T09:31:31+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene06" />
+			<float key="sensor_value" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_7e1f841b-c3d4-4403-b94d-ab0c7652f57d" />
+			<date key="time:timestamp" value="2024-03-25T09:31:37+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene06" />
+			<float key="sensor_value" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_f9c141cf-2926-476f-8447-0ed6ad26ceea" />
+			<date key="time:timestamp" value="2024-03-25T09:31:40+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene06" />
+			<float key="sensor_value" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_6420950c-2ba7-4d26-aa03-c128d57ce498" />
+			<date key="time:timestamp" value="2024-03-25T09:31:54+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene06" />
+			<float key="sensor_value" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_c072915a-beba-480d-b5c5-e1c64d5dbe0b" />
+			<date key="time:timestamp" value="2024-03-25T09:32:05+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene06" />
+			<float key="sensor_value" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_d2345a22-27f0-460a-ac05-eac6d1a805d7" />
+			<date key="time:timestamp" value="2024-03-25T09:33:11+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene06" />
+			<float key="sensor_value" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+	</trace>
+</log>

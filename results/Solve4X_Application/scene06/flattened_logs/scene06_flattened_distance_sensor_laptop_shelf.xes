@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="distance_sensor_laptop_shelf" />
+		<string key="ocel:type" value="distance_sensor_laptop_shelf" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="name" value="nan" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="laptop_shelf_laptop_added_191e6d4e-9113-4d5c-932c-d8ad4a0d859b" />
+			<date key="time:timestamp" value="2024-03-25T09:34:47+00:00" />
+			<string key="concept:name" value="laptop_shelf_laptop_added" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="sensor" />
+			<string key="event_source_file" value="scene06_distance_sensor_laptop_shelf" />
+			<float key="sensor_value" value="nan" />
+			<string key="sensor_value_window" value="1" />
+			<string key="sensor_threshold" value="-2.0" />
+			<string key="sensor_old_value" value="26.92" />
+			<string key="sensor_new_value" value="21.75" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="laptop_shelf_laptop_removed_22e36c46-0ee7-4aee-9335-ea63dcde2cbf" />
+			<date key="time:timestamp" value="2024-03-25T09:34:49+00:00" />
+			<string key="concept:name" value="laptop_shelf_laptop_removed" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="sensor" />
+			<string key="event_source_file" value="scene06_distance_sensor_laptop_shelf" />
+			<float key="sensor_value" value="nan" />
+			<string key="sensor_value_window" value="1" />
+			<string key="sensor_threshold" value="2.0" />
+			<string key="sensor_old_value" value="21.75" />
+			<string key="sensor_new_value" value="25.53" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="laptop_shelf_laptop_added_1601875e-52ad-466c-8ceb-66ea4c522abc" />
+			<date key="time:timestamp" value="2024-03-25T09:36:41+00:00" />
+			<string key="concept:name" value="laptop_shelf_laptop_added" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="sensor" />
+			<string key="event_source_file" value="scene06_distance_sensor_laptop_shelf" />
+			<float key="sensor_value" value="nan" />
+			<string key="sensor_value_window" value="1" />
+			<string key="sensor_threshold" value="-2.0" />
+			<string key="sensor_old_value" value="24.79" />
+			<string key="sensor_new_value" value="20.05" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="laptop_shelf_laptop_removed_4190568b-d398-41fa-b1fd-af56cd91f837" />
+			<date key="time:timestamp" value="2024-03-25T09:36:43+00:00" />
+			<string key="concept:name" value="laptop_shelf_laptop_removed" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="sensor" />
+			<string key="event_source_file" value="scene06_distance_sensor_laptop_shelf" />
+			<float key="sensor_value" value="nan" />
+			<string key="sensor_value_window" value="1" />
+			<string key="sensor_threshold" value="2.0" />
+			<string key="sensor_old_value" value="20.05" />
+			<string key="sensor_new_value" value="22.65" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+	</trace>
+</log>

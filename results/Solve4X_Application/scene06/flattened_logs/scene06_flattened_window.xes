@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="window" />
+		<string key="ocel:type" value="window" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="name" value="nan" />
+		<float key="requestable" value="nan" />
+		<event>
+			<string key="ocel:eid" value="room_humidity_increased_9dc3c6d3-3591-46eb-a516-efeb2a580e08" />
+			<date key="time:timestamp" value="2024-03-25T09:33:02+00:00" />
+			<string key="concept:name" value="room_humidity_increased" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="event_source" value="sensor" />
+			<string key="event_source_file" value="scene06_temp_hum_sensor_window" />
+			<float key="sensor_value" value="nan" />
+			<string key="sensor_value_window" value="13" />
+			<string key="sensor_threshold" value="2.0" />
+			<string key="sensor_old_value" value="49.0" />
+			<string key="sensor_new_value" value="52.0" />
+			<float key="log_meta" value="nan" />
+			<float key="note" value="nan" />
+		</event>
+	</trace>
+</log>
