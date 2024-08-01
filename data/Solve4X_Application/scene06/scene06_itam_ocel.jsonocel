@@ -1,0 +1,176 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:object-types": [
+      "item_asset",
+      "target_user",
+      "admin_user",
+      "item_accessory"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "44404": {
+      "ocel:activity": "checkout",
+      "ocel:timestamp": "2024-03-25T09:28:45Z",
+      "ocel:vmap": {
+        "action_date": "2024-03-25T09:28:45Z",
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "C10",
+        "Headset USB"
+      ]
+    },
+    "44405": {
+      "ocel:activity": "create",
+      "ocel:timestamp": "2024-03-25T09:34:11Z",
+      "ocel:vmap": {
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "A1",
+        "L6"
+      ]
+    },
+    "44406": {
+      "ocel:activity": "checkin from",
+      "ocel:timestamp": "2024-03-25T09:36:08Z",
+      "ocel:vmap": {
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:36:08Z",
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "A1",
+        "P2",
+        "C1"
+      ]
+    },
+    "44407": {
+      "ocel:activity": "checkin from",
+      "ocel:timestamp": "2024-03-25T09:36:28Z",
+      "ocel:vmap": {
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:36:28Z",
+        "action_source": "gui",
+        "note": "was returned quite dirty. "
+      },
+      "ocel:omap": [
+        "A1",
+        "L3",
+        "C1"
+      ]
+    }
+  },
+  "ocel:objects": {
+    "A1": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {
+        "email": "admin1@fim-rc.de",
+        "first_name": "Admin 1",
+        "obj.type": "admin_user",
+        "obj.relationType": "admin",
+        "obj.id_full": "admin_user_4",
+        "obj.link": "users/4",
+        "obj.id": "A1"
+      }
+    },
+    "C1": {
+      "ocel:type": "target_user",
+      "ocel:ovmap": {
+        "email": "client1@fim-rc.de",
+        "first_name": "Client 1",
+        "obj.type": "target_user",
+        "obj.relationType": "target",
+        "obj.id_full": "target_user_1094",
+        "obj.link": "users/1094",
+        "obj.id": "C1"
+      }
+    },
+    "P2": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {
+        "obj.type": "item_asset",
+        "obj.relationType": "item",
+        "obj.id_full": "item_asset_10201",
+        "obj.link": "hardware/10201",
+        "obj.id": "P2",
+        "asset_tag": "P2",
+        "physical": "1",
+        "last_checkout": "2024-03-25T11:36:26Z",
+        "last_checkin": "2024-03-25T09:36:08Z",
+        "checkin_counter": "1",
+        "checkout_counter": "2",
+        "model.name": "Logitech M500s",
+        "model.manufacturer.name": "Logitech"
+      }
+    },
+    "L3": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {
+        "obj.type": "item_asset",
+        "obj.relationType": "item",
+        "obj.id_full": "item_asset_6060",
+        "obj.link": "hardware/6060",
+        "obj.id": "L3",
+        "name": "mikesch",
+        "asset_tag": "L3",
+        "physical": "1",
+        "last_checkout": "2024-03-25T15:27:58Z",
+        "last_checkin": "2024-03-25T11:41:50Z",
+        "checkin_counter": "3",
+        "checkout_counter": "5",
+        "model.name": "Latitude E7450",
+        "model.manufacturer.name": "Dell",
+        "requestable": "1"
+      }
+    },
+    "Headset USB": {
+      "ocel:type": "item_accessory",
+      "ocel:ovmap": {
+        "obj.type": "item_accessory",
+        "obj.relationType": "item",
+        "obj.id_full": "item_accessory_67",
+        "obj.link": "accessories/67",
+        "obj.id": "Headset USB"
+      }
+    },
+    "C10": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {
+        "email": "client10@fim-rc.de",
+        "first_name": "Client 10",
+        "obj.type": "admin_user",
+        "obj.relationType": "admin",
+        "obj.id_full": "admin_user_1015",
+        "obj.link": "users/1015",
+        "obj.id": "C10"
+      }
+    },
+    "L6": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {
+        "obj.type": "item_asset",
+        "obj.relationType": "item",
+        "obj.id_full": "item_asset_10230",
+        "obj.link": "hardware/10230",
+        "obj.id": "L6",
+        "name": "tintenklecks",
+        "asset_tag": "L6",
+        "physical": "1",
+        "last_checkin": "2024-03-25T16:48:10Z",
+        "checkin_counter": "2",
+        "checkout_counter": "2",
+        "model.name": "Latitude E7450",
+        "model.manufacturer.name": "Dell"
+      }
+    }
+  }
+}

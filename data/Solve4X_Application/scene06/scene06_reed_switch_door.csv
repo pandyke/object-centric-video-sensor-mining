@@ -1,0 +1,11 @@
+time,reed_switch,reed_switch_state
+2024-03-25 09:30:56.137126,reed_switch_door,reed_switch_opened
+2024-03-25 09:31:00.042790,reed_switch_door,reed_switch_closed
+2024-03-25 09:31:55.512104,reed_switch_door,reed_switch_opened
+2024-03-25 09:31:59.417874,reed_switch_door,reed_switch_closed
+2024-03-25 09:32:58.893287,reed_switch_door,reed_switch_opened
+2024-03-25 09:33:07.304151,reed_switch_door,reed_switch_closed
+2024-03-25 09:35:57.905874,reed_switch_door,reed_switch_opened
+2024-03-25 09:36:04.815796,reed_switch_door,reed_switch_closed
+2024-03-25 09:36:38.760049,reed_switch_door,reed_switch_opened
+2024-03-25 09:36:50.174901,reed_switch_door,reed_switch_closed
