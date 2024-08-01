@@ -1,0 +1,965 @@
+{
+  "objectTypes": [
+    {
+      "name": "admin_user",
+      "attributes": [
+        {
+          "name": "email",
+          "type": "string"
+        },
+        {
+          "name": "first_name",
+          "type": "string"
+        },
+        {
+          "name": "obj.type",
+          "type": "string"
+        },
+        {
+          "name": "obj.relationType",
+          "type": "string"
+        },
+        {
+          "name": "obj.id_full",
+          "type": "string"
+        },
+        {
+          "name": "obj.link",
+          "type": "string"
+        },
+        {
+          "name": "obj.id",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "it_working_desk",
+      "attributes": []
+    },
+    {
+      "name": "item_accessory",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "type": "string"
+        },
+        {
+          "name": "obj.relationType",
+          "type": "string"
+        },
+        {
+          "name": "obj.id_full",
+          "type": "string"
+        },
+        {
+          "name": "obj.link",
+          "type": "string"
+        },
+        {
+          "name": "obj.id",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "item_asset",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "type": "string"
+        },
+        {
+          "name": "obj.relationType",
+          "type": "string"
+        },
+        {
+          "name": "obj.id_full",
+          "type": "string"
+        },
+        {
+          "name": "obj.link",
+          "type": "string"
+        },
+        {
+          "name": "obj.id",
+          "type": "string"
+        },
+        {
+          "name": "asset_tag",
+          "type": "string"
+        },
+        {
+          "name": "physical",
+          "type": "string"
+        },
+        {
+          "name": "last_checkin",
+          "type": "string"
+        },
+        {
+          "name": "checkin_counter",
+          "type": "string"
+        },
+        {
+          "name": "checkout_counter",
+          "type": "string"
+        },
+        {
+          "name": "model.name",
+          "type": "string"
+        },
+        {
+          "name": "model.manufacturer.name",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "mouse_cupboard",
+      "attributes": []
+    },
+    {
+      "name": "reed_switch_mouse_cupboard",
+      "attributes": []
+    },
+    {
+      "name": "self_service_storage",
+      "attributes": []
+    }
+  ],
+  "eventTypes": [
+    {
+      "name": "Pick asset from self service desk/Move asset to storage",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Pick asset from warehouse/Move asset to storage",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "create",
+      "attributes": [
+        {
+          "name": "action_source",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "reed_switch_mouse_cupboard_closed",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        },
+        {
+          "name": "sensor_value",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "reed_switch_mouse_cupboard_opened",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        },
+        {
+          "name": "sensor_value",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "update",
+      "attributes": [
+        {
+          "name": "action_source",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "A1",
+      "type": "admin_user",
+      "attributes": [
+        {
+          "name": "email",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin1@fim-rc.de"
+        },
+        {
+          "name": "first_name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Admin 1"
+        },
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin_user"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin_user_4"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "users/4"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "A1"
+        }
+      ]
+    },
+    {
+      "id": "P1",
+      "type": "item_asset",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset_10228"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "hardware/10228"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "P1"
+        },
+        {
+          "name": "asset_tag",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "P1"
+        },
+        {
+          "name": "physical",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "1"
+        },
+        {
+          "name": "last_checkin",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2024-03-25T13:26:16Z"
+        },
+        {
+          "name": "checkin_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2"
+        },
+        {
+          "name": "checkout_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2"
+        },
+        {
+          "name": "model.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Logitech M500s"
+        },
+        {
+          "name": "model.manufacturer.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Logitech"
+        }
+      ]
+    },
+    {
+      "id": "Webcam USB",
+      "type": "item_accessory",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_accessory"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_accessory_68"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "accessories/68"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Webcam USB"
+        }
+      ]
+    },
+    {
+      "id": "it_working_desk",
+      "type": "it_working_desk"
+    },
+    {
+      "id": "mouse_cupboard",
+      "type": "mouse_cupboard"
+    },
+    {
+      "id": "self_service_storage",
+      "type": "self_service_storage"
+    },
+    {
+      "id": "reed_switch_mouse_cupboard",
+      "type": "reed_switch_mouse_cupboard"
+    }
+  ],
+  "events": [
+    {
+      "id": "Pick asset from warehouse/Move asset to storage_75fb197e-6f84-486a-bf83-0e37b77ea72c",
+      "type": "Pick asset from warehouse/Move asset to storage",
+      "time": "2024-03-25T08:57:07Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "mouse_cupboard",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_mouse_cupboard_opened_4ff80082-82d1-4478-b13e-f81efa2fb93b",
+      "type": "reed_switch_mouse_cupboard_opened",
+      "time": "2024-03-25T08:57:11Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02_reed_switch_mouse_cupboard"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_opened"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_mouse_cupboard",
+          "qualifier": ""
+        },
+        {
+          "objectId": "mouse_cupboard",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse/Move asset to storage_01eea6fe-4de5-4308-958b-2b8df477a27b",
+      "type": "Pick asset from warehouse/Move asset to storage",
+      "time": "2024-03-25T08:57:14Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "mouse_cupboard",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_mouse_cupboard_closed_db0824ef-96ab-4451-9fc5-5aa53b2836c2",
+      "type": "reed_switch_mouse_cupboard_closed",
+      "time": "2024-03-25T08:57:15Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02_reed_switch_mouse_cupboard"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_closed"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_mouse_cupboard",
+          "qualifier": ""
+        },
+        {
+          "objectId": "mouse_cupboard",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset_27a40668-7e92-49d9-8d3e-42f5d9d3cbea",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset",
+      "time": "2024-03-25T08:57:40Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44388",
+      "type": "create",
+      "time": "2024-03-25T08:58:28Z",
+      "attributes": [
+        {
+          "name": "action_source",
+          "value": "gui"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "P1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset_c722d7dd-59e2-4c7e-a93e-8bf5a474e0e1",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset",
+      "time": "2024-03-25T08:58:36Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse/Move asset to storage_b51c3571-f87b-4619-b312-b3d88930fa68",
+      "type": "Pick asset from warehouse/Move asset to storage",
+      "time": "2024-03-25T08:58:37Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "mouse_cupboard",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_mouse_cupboard_opened_9969037e-44f7-40b6-b0d1-28a11cf217a0",
+      "type": "reed_switch_mouse_cupboard_opened",
+      "time": "2024-03-25T08:58:41Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02_reed_switch_mouse_cupboard"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_opened"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_mouse_cupboard",
+          "qualifier": ""
+        },
+        {
+          "objectId": "mouse_cupboard",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse/Move asset to storage_92158436-cf5b-42eb-9eea-8e9674ec277e",
+      "type": "Pick asset from warehouse/Move asset to storage",
+      "time": "2024-03-25T08:58:41Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "mouse_cupboard",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_mouse_cupboard_closed_da8b92f4-b24f-4f86-a055-68af603b8807",
+      "type": "reed_switch_mouse_cupboard_closed",
+      "time": "2024-03-25T08:58:43Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02_reed_switch_mouse_cupboard"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_closed"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_mouse_cupboard",
+          "qualifier": ""
+        },
+        {
+          "objectId": "mouse_cupboard",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset_e398df8e-38f8-4205-90f8-67316f9b683a",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset",
+      "time": "2024-03-25T08:58:49Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from self service desk/Move asset to storage_bc58113d-4b41-4407-80ba-419dd7d3c251",
+      "type": "Pick asset from self service desk/Move asset to storage",
+      "time": "2024-03-25T08:58:51Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "self_service_storage",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset_2ce859c9-d88d-4665-b02e-60d00fc04efe",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset",
+      "time": "2024-03-25T08:58:57Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset_6167cf9e-6bc7-4e8f-841b-037d68df3c06",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset",
+      "time": "2024-03-25T08:59:23Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset_69f0d326-6d32-483b-9913-cbd27f1eb8bd",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset",
+      "time": "2024-03-25T08:59:27Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset_32785561-1721-41ce-bdb8-e5c8d39c8527",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset",
+      "time": "2024-03-25T09:00:10Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset_d44a2d79-4077-4249-8a93-69bf2d297fff",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset",
+      "time": "2024-03-25T09:00:10Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44389",
+      "type": "update",
+      "time": "2024-03-25T09:00:32Z",
+      "attributes": [
+        {
+          "name": "action_source",
+          "value": "gui"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "Webcam USB",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from self service desk/Move asset to storage_e4238534-a552-4f2f-8781-582f655155d1",
+      "type": "Pick asset from self service desk/Move asset to storage",
+      "time": "2024-03-25T09:00:37Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "self_service_storage",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset_c72b2de4-39aa-4706-8ac1-d29364f72d92",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset",
+      "time": "2024-03-25T09:00:42Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset_8c9c0216-d35a-46bf-acf7-40e4ec6bb2b5",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset",
+      "time": "2024-03-25T09:00:45Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset_0f68a015-44a8-4dc5-b13b-1b8ab30ab311",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset",
+      "time": "2024-03-25T09:00:46Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene02"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    }
+  ]
+}
