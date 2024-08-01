@@ -1,6 +1,6 @@
 # Unstructured Data in Object-Centric Process Mining
 
-This repository contains the source code and online appendix for the paper 'Unstructured Data in Object-Centric Process Mining'. 
+This repository contains the source code and online appendix for the paper 'Refining the Process Picture: Unstructured Data in Object-Centric Process Mining'. 
 For a more comprehensive overview of the approach we refer to the paper.
 
 
