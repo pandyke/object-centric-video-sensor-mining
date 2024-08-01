@@ -1,0 +1,5 @@
+time,reed_switch_state
+2024-03-25 08:49:10.768503,reed_switch_opened
+2024-03-25 08:49:16.676059,reed_switch_closed
+2024-03-25 08:52:57.323666,reed_switch_opened
+2024-03-25 08:53:03.231408,reed_switch_closed
