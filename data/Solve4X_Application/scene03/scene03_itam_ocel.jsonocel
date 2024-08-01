@@ -1,0 +1,266 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:object-types": [
+      "item_asset",
+      "target_user",
+      "admin_user",
+      "item_accessory"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "44390": {
+      "ocel:activity": "create",
+      "ocel:timestamp": "2024-03-25T09:08:59Z",
+      "ocel:vmap": {
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "A1",
+        "L5"
+      ]
+    },
+    "44391": {
+      "ocel:activity": "update",
+      "ocel:timestamp": "2024-03-25T09:09:14Z",
+      "ocel:vmap": {
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"}}",
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "A1",
+        "L5"
+      ]
+    },
+    "44392": {
+      "ocel:activity": "checkin from",
+      "ocel:timestamp": "2024-03-25T09:11:10Z",
+      "ocel:vmap": {
+        "log_meta": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:11:10Z",
+        "action_source": "gui",
+        "note": "checked in for repair by client 1"
+      },
+      "ocel:omap": [
+        "A1",
+        "L1",
+        "C1"
+      ]
+    },
+    "44393": {
+      "ocel:activity": "checkout",
+      "ocel:timestamp": "2024-03-25T09:12:21Z",
+      "ocel:vmap": {
+        "log_meta": "{\"location_id\":{\"old\":1490,\"new\":null}}",
+        "action_date": "2024-03-25T09:12:21Z",
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "A1",
+        "L3",
+        "C1"
+      ]
+    },
+    "44394": {
+      "ocel:activity": "checkout",
+      "ocel:timestamp": "2024-03-25T09:13:56Z",
+      "ocel:vmap": {
+        "action_date": "2024-03-25T09:13:56Z",
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "C5",
+        "Webcam USB"
+      ]
+    },
+    "44395": {
+      "ocel:activity": "accepted",
+      "ocel:timestamp": "2024-03-25T09:14:37Z",
+      "ocel:vmap": {
+        "filename": "accepted-eula-2024-03-25-08-14-37.pdf"
+      },
+      "ocel:omap": [
+        "L3",
+        "C1"
+      ]
+    },
+    "44396": {
+      "ocel:activity": "accepted",
+      "ocel:timestamp": "2024-03-25T09:15:48Z",
+      "ocel:vmap": {
+        "filename": "accepted-eula-2024-03-25-08-15-48.pdf"
+      },
+      "ocel:omap": [
+        "Webcam USB",
+        "C5"
+      ]
+    },
+    "44397": {
+      "ocel:activity": "checkout",
+      "ocel:timestamp": "2024-03-25T09:17:00Z",
+      "ocel:vmap": {
+        "action_date": "2024-03-25T09:17:00Z",
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "A1",
+        "Headset USB",
+        "C6"
+      ]
+    },
+    "44398": {
+      "ocel:activity": "accepted",
+      "ocel:timestamp": "2024-03-25T09:18:06Z",
+      "ocel:vmap": {
+        "filename": "accepted-eula-2024-03-25-08-18-06.pdf"
+      },
+      "ocel:omap": [
+        "Headset USB",
+        "C6"
+      ]
+    },
+    "44399": {
+      "ocel:activity": "update",
+      "ocel:timestamp": "2024-03-25T09:18:36Z",
+      "ocel:vmap": {
+        "log_meta": "{\"status_id\":{\"old\":13,\"new\":\"11\"}}",
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "A1",
+        "L5"
+      ]
+    }
+  },
+  "ocel:objects": {
+    "A1": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {
+        "email": "admin1@fim-rc.de",
+        "first_name": "Admin 1",
+        "obj.type": "admin_user",
+        "obj.relationType": "admin",
+        "obj.id_full": "admin_user_4",
+        "obj.link": "users/4",
+        "obj.id": "A1"
+      }
+    },
+    "L1": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {
+        "obj.type": "item_asset",
+        "obj.relationType": "item",
+        "obj.id_full": "item_asset_6030",
+        "obj.link": "hardware/6030",
+        "obj.id": "L1",
+        "name": "tintenklecks",
+        "asset_tag": "L1",
+        "physical": "1",
+        "last_checkout": "2024-03-25T17:19:16Z",
+        "last_checkin": "2024-03-25T17:11:18Z",
+        "checkin_counter": "5",
+        "checkout_counter": "6",
+        "model.name": "Latitude E7450",
+        "model.manufacturer.name": "Dell"
+      }
+    },
+    "C1": {
+      "ocel:type": "target_user",
+      "ocel:ovmap": {
+        "email": "client1@fim-rc.de",
+        "first_name": "Client 1",
+        "obj.type": "target_user",
+        "obj.relationType": "target",
+        "obj.id_full": "target_user_1094",
+        "obj.link": "users/1094",
+        "obj.id": "C1"
+      }
+    },
+    "C6": {
+      "ocel:type": "target_user",
+      "ocel:ovmap": {
+        "email": "client6@fim-rc.de",
+        "first_name": "Client 6",
+        "obj.type": "target_user",
+        "obj.relationType": "target",
+        "obj.id_full": "target_user_1014",
+        "obj.link": "users/1014",
+        "obj.id": "C6"
+      }
+    },
+    "Webcam USB": {
+      "ocel:type": "item_accessory",
+      "ocel:ovmap": {
+        "obj.type": "item_accessory",
+        "obj.relationType": "item",
+        "obj.id_full": "item_accessory_68",
+        "obj.link": "accessories/68",
+        "obj.id": "Webcam USB"
+      }
+    },
+    "L5": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {
+        "obj.type": "item_asset",
+        "obj.relationType": "item",
+        "obj.id_full": "item_asset_10229",
+        "obj.link": "hardware/10229",
+        "obj.id": "L5",
+        "name": "tintenklecks",
+        "asset_tag": "L5",
+        "physical": "1",
+        "model.name": "Latitude E7450",
+        "model.manufacturer.name": "Dell"
+      }
+    },
+    "L3": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {
+        "obj.type": "item_asset",
+        "obj.relationType": "item",
+        "obj.id_full": "item_asset_6060",
+        "obj.link": "hardware/6060",
+        "obj.id": "L3",
+        "name": "mikesch",
+        "asset_tag": "L3",
+        "physical": "1",
+        "last_checkout": "2024-03-25T15:27:58Z",
+        "last_checkin": "2024-03-25T11:41:50Z",
+        "checkin_counter": "3",
+        "checkout_counter": "5",
+        "model.name": "Latitude E7450",
+        "model.manufacturer.name": "Dell",
+        "requestable": "1"
+      }
+    },
+    "C5": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {
+        "email": "client5@fim-rc.de",
+        "first_name": "Client 5",
+        "obj.type": "admin_user",
+        "obj.relationType": "admin",
+        "obj.id_full": "admin_user_1053",
+        "obj.link": "users/1053",
+        "obj.id": "C5"
+      }
+    },
+    "Headset USB": {
+      "ocel:type": "item_accessory",
+      "ocel:ovmap": {
+        "obj.type": "item_accessory",
+        "obj.relationType": "item",
+        "obj.id_full": "item_accessory_67",
+        "obj.link": "accessories/67",
+        "obj.id": "Headset USB"
+      }
+    }
+  }
+}
