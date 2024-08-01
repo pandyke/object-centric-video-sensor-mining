@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="it_working_desk" />
+		<string key="ocel:type" value="it_working_desk" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="name" value="nan" />
+		<float key="requestable" value="nan" />
+		<float key="room_location" value="nan" />
+		<string key="type" value="location" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Create system entry for asset_3077636c-2db7-4596-b890-c0ed91c1bf53" />
+			<date key="time:timestamp" value="2024-03-25T09:33:21+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset to storage" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<string key="end_time" value="2024-03-25T09:34:11.037" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Handover asset to admin_d182d3b1-6ff5-4f2f-999e-b18fe7acfcde" />
+			<date key="time:timestamp" value="2024-03-25T09:34:53+00:00" />
+			<string key="concept:name" value="Handover asset to admin" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<string key="end_time" value="2024-03-25T09:35:04.139" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Check asset quality_d70ceec6-2ea8-4f59-bbb7-94d76fb959a0" />
+			<date key="time:timestamp" value="2024-03-25T09:35:04+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset to storage" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<string key="end_time" value="2024-03-25T09:35:46.139" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Check-In asset to storage_ea510d59-38ee-47bf-bb28-6a2ea8d26955" />
+			<date key="time:timestamp" value="2024-03-25T09:35:54+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset to storage" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<string key="end_time" value="2024-03-25T09:36:28.139" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+	</trace>
+</log>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="self_service_storage" />
+		<string key="ocel:type" value="self_service_storage" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="name" value="nan" />
+		<float key="requestable" value="nan" />
+		<float key="room_location" value="nan" />
+		<string key="type" value="location" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_3bc2ba99-cea2-4669-80ee-9521097ce364" />
+			<date key="time:timestamp" value="2024-03-25T09:31:15+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<string key="end_time" value="2024-03-25T09:31:50.275" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_887d93a8-d4b1-4535-8b51-1fa33074d807" />
+			<date key="time:timestamp" value="2024-03-25T09:36:40+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<string key="end_time" value="2024-03-25T09:36:43.712" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+	</trace>
+</log>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="door" />
+		<string key="ocel:type" value="door" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="name" value="nan" />
+		<float key="requestable" value="nan" />
+		<string key="room_location" value="self service area" />
+		<float key="type" value="nan" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Enter room_4ae81da9-bbc2-46c4-8be1-bfbfa50fdad2" />
+			<date key="time:timestamp" value="2024-03-25T09:30:55+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<string key="end_time" value="2024-03-25T09:30:59.847" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_door_opened_838592b9-15b9-4709-af26-20ad6d28e2bf" />
+			<date key="time:timestamp" value="2024-03-25T09:30:56+00:00" />
+			<string key="concept:name" value="reed_switch_door_opened" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<float key="end_time" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_door_closed_d39f8e28-761d-451d-bca7-4a321deacee5" />
+			<date key="time:timestamp" value="2024-03-25T09:31:00+00:00" />
+			<string key="concept:name" value="reed_switch_door_closed" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<float key="end_time" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Leave room_12ee961a-2d92-459d-bdd6-71d44c5c5974" />
+			<date key="time:timestamp" value="2024-03-25T09:31:51+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<string key="end_time" value="2024-03-25T09:31:57.974" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_door_opened_796751ef-7163-4cb4-8362-d321cd79dc79" />
+			<date key="time:timestamp" value="2024-03-25T09:31:55+00:00" />
+			<string key="concept:name" value="reed_switch_door_opened" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<float key="end_time" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_door_closed_a9010008-60b9-4343-8501-344040ce0c53" />
+			<date key="time:timestamp" value="2024-03-25T09:31:59+00:00" />
+			<string key="concept:name" value="reed_switch_door_closed" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<float key="end_time" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Enter room_f01bad48-ddc1-47f3-af8b-53b1b7fb038c" />
+			<date key="time:timestamp" value="2024-03-25T09:32:58+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<string key="end_time" value="2024-03-25T09:33:07.155" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_door_opened_a39fb375-0a9c-42a3-b9d7-35b284771e75" />
+			<date key="time:timestamp" value="2024-03-25T09:32:58+00:00" />
+			<string key="concept:name" value="reed_switch_door_opened" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<float key="end_time" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_door_closed_eec170da-53eb-45c4-a2a1-9719e9e28fd2" />
+			<date key="time:timestamp" value="2024-03-25T09:33:07+00:00" />
+			<string key="concept:name" value="reed_switch_door_closed" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<float key="end_time" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Leave room_41b9ac3a-ec1f-4eec-8f44-1df9308e0e17" />
+			<date key="time:timestamp" value="2024-03-25T09:35:52+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<string key="end_time" value="2024-03-25T09:36:00.643" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_door_opened_3be8ac8d-7ad8-48fc-a81d-182e26db838b" />
+			<date key="time:timestamp" value="2024-03-25T09:35:57+00:00" />
+			<string key="concept:name" value="reed_switch_door_opened" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<float key="end_time" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_door_closed_bcaa3d7c-2e75-4e81-95be-f3422b692c1d" />
+			<date key="time:timestamp" value="2024-03-25T09:36:04+00:00" />
+			<string key="concept:name" value="reed_switch_door_closed" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<float key="end_time" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Enter room_5d6fa383-6e3c-4043-adac-bf6be912a345" />
+			<date key="time:timestamp" value="2024-03-25T09:36:37+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<string key="end_time" value="2024-03-25T09:36:40.712" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_door_opened_e8b3b1de-98c8-4b10-9ac8-481e2acc3d22" />
+			<date key="time:timestamp" value="2024-03-25T09:36:38+00:00" />
+			<string key="concept:name" value="reed_switch_door_opened" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<float key="end_time" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Leave room_4c35a6e9-58d8-47f1-96eb-9dfb3b2bca1a" />
+			<date key="time:timestamp" value="2024-03-25T09:36:43+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<string key="end_time" value="2024-03-25T09:36:48.712" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_door_closed_10ab45d9-403f-4d54-8028-74d5db50863a" />
+			<date key="time:timestamp" value="2024-03-25T09:36:50+00:00" />
+			<string key="concept:name" value="reed_switch_door_closed" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<float key="end_time" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+	</trace>
+</log>

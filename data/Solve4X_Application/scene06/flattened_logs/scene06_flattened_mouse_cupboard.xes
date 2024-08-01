@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="mouse_cupboard" />
+		<string key="ocel:type" value="mouse_cupboard" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="name" value="nan" />
+		<float key="requestable" value="nan" />
+		<string key="room_location" value="warehouse area" />
+		<float key="type" value="nan" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<event>
+			<string key="ocel:eid" value="reed_switch_mouse_cupboard_opened_ed1f016e-cc12-423e-a3de-45214da41bf0" />
+			<date key="time:timestamp" value="2024-03-25T09:36:45+00:00" />
+			<string key="concept:name" value="reed_switch_mouse_cupboard_opened" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<float key="end_time" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_mouse_cupboard_closed_9115f101-6d87-4bf3-8f8c-537fd8240f8e" />
+			<date key="time:timestamp" value="2024-03-25T09:36:49+00:00" />
+			<string key="concept:name" value="reed_switch_mouse_cupboard_closed" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<float key="end_time" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+	</trace>
+</log>

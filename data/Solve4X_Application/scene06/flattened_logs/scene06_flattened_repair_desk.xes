@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="repair_desk" />
+		<string key="ocel:type" value="repair_desk" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="name" value="nan" />
+		<float key="requestable" value="nan" />
+		<float key="room_location" value="nan" />
+		<string key="type" value="location" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Unpack asset_80107d91-39cf-4324-89f0-8c19633a22fd" />
+			<date key="time:timestamp" value="2024-03-25T09:30:15+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<string key="end_time" value="2024-03-25T09:30:26.491" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Install and configure asset_a31b0e77-8ad2-40c3-be91-8e8f7aae9c39" />
+			<date key="time:timestamp" value="2024-03-25T09:31:57+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<string key="end_time" value="2024-03-25T09:32:16.057" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Label asset_59d91257-3abf-4f2c-af82-d484912c1331" />
+			<date key="time:timestamp" value="2024-03-25T09:32:19+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="scene" value="6" />
+			<string key="end_time" value="2024-03-25T09:32:50.008" />
+			<float key="humidity_change_percent" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="log_meta" value="nan" />
+		</event>
+	</trace>
+</log>
