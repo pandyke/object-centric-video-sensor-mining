@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="self_service_storage" />
+		<string key="ocel:type" value="self_service_storage" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk/Move asset to storage_bc58113d-4b41-4407-80ba-419dd7d3c251" />
+			<date key="time:timestamp" value="2024-03-25T08:58:51+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk/Move asset to storage" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene02" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk/Move asset to storage_e4238534-a552-4f2f-8781-582f655155d1" />
+			<date key="time:timestamp" value="2024-03-25T09:00:37+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk/Move asset to storage" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene02" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+	</trace>
+</log>

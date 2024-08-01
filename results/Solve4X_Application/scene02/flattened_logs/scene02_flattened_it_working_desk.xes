@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="it_working_desk" />
+		<string key="ocel:type" value="it_working_desk" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset_27a40668-7e92-49d9-8d3e-42f5d9d3cbea" />
+			<date key="time:timestamp" value="2024-03-25T08:57:40+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene02" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset_c722d7dd-59e2-4c7e-a93e-8bf5a474e0e1" />
+			<date key="time:timestamp" value="2024-03-25T08:58:36+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene02" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset_e398df8e-38f8-4205-90f8-67316f9b683a" />
+			<date key="time:timestamp" value="2024-03-25T08:58:49+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene02" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset_2ce859c9-d88d-4665-b02e-60d00fc04efe" />
+			<date key="time:timestamp" value="2024-03-25T08:58:57+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene02" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset_c72b2de4-39aa-4706-8ac1-d29364f72d92" />
+			<date key="time:timestamp" value="2024-03-25T09:00:42+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene02" />
+			<float key="sensor_value" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+	</trace>
+</log>

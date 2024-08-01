@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="P1" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<string key="obj.type" value="item_asset" />
+		<string key="obj.relationType" value="item" />
+		<string key="obj.id_full" value="item_asset_10228" />
+		<string key="obj.link" value="hardware/10228" />
+		<string key="obj.id" value="P1" />
+		<string key="asset_tag" value="P1" />
+		<string key="physical" value="1" />
+		<string key="last_checkin" value="2024-03-25T13:26:16Z" />
+		<string key="checkin_counter" value="2" />
+		<string key="checkout_counter" value="2" />
+		<string key="model.name" value="Logitech M500s" />
+		<string key="model.manufacturer.name" value="Logitech" />
+		<event>
+			<string key="ocel:eid" value="44388" />
+			<date key="time:timestamp" value="2024-03-25T08:58:28+00:00" />
+			<string key="concept:name" value="create" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<string key="action_source" value="gui" />
+		</event>
+	</trace>
+</log>

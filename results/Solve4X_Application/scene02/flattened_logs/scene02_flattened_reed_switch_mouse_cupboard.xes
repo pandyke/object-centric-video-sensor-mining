@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="reed_switch_mouse_cupboard" />
+		<string key="ocel:type" value="reed_switch_mouse_cupboard" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<event>
+			<string key="ocel:eid" value="reed_switch_mouse_cupboard_opened_4ff80082-82d1-4478-b13e-f81efa2fb93b" />
+			<date key="time:timestamp" value="2024-03-25T08:57:11+00:00" />
+			<string key="concept:name" value="reed_switch_mouse_cupboard_opened" />
+			<string key="event_source" value="sensor" />
+			<string key="event_source_file" value="scene02_reed_switch_mouse_cupboard" />
+			<string key="sensor_value" value="reed_switch_opened" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_mouse_cupboard_closed_db0824ef-96ab-4451-9fc5-5aa53b2836c2" />
+			<date key="time:timestamp" value="2024-03-25T08:57:15+00:00" />
+			<string key="concept:name" value="reed_switch_mouse_cupboard_closed" />
+			<string key="event_source" value="sensor" />
+			<string key="event_source_file" value="scene02_reed_switch_mouse_cupboard" />
+			<string key="sensor_value" value="reed_switch_closed" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_mouse_cupboard_opened_9969037e-44f7-40b6-b0d1-28a11cf217a0" />
+			<date key="time:timestamp" value="2024-03-25T08:58:41+00:00" />
+			<string key="concept:name" value="reed_switch_mouse_cupboard_opened" />
+			<string key="event_source" value="sensor" />
+			<string key="event_source_file" value="scene02_reed_switch_mouse_cupboard" />
+			<string key="sensor_value" value="reed_switch_opened" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_mouse_cupboard_closed_da8b92f4-b24f-4f86-a055-68af603b8807" />
+			<date key="time:timestamp" value="2024-03-25T08:58:43+00:00" />
+			<string key="concept:name" value="reed_switch_mouse_cupboard_closed" />
+			<string key="event_source" value="sensor" />
+			<string key="event_source_file" value="scene02_reed_switch_mouse_cupboard" />
+			<string key="sensor_value" value="reed_switch_closed" />
+			<float key="action_source" value="nan" />
+		</event>
+	</trace>
+</log>
