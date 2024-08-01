@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="it_working_desk" />
+		<string key="ocel:type" value="it_working_desk" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="room_location" value="nan" />
+		<string key="type" value="location" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Handover asset to admin_0bb3439f-4710-4575-8e7d-24ed8e2d8ea6" />
+			<date key="time:timestamp" value="2024-03-25T09:22:17+00:00" />
+			<string key="concept:name" value="Handover asset to admin" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:22:28.107" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Check asset quality_c796e617-6300-45de-8c6a-a43f484daa3e" />
+			<date key="time:timestamp" value="2024-03-25T09:22:28+00:00" />
+			<string key="concept:name" value="Check asset quality/Check-In asset to storage" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:22:42.186" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+	</trace>
+</log>

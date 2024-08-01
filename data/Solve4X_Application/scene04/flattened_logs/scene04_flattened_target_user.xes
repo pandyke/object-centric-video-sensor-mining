@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="C2" />
+		<string key="ocel:type" value="target_user" />
+		<string key="email" value="client2@fim-rc.de" />
+		<string key="first_name" value="Client 2" />
+		<string key="obj.type" value="target_user" />
+		<string key="obj.relationType" value="target" />
+		<string key="obj.id_full" value="target_user_1052" />
+		<string key="obj.link" value="users/1052" />
+		<string key="obj.id" value="C2" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="room_location" value="nan" />
+		<float key="type" value="nan" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Enter room_3c7bdc83-b389-41f9-87d9-4ddb6f595bc0" />
+			<date key="time:timestamp" value="2024-03-25T09:22:11+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:22:16.061" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Handover asset to admin_0bb3439f-4710-4575-8e7d-24ed8e2d8ea6" />
+			<date key="time:timestamp" value="2024-03-25T09:22:17+00:00" />
+			<string key="concept:name" value="Handover asset to admin" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:22:28.107" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44400" />
+			<date key="time:timestamp" value="2024-03-25T09:23:00+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<float key="scene" value="nan" />
+			<float key="end_time" value="nan" />
+			<string key="log_meta" value='{"location_id":{"old":null,"new":1490}}' />
+			<string key="action_date" value="2024-03-25T09:23:00Z" />
+			<string key="action_source" value="gui" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Leave room_3965b887-a4a4-404e-be4f-18133af17d42" />
+			<date key="time:timestamp" value="2024-03-25T09:23:06+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:23:09.911" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+	</trace>
+</log>

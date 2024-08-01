@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="H1" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="room_location" value="nan" />
+		<float key="type" value="nan" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_7443045e-fe56-427a-9914-e6efa3ebaabb" />
+			<date key="time:timestamp" value="2024-03-25T09:20:11+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk/Pick asset from warehouse/Move asset to storage" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:20:17.942" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset_cf430193-cdde-41c9-b5d6-24e8823e9800" />
+			<date key="time:timestamp" value="2024-03-25T09:20:17+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:20:21.468" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Test asset quality and functionality_b84af0ed-f018-48e3-a734-73cdc494436d" />
+			<date key="time:timestamp" value="2024-03-25T09:20:21+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:20:30.036" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Move asset to storage_a67df862-9e9a-4f90-8626-05aea51912c8" />
+			<date key="time:timestamp" value="2024-03-25T09:20:51+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk/Pick asset from warehouse/Move asset to storage" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:20:55.051" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="H2" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="room_location" value="nan" />
+		<float key="type" value="nan" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from warehouse_2d2bd9a9-8735-4d5a-ae16-5cbcccd12fd4" />
+			<date key="time:timestamp" value="2024-03-25T09:20:17+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk/Pick asset from warehouse/Move asset to storage" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:20:56.621" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset_d8ea3c83-c04f-4fb8-ba78-1edb0ede3f3e" />
+			<date key="time:timestamp" value="2024-03-25T09:20:57+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:21:01.263" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Move asset to storage_07619511-d28d-4795-bf98-e7020dd1cdec" />
+			<date key="time:timestamp" value="2024-03-25T09:21:27+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk/Pick asset from warehouse/Move asset to storage" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:21:32.892" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="M1" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<string key="obj.type" value="item_asset" />
+		<string key="obj.relationType" value="item" />
+		<string key="obj.id_full" value="item_asset_6278" />
+		<string key="obj.link" value="hardware/6278" />
+		<string key="obj.id" value="M1" />
+		<string key="asset_tag" value="M1" />
+		<string key="physical" value="1" />
+		<string key="last_checkin" value="2024-03-25T17:29:05Z" />
+		<string key="checkin_counter" value="4" />
+		<string key="checkout_counter" value="4" />
+		<string key="model.name" value='Fujitsu 24"' />
+		<string key="model.manufacturer.name" value="Fujitsu" />
+		<float key="room_location" value="nan" />
+		<float key="type" value="nan" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Handover asset to admin_0bb3439f-4710-4575-8e7d-24ed8e2d8ea6" />
+			<date key="time:timestamp" value="2024-03-25T09:22:17+00:00" />
+			<string key="concept:name" value="Handover asset to admin" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:22:28.107" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Check asset quality_c796e617-6300-45de-8c6a-a43f484daa3e" />
+			<date key="time:timestamp" value="2024-03-25T09:22:28+00:00" />
+			<string key="concept:name" value="Check asset quality/Check-In asset to storage" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:22:42.186" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44400" />
+			<date key="time:timestamp" value="2024-03-25T09:23:00+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<float key="scene" value="nan" />
+			<float key="end_time" value="nan" />
+			<string key="log_meta" value='{"location_id":{"old":null,"new":1490}}' />
+			<string key="action_date" value="2024-03-25T09:23:00Z" />
+			<string key="action_source" value="gui" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Move asset to storage_146a44d3-76c3-401c-bc03-1c03f13f1677" />
+			<date key="time:timestamp" value="2024-03-25T09:23:03+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk/Pick asset from warehouse/Move asset to storage" />
+			<string key="scene" value="4" />
+			<string key="end_time" value="2024-03-25T09:23:10.149" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+	</trace>
+</log>
