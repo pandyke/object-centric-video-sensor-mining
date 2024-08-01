@@ -1,0 +1,82 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:object-types": [
+      "item_asset",
+      "admin_user",
+      "item_accessory"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "44388": {
+      "ocel:activity": "create",
+      "ocel:timestamp": "2024-03-25T08:58:28Z",
+      "ocel:vmap": {
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "A1",
+        "P1"
+      ]
+    },
+    "44389": {
+      "ocel:activity": "update",
+      "ocel:timestamp": "2024-03-25T09:00:32Z",
+      "ocel:vmap": {
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "A1",
+        "Webcam USB"
+      ]
+    }
+  },
+  "ocel:objects": {
+    "A1": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {
+        "email": "admin1@fim-rc.de",
+        "first_name": "Admin 1",
+        "obj.type": "admin_user",
+        "obj.relationType": "admin",
+        "obj.id_full": "admin_user_4",
+        "obj.link": "users/4",
+        "obj.id": "A1"
+      }
+    },
+    "P1": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {
+        "obj.type": "item_asset",
+        "obj.relationType": "item",
+        "obj.id_full": "item_asset_10228",
+        "obj.link": "hardware/10228",
+        "obj.id": "P1",
+        "asset_tag": "P1",
+        "physical": "1",
+        "last_checkin": "2024-03-25T13:26:16Z",
+        "checkin_counter": "2",
+        "checkout_counter": "2",
+        "model.name": "Logitech M500s",
+        "model.manufacturer.name": "Logitech"
+      }
+    },
+    "Webcam USB": {
+      "ocel:type": "item_accessory",
+      "ocel:ovmap": {
+        "obj.type": "item_accessory",
+        "obj.relationType": "item",
+        "obj.id_full": "item_accessory_68",
+        "obj.link": "accessories/68",
+        "obj.id": "Webcam USB"
+      }
+    }
+  }
+}

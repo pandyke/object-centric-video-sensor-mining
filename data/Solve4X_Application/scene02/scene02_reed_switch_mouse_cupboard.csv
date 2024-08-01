@@ -1,0 +1,5 @@
+time,reed_switch,reed_switch_state
+2024-03-25 08:57:11.346439,reed_switch_mouse_cupboard,reed_switch_opened
+2024-03-25 08:57:15.752426,reed_switch_mouse_cupboard,reed_switch_closed
+2024-03-25 08:58:41.253605,reed_switch_mouse_cupboard,reed_switch_opened
+2024-03-25 08:58:43.156941,reed_switch_mouse_cupboard,reed_switch_closed

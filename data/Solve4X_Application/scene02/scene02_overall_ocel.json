@@ -1,0 +1,316 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:object-types": [
+      "item_asset",
+      "reed_switch_mouse_cupboard",
+      "mouse_cupboard",
+      "it_working_desk",
+      "admin_user",
+      "item_accessory",
+      "self_service_storage"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "Pick asset from warehouse_de03afbf-00b7-42fc-85ae-d5a83321e8c3": {
+      "ocel:timestamp": "2024-03-25T08:57:06.000",
+      "ocel:activity": "Pick asset from warehouse",
+      "ocel:omap": [
+        "P1",
+        "A1",
+        "mouse_cupboard"
+      ],
+      "ocel:vmap": {
+        "scene": "2",
+        "end_time": "2024-03-25T08:57:17.430"
+      }
+    },
+    "reed_switch_mouse_cupboard_opened_7791ccb8-aa4c-49fc-b7c3-59331aee5545": {
+      "ocel:timestamp": "2024-03-25T08:57:11.346439",
+      "ocel:activity": "reed_switch_mouse_cupboard_opened",
+      "ocel:omap": [
+        "reed_switch_mouse_cupboard",
+        "mouse_cupboard"
+      ],
+      "ocel:vmap": {
+        "scene": "2"
+      }
+    },
+    "reed_switch_mouse_cupboard_closed_88f1330f-2b24-4c66-a8ad-5e553f93694e": {
+      "ocel:timestamp": "2024-03-25T08:57:15.752426",
+      "ocel:activity": "reed_switch_mouse_cupboard_closed",
+      "ocel:omap": [
+        "reed_switch_mouse_cupboard",
+        "mouse_cupboard"
+      ],
+      "ocel:vmap": {
+        "scene": "2"
+      }
+    },
+    "Unpack asset_d2dea073-083e-4087-9a98-95d2bd2c48fd": {
+      "ocel:timestamp": "2024-03-25T08:57:17.430",
+      "ocel:activity": "Unpack asset",
+      "ocel:omap": [
+        "P1",
+        "A1",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "2",
+        "end_time": "2024-03-25T08:57:20.422"
+      }
+    },
+    "Test asset quality and functionality_71b4f77d-fa11-4a7f-b189-3fc0343a64b1": {
+      "ocel:timestamp": "2024-03-25T08:57:20.422",
+      "ocel:activity": "Test asset quality and functionality",
+      "ocel:omap": [
+        "P1",
+        "A1",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "2",
+        "end_time": "2024-03-25T08:57:37.127"
+      }
+    },
+    "Install and configure asset_cbfa79de-ab4f-4103-8788-0d1c44038921": {
+      "ocel:timestamp": "2024-03-25T08:57:20.422",
+      "ocel:activity": "Install and configure asset",
+      "ocel:omap": [
+        "P1",
+        "A1",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "2",
+        "end_time": "2024-03-25T08:57:37.127"
+      }
+    },
+    "Create system entry for asset_bc15f705-77c0-4aa1-b95c-b74083434505": {
+      "ocel:timestamp": "2024-03-25T08:57:47.169",
+      "ocel:activity": "Create system entry for asset",
+      "ocel:omap": [
+        "P1",
+        "A1",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "2",
+        "end_time": "2024-03-25T08:58:35.078"
+      }
+    },
+    "44388": {
+      "ocel:activity": "create",
+      "ocel:timestamp": "2024-03-25T08:58:28Z",
+      "ocel:vmap": {
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "A1",
+        "P1"
+      ]
+    },
+    "Move asset to storage_b474f0c9-4d58-485d-b9e3-1634e214f0ce": {
+      "ocel:timestamp": "2024-03-25T08:58:36.221",
+      "ocel:activity": "Move asset to storage",
+      "ocel:omap": [
+        "P1",
+        "A1",
+        "mouse_cupboard"
+      ],
+      "ocel:vmap": {
+        "scene": "2",
+        "end_time": "2024-03-25T08:58:42.325"
+      }
+    },
+    "reed_switch_mouse_cupboard_opened_551562f4-c08c-4e75-991a-e510c6258e11": {
+      "ocel:timestamp": "2024-03-25T08:58:41.253605",
+      "ocel:activity": "reed_switch_mouse_cupboard_opened",
+      "ocel:omap": [
+        "reed_switch_mouse_cupboard",
+        "mouse_cupboard"
+      ],
+      "ocel:vmap": {
+        "scene": "2"
+      }
+    },
+    "reed_switch_mouse_cupboard_closed_e885516c-ef52-4231-8704-38881e030282": {
+      "ocel:timestamp": "2024-03-25T08:58:43.156941",
+      "ocel:activity": "reed_switch_mouse_cupboard_closed",
+      "ocel:omap": [
+        "reed_switch_mouse_cupboard",
+        "mouse_cupboard"
+      ],
+      "ocel:vmap": {
+        "scene": "2"
+      }
+    },
+    "Pick asset from self service desk_58128d1d-b291-47e8-a3e7-6729c33596b8": {
+      "ocel:timestamp": "2024-03-25T08:58:50.685",
+      "ocel:activity": "Pick asset from self service desk",
+      "ocel:omap": [
+        "K1",
+        "A1",
+        "self_service_storage"
+      ],
+      "ocel:vmap": {
+        "scene": "2",
+        "end_time": "2024-03-25T08:58:53.830"
+      }
+    },
+    "Unpack asset_a7c08037-4de0-455e-8f2f-53ca35def1d7": {
+      "ocel:timestamp": "2024-03-25T08:58:53.830",
+      "ocel:activity": "Unpack asset",
+      "ocel:omap": [
+        "K1",
+        "A1",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "2",
+        "end_time": "2024-03-25T08:59:10.237"
+      }
+    },
+    "Test asset quality and functionality_d4c5ee9f-edc6-4177-8634-930a5c1022d1": {
+      "ocel:timestamp": "2024-03-25T08:59:10.237",
+      "ocel:activity": "Test asset quality and functionality",
+      "ocel:omap": [
+        "K1",
+        "A1",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "2",
+        "end_time": "2024-03-25T08:59:22.404"
+      }
+    },
+    "Install and configure asset_26c853ef-336f-4381-be02-b580d0f8e71f": {
+      "ocel:timestamp": "2024-03-25T08:59:22.404",
+      "ocel:activity": "Install and configure asset",
+      "ocel:omap": [
+        "K1",
+        "A1",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "2",
+        "end_time": "2024-03-25T08:59:53.100"
+      }
+    },
+    "Create system entry for asset_2f41712c-bc83-452e-b5c3-b7095cfec7d2": {
+      "ocel:timestamp": "2024-03-25T09:00:13.303",
+      "ocel:activity": "Create system entry for asset",
+      "ocel:omap": [
+        "K1",
+        "A1",
+        "it_working_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "2",
+        "end_time": "2024-03-25T09:00:32.247"
+      }
+    },
+    "44389": {
+      "ocel:activity": "update",
+      "ocel:timestamp": "2024-03-25T09:00:32Z",
+      "ocel:vmap": {
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "A1",
+        "Webcam USB"
+      ]
+    },
+    "Move asset to storage_2437e641-a933-4c02-92c6-d9a97f4e2d8c": {
+      "ocel:timestamp": "2024-03-25T09:00:33.980",
+      "ocel:activity": "Move asset to storage",
+      "ocel:omap": [
+        "K1",
+        "A1",
+        "self_service_storage"
+      ],
+      "ocel:vmap": {
+        "scene": "2",
+        "end_time": "2024-03-25T09:00:39.047"
+      }
+    }
+  },
+  "ocel:objects": {
+    "A1": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {
+        "email": "admin1@fim-rc.de",
+        "first_name": "Admin 1",
+        "obj.type": "admin_user",
+        "obj.relationType": "admin",
+        "obj.id_full": "admin_user_4",
+        "obj.link": "users/4",
+        "obj.id": "A1"
+      }
+    },
+    "P1": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {
+        "obj.type": "item_asset",
+        "obj.relationType": "item",
+        "obj.id_full": "item_asset_10228",
+        "obj.link": "hardware/10228",
+        "obj.id": "P1",
+        "asset_tag": "P1",
+        "physical": "1",
+        "last_checkin": "2024-03-25T13:26:16Z",
+        "checkin_counter": "2",
+        "checkout_counter": "2",
+        "model.name": "Logitech M500s",
+        "model.manufacturer.name": "Logitech"
+      }
+    },
+    "Webcam USB": {
+      "ocel:type": "item_accessory",
+      "ocel:ovmap": {
+        "obj.type": "item_accessory",
+        "obj.relationType": "item",
+        "obj.id_full": "item_accessory_68",
+        "obj.link": "accessories/68",
+        "obj.id": "Webcam USB"
+      }
+    },
+    "it_working_desk": {
+      "ocel:type": "it_working_desk",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
+    "mouse_cupboard": {
+      "ocel:type": "mouse_cupboard",
+      "ocel:ovmap": {
+        "room_location": "warehouse area"
+      }
+    },
+    "reed_switch_mouse_cupboard": {
+      "ocel:type": "reed_switch_mouse_cupboard",
+      "ocel:ovmap": {
+        "location": "cupboard left",
+        "microcontroller model": "Raspberry Pi 3B+",
+        "sensor model": "reed switch"
+      }
+    },
+    "K1": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    },
+    "self_service_storage": {
+      "ocel:type": "self_service_storage",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    }
+  }
+}
