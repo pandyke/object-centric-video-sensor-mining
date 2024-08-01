@@ -1,0 +1,952 @@
+{
+    "objectTypes": [
+        {
+            "name": "admin_user",
+            "attributes": [
+                {
+                    "name": "email",
+                    "type": "string"
+                },
+                {
+                    "name": "first_name",
+                    "type": "string"
+                },
+                {
+                    "name": "obj.type",
+                    "type": "string"
+                },
+                {
+                    "name": "obj.relationType",
+                    "type": "string"
+                },
+                {
+                    "name": "obj.id_full",
+                    "type": "string"
+                },
+                {
+                    "name": "obj.link",
+                    "type": "string"
+                },
+                {
+                    "name": "obj.id",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "item_asset",
+            "attributes": [
+                {
+                    "name": "obj.type",
+                    "type": "string"
+                },
+                {
+                    "name": "obj.relationType",
+                    "type": "string"
+                },
+                {
+                    "name": "obj.id_full",
+                    "type": "string"
+                },
+                {
+                    "name": "obj.link",
+                    "type": "string"
+                },
+                {
+                    "name": "obj.id",
+                    "type": "string"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "asset_tag",
+                    "type": "string"
+                },
+                {
+                    "name": "physical",
+                    "type": "string"
+                },
+                {
+                    "name": "last_checkout",
+                    "type": "string"
+                },
+                {
+                    "name": "last_checkin",
+                    "type": "string"
+                },
+                {
+                    "name": "checkin_counter",
+                    "type": "string"
+                },
+                {
+                    "name": "checkout_counter",
+                    "type": "string"
+                },
+                {
+                    "name": "model.name",
+                    "type": "string"
+                },
+                {
+                    "name": "model.manufacturer.name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "target_user",
+            "attributes": [
+                {
+                    "name": "email",
+                    "type": "string"
+                },
+                {
+                    "name": "first_name",
+                    "type": "string"
+                },
+                {
+                    "name": "obj.type",
+                    "type": "string"
+                },
+                {
+                    "name": "obj.relationType",
+                    "type": "string"
+                },
+                {
+                    "name": "obj.id_full",
+                    "type": "string"
+                },
+                {
+                    "name": "obj.link",
+                    "type": "string"
+                },
+                {
+                    "name": "obj.id",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "eventTypes": [
+        {
+            "name": "accepted",
+            "attributes": [
+                {
+                    "name": "filename",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "checkout",
+            "attributes": [
+                {
+                    "name": "log_meta",
+                    "type": "string"
+                },
+                {
+                    "name": "action_date",
+                    "type": "string"
+                },
+                {
+                    "name": "action_source",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "id": "A1",
+            "type": "admin_user",
+            "attributes": [
+                {
+                    "name": "email",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "admin1@fim-rc.de"
+                },
+                {
+                    "name": "first_name",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "Admin 1"
+                },
+                {
+                    "name": "obj.type",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "admin_user"
+                },
+                {
+                    "name": "obj.relationType",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "admin"
+                },
+                {
+                    "name": "obj.id_full",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "admin_user_4"
+                },
+                {
+                    "name": "obj.link",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "users/4"
+                },
+                {
+                    "name": "obj.id",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "A1"
+                }
+            ]
+        },
+        {
+            "id": "L1",
+            "type": "item_asset",
+            "attributes": [
+                {
+                    "name": "obj.type",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "item_asset"
+                },
+                {
+                    "name": "obj.relationType",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "item"
+                },
+                {
+                    "name": "obj.id_full",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "item_asset_6030"
+                },
+                {
+                    "name": "obj.link",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "hardware/6030"
+                },
+                {
+                    "name": "obj.id",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "L1"
+                },
+                {
+                    "name": "name",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "tintenklecks"
+                },
+                {
+                    "name": "asset_tag",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "L1"
+                },
+                {
+                    "name": "physical",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "1"
+                },
+                {
+                    "name": "last_checkout",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "2024-03-25T17:19:16Z"
+                },
+                {
+                    "name": "last_checkin",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "2024-03-25T17:11:18Z"
+                },
+                {
+                    "name": "checkin_counter",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "5"
+                },
+                {
+                    "name": "checkout_counter",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "6"
+                },
+                {
+                    "name": "model.name",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "Latitude E7450"
+                },
+                {
+                    "name": "model.manufacturer.name",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "Dell"
+                }
+            ]
+        },
+        {
+            "id": "C1",
+            "type": "target_user",
+            "attributes": [
+                {
+                    "name": "email",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "client1@fim-rc.de"
+                },
+                {
+                    "name": "first_name",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "Client 1"
+                },
+                {
+                    "name": "obj.type",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "target_user"
+                },
+                {
+                    "name": "obj.relationType",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "target"
+                },
+                {
+                    "name": "obj.id_full",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "target_user_1094"
+                },
+                {
+                    "name": "obj.link",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "users/1094"
+                },
+                {
+                    "name": "obj.id",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "C1"
+                }
+            ]
+        },
+        {
+            "id": "P2",
+            "type": "item_asset",
+            "attributes": [
+                {
+                    "name": "obj.type",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "item_asset"
+                },
+                {
+                    "name": "obj.relationType",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "item"
+                },
+                {
+                    "name": "obj.id_full",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "item_asset_10201"
+                },
+                {
+                    "name": "obj.link",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "hardware/10201"
+                },
+                {
+                    "name": "obj.id",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "P2"
+                },
+                {
+                    "name": "asset_tag",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "P2"
+                },
+                {
+                    "name": "physical",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "1"
+                },
+                {
+                    "name": "last_checkout",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "2024-03-25T11:36:26Z"
+                },
+                {
+                    "name": "last_checkin",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "2024-03-25T09:36:08Z"
+                },
+                {
+                    "name": "checkin_counter",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "1"
+                },
+                {
+                    "name": "checkout_counter",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "2"
+                },
+                {
+                    "name": "model.name",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "Logitech M500s"
+                },
+                {
+                    "name": "model.manufacturer.name",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "Logitech"
+                }
+            ]
+        },
+        {
+            "id": "M1",
+            "type": "item_asset",
+            "attributes": [
+                {
+                    "name": "obj.type",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "item_asset"
+                },
+                {
+                    "name": "obj.relationType",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "item"
+                },
+                {
+                    "name": "obj.id_full",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "item_asset_6278"
+                },
+                {
+                    "name": "obj.link",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "hardware/6278"
+                },
+                {
+                    "name": "obj.id",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "M1"
+                },
+                {
+                    "name": "asset_tag",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "M1"
+                },
+                {
+                    "name": "physical",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "1"
+                },
+                {
+                    "name": "last_checkin",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "2024-03-25T17:29:05Z"
+                },
+                {
+                    "name": "checkin_counter",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "4"
+                },
+                {
+                    "name": "checkout_counter",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "4"
+                },
+                {
+                    "name": "model.name",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "Fujitsu 24\""
+                },
+                {
+                    "name": "model.manufacturer.name",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "Fujitsu"
+                }
+            ]
+        },
+        {
+            "id": "C2",
+            "type": "target_user",
+            "attributes": [
+                {
+                    "name": "email",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "client2@fim-rc.de"
+                },
+                {
+                    "name": "first_name",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "Client 2"
+                },
+                {
+                    "name": "obj.type",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "target_user"
+                },
+                {
+                    "name": "obj.relationType",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "target"
+                },
+                {
+                    "name": "obj.id_full",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "target_user_1052"
+                },
+                {
+                    "name": "obj.link",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "users/1052"
+                },
+                {
+                    "name": "obj.id",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "C2"
+                }
+            ]
+        },
+        {
+            "id": "P3",
+            "type": "item_asset",
+            "attributes": [
+                {
+                    "name": "obj.type",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "item_asset"
+                },
+                {
+                    "name": "obj.relationType",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "item"
+                },
+                {
+                    "name": "obj.id_full",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "item_asset_10204"
+                },
+                {
+                    "name": "obj.link",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "hardware/10204"
+                },
+                {
+                    "name": "obj.id",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "P3"
+                },
+                {
+                    "name": "asset_tag",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "P3"
+                },
+                {
+                    "name": "physical",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "1"
+                },
+                {
+                    "name": "last_checkout",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "2024-03-25T13:26:59Z"
+                },
+                {
+                    "name": "last_checkin",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "2024-03-25T09:55:50Z"
+                },
+                {
+                    "name": "checkin_counter",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "1"
+                },
+                {
+                    "name": "checkout_counter",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "2"
+                },
+                {
+                    "name": "model.name",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "Logitech M500s"
+                },
+                {
+                    "name": "model.manufacturer.name",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "Logitech"
+                }
+            ]
+        },
+        {
+            "id": "C6",
+            "type": "target_user",
+            "attributes": [
+                {
+                    "name": "email",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "client6@fim-rc.de"
+                },
+                {
+                    "name": "first_name",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "Client 6"
+                },
+                {
+                    "name": "obj.type",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "target_user"
+                },
+                {
+                    "name": "obj.relationType",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "target"
+                },
+                {
+                    "name": "obj.id_full",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "target_user_1014"
+                },
+                {
+                    "name": "obj.link",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "users/1014"
+                },
+                {
+                    "name": "obj.id",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "C6"
+                }
+            ]
+        },
+        {
+            "id": "L2",
+            "type": "item_asset",
+            "attributes": [
+                {
+                    "name": "obj.type",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "item_asset"
+                },
+                {
+                    "name": "obj.relationType",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "item"
+                },
+                {
+                    "name": "obj.id_full",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "item_asset_6061"
+                },
+                {
+                    "name": "obj.link",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "hardware/6061"
+                },
+                {
+                    "name": "obj.id",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "L2"
+                },
+                {
+                    "name": "name",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "paschik"
+                },
+                {
+                    "name": "asset_tag",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "L2"
+                },
+                {
+                    "name": "physical",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "1"
+                },
+                {
+                    "name": "last_checkin",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "2024-03-25T16:51:22Z"
+                },
+                {
+                    "name": "checkin_counter",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "3"
+                },
+                {
+                    "name": "checkout_counter",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "3"
+                },
+                {
+                    "name": "model.name",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "Latitude E7450"
+                },
+                {
+                    "name": "model.manufacturer.name",
+                    "time": "1970-01-01T00:00:00Z",
+                    "value": "Dell"
+                }
+            ]
+        }
+    ],
+    "events": [
+        {
+            "id": "44378",
+            "type": "checkout",
+            "time": "2024-03-25T08:50:29Z",
+            "attributes": [
+                {
+                    "name": "log_meta",
+                    "value": "{\"location_id\":{\"old\":1490,\"new\":null}}"
+                },
+                {
+                    "name": "action_date",
+                    "value": "2024-03-25T08:50:29Z"
+                },
+                {
+                    "name": "action_source",
+                    "value": "gui"
+                }
+            ],
+            "relationships": [
+                {
+                    "objectId": "A1",
+                    "qualifier": ""
+                },
+                {
+                    "objectId": "L1",
+                    "qualifier": ""
+                },
+                {
+                    "objectId": "C1",
+                    "qualifier": ""
+                }
+            ]
+        },
+        {
+            "id": "44379",
+            "type": "checkout",
+            "time": "2024-03-25T08:50:47Z",
+            "attributes": [
+                {
+                    "name": "log_meta",
+                    "value": "{\"location_id\":{\"old\":1490,\"new\":null}}"
+                },
+                {
+                    "name": "action_date",
+                    "value": "2024-03-25T08:50:47Z"
+                },
+                {
+                    "name": "action_source",
+                    "value": "gui"
+                }
+            ],
+            "relationships": [
+                {
+                    "objectId": "A1",
+                    "qualifier": ""
+                },
+                {
+                    "objectId": "P2",
+                    "qualifier": ""
+                },
+                {
+                    "objectId": "C1",
+                    "qualifier": ""
+                }
+            ]
+        },
+        {
+            "id": "44380",
+            "type": "accepted",
+            "time": "2024-03-25T08:51:36Z",
+            "attributes": [
+                {
+                    "name": "filename",
+                    "value": "accepted-eula-2024-03-25-07-51-36.pdf"
+                }
+            ],
+            "relationships": [
+                {
+                    "objectId": "P2",
+                    "qualifier": ""
+                },
+                {
+                    "objectId": "C1",
+                    "qualifier": ""
+                }
+            ]
+        },
+        {
+            "id": "44381",
+            "type": "accepted",
+            "time": "2024-03-25T08:51:47Z",
+            "attributes": [
+                {
+                    "name": "filename",
+                    "value": "accepted-eula-2024-03-25-07-51-47.pdf"
+                }
+            ],
+            "relationships": [
+                {
+                    "objectId": "L1",
+                    "qualifier": ""
+                },
+                {
+                    "objectId": "C1",
+                    "qualifier": ""
+                }
+            ]
+        },
+        {
+            "id": "44382",
+            "type": "checkout",
+            "time": "2024-03-25T08:52:29Z",
+            "attributes": [
+                {
+                    "name": "log_meta",
+                    "value": "{\"location_id\":{\"old\":1490,\"new\":null}}"
+                },
+                {
+                    "name": "action_date",
+                    "value": "2024-03-25T08:52:29Z"
+                },
+                {
+                    "name": "action_source",
+                    "value": "gui"
+                }
+            ],
+            "relationships": [
+                {
+                    "objectId": "A1",
+                    "qualifier": ""
+                },
+                {
+                    "objectId": "M1",
+                    "qualifier": ""
+                },
+                {
+                    "objectId": "C2",
+                    "qualifier": ""
+                }
+            ]
+        },
+        {
+            "id": "44383",
+            "type": "accepted",
+            "time": "2024-03-25T08:53:12Z",
+            "attributes": [
+                {
+                    "name": "filename",
+                    "value": "accepted-eula-2024-03-25-07-53-12.pdf"
+                }
+            ],
+            "relationships": [
+                {
+                    "objectId": "M1",
+                    "qualifier": ""
+                },
+                {
+                    "objectId": "C2",
+                    "qualifier": ""
+                }
+            ]
+        },
+        {
+            "id": "44384",
+            "type": "checkout",
+            "time": "2024-03-25T08:54:14Z",
+            "attributes": [
+                {
+                    "name": "log_meta",
+                    "value": "{\"location_id\":{\"old\":1490,\"new\":null}}"
+                },
+                {
+                    "name": "action_date",
+                    "value": "2024-03-25T08:54:14Z"
+                },
+                {
+                    "name": "action_source",
+                    "value": "gui"
+                }
+            ],
+            "relationships": [
+                {
+                    "objectId": "A1",
+                    "qualifier": ""
+                },
+                {
+                    "objectId": "P3",
+                    "qualifier": ""
+                },
+                {
+                    "objectId": "C6",
+                    "qualifier": ""
+                }
+            ]
+        },
+        {
+            "id": "44385",
+            "type": "checkout",
+            "time": "2024-03-25T08:54:32Z",
+            "attributes": [
+                {
+                    "name": "log_meta",
+                    "value": "{\"location_id\":{\"old\":1490,\"new\":null}}"
+                },
+                {
+                    "name": "action_date",
+                    "value": "2024-03-25T08:54:32Z"
+                },
+                {
+                    "name": "action_source",
+                    "value": "gui"
+                }
+            ],
+            "relationships": [
+                {
+                    "objectId": "A1",
+                    "qualifier": ""
+                },
+                {
+                    "objectId": "L2",
+                    "qualifier": ""
+                },
+                {
+                    "objectId": "C6",
+                    "qualifier": ""
+                }
+            ]
+        },
+        {
+            "id": "44386",
+            "type": "accepted",
+            "time": "2024-03-25T08:55:38Z",
+            "attributes": [
+                {
+                    "name": "filename",
+                    "value": "accepted-eula-2024-03-25-07-55-38.pdf"
+                }
+            ],
+            "relationships": [
+                {
+                    "objectId": "L2",
+                    "qualifier": ""
+                },
+                {
+                    "objectId": "C6",
+                    "qualifier": ""
+                }
+            ]
+        },
+        {
+            "id": "44387",
+            "type": "accepted",
+            "time": "2024-03-25T08:55:54Z",
+            "attributes": [
+                {
+                    "name": "filename",
+                    "value": "accepted-eula-2024-03-25-07-55-54.pdf"
+                }
+            ],
+            "relationships": [
+                {
+                    "objectId": "P3",
+                    "qualifier": ""
+                },
+                {
+                    "objectId": "C6",
+                    "qualifier": ""
+                }
+            ]
+        }
+    ]
+}
