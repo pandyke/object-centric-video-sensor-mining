@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="door" />
+		<string key="ocel:type" value="door" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<event>
+			<string key="ocel:eid" value="reed_switch_door_opened_0b73ab13-712a-478c-807e-f12119c3c580" />
+			<date key="time:timestamp" value="2024-03-25T09:26:11+00:00" />
+			<string key="concept:name" value="reed_switch_door_opened" />
+			<string key="event_source" value="sensor" />
+			<string key="event_source_file" value="scene05_reed_switch_door" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="sensor_value" value="reed_switch_opened" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Enter room/Leave room_f36b13c3-1ea5-424f-9456-42db7e68d5bb" />
+			<date key="time:timestamp" value="2024-03-25T09:26:11+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene05" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_door_closed_93919a55-3b3e-4545-be8b-fe6c14eae680" />
+			<date key="time:timestamp" value="2024-03-25T09:26:16+00:00" />
+			<string key="concept:name" value="reed_switch_door_closed" />
+			<string key="event_source" value="sensor" />
+			<string key="event_source_file" value="scene05_reed_switch_door" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="sensor_value" value="reed_switch_closed" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Enter room/Leave room_ecc98c85-2b65-458e-b07c-e9c62a07deca" />
+			<date key="time:timestamp" value="2024-03-25T09:26:23+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene05" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_door_opened_21a2fdbd-f408-4e86-82f4-7158f1eac69d" />
+			<date key="time:timestamp" value="2024-03-25T09:26:25+00:00" />
+			<string key="concept:name" value="reed_switch_door_opened" />
+			<string key="event_source" value="sensor" />
+			<string key="event_source_file" value="scene05_reed_switch_door" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="sensor_value" value="reed_switch_opened" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="reed_switch_door_closed_c695834f-5956-4fbd-ae6a-917134a2c41b" />
+			<date key="time:timestamp" value="2024-03-25T09:26:29+00:00" />
+			<string key="concept:name" value="reed_switch_door_closed" />
+			<string key="event_source" value="sensor" />
+			<string key="event_source_file" value="scene05_reed_switch_door" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="sensor_value" value="reed_switch_closed" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="sensor_value_window" value="nan" />
+			<float key="sensor_threshold" value="nan" />
+			<float key="sensor_old_value" value="nan" />
+			<float key="sensor_new_value" value="nan" />
+		</event>
+	</trace>
+</log>
