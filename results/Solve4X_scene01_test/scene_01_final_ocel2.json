@@ -1,0 +1,3656 @@
+{
+  "objectTypes": [
+    {
+      "name": "admin_user",
+      "attributes": [
+        {
+          "name": "email",
+          "type": "string"
+        },
+        {
+          "name": "first_name",
+          "type": "string"
+        },
+        {
+          "name": "obj.type",
+          "type": "string"
+        },
+        {
+          "name": "obj.relationType",
+          "type": "string"
+        },
+        {
+          "name": "obj.id_full",
+          "type": "string"
+        },
+        {
+          "name": "obj.link",
+          "type": "string"
+        },
+        {
+          "name": "obj.id",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "distance_sensor_laptop_shelf",
+      "attributes": [
+        {
+          "name": "location",
+          "type": "string"
+        },
+        {
+          "name": "microcontroller model",
+          "type": "string"
+        },
+        {
+          "name": "sensor model",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "door",
+      "attributes": [
+        {
+          "name": "room_location",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "it_working_desk",
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "item_asset",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "type": "string"
+        },
+        {
+          "name": "obj.relationType",
+          "type": "string"
+        },
+        {
+          "name": "obj.id_full",
+          "type": "string"
+        },
+        {
+          "name": "obj.link",
+          "type": "string"
+        },
+        {
+          "name": "obj.id",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "asset_tag",
+          "type": "string"
+        },
+        {
+          "name": "physical",
+          "type": "string"
+        },
+        {
+          "name": "last_checkout",
+          "type": "string"
+        },
+        {
+          "name": "last_checkin",
+          "type": "string"
+        },
+        {
+          "name": "checkin_counter",
+          "type": "string"
+        },
+        {
+          "name": "checkout_counter",
+          "type": "string"
+        },
+        {
+          "name": "model.name",
+          "type": "string"
+        },
+        {
+          "name": "model.manufacturer.name",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "laptop_shelf",
+      "attributes": [
+        {
+          "name": "room_location",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "monitor_storage",
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "mouse_cupboard",
+      "attributes": [
+        {
+          "name": "room_location",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "reed_switch_door",
+      "attributes": [
+        {
+          "name": "location",
+          "type": "string"
+        },
+        {
+          "name": "microcontroller model",
+          "type": "string"
+        },
+        {
+          "name": "sensor model",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "reed_switch_mouse_cupboard",
+      "attributes": [
+        {
+          "name": "location",
+          "type": "string"
+        },
+        {
+          "name": "microcontroller model",
+          "type": "string"
+        },
+        {
+          "name": "sensor model",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "target_user",
+      "attributes": [
+        {
+          "name": "email",
+          "type": "string"
+        },
+        {
+          "name": "first_name",
+          "type": "string"
+        },
+        {
+          "name": "obj.type",
+          "type": "string"
+        },
+        {
+          "name": "obj.relationType",
+          "type": "string"
+        },
+        {
+          "name": "obj.id_full",
+          "type": "string"
+        },
+        {
+          "name": "obj.link",
+          "type": "string"
+        },
+        {
+          "name": "obj.id",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "eventTypes": [
+    {
+      "name": "Check asset quality / Check-Out asset to user",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Enter room / Leave room",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Handover asset to user",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Pick asset from warehouse",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Receive asset from admin",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "accepted",
+      "attributes": [
+        {
+          "name": "filename",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "checkout",
+      "attributes": [
+        {
+          "name": "log_meta",
+          "type": "string"
+        },
+        {
+          "name": "action_date",
+          "type": "string"
+        },
+        {
+          "name": "action_source",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "laptop_shelf_laptop_removed",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        },
+        {
+          "name": "sensor_value_window",
+          "type": "string"
+        },
+        {
+          "name": "sensor_threshold",
+          "type": "string"
+        },
+        {
+          "name": "sensor_old_value",
+          "type": "string"
+        },
+        {
+          "name": "sensor_new_value",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "reed_switch_door_closed",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        },
+        {
+          "name": "sensor_value",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "reed_switch_door_opened",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        },
+        {
+          "name": "sensor_value",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "reed_switch_mouse_cupboard_closed",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        },
+        {
+          "name": "sensor_value",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "reed_switch_mouse_cupboard_opened",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        },
+        {
+          "name": "sensor_value",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "A1",
+      "type": "admin_user",
+      "attributes": [
+        {
+          "name": "email",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin1@fim-rc.de"
+        },
+        {
+          "name": "first_name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Admin 1"
+        },
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin_user"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin_user_4"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "users/4"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "A1"
+        }
+      ]
+    },
+    {
+      "id": "L1",
+      "type": "item_asset",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset_6030"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "hardware/6030"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "L1"
+        },
+        {
+          "name": "name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "tintenklecks"
+        },
+        {
+          "name": "asset_tag",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "L1"
+        },
+        {
+          "name": "physical",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "1"
+        },
+        {
+          "name": "last_checkout",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2024-03-25T17:19:16Z"
+        },
+        {
+          "name": "last_checkin",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2024-03-25T17:11:18Z"
+        },
+        {
+          "name": "checkin_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "5"
+        },
+        {
+          "name": "checkout_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "6"
+        },
+        {
+          "name": "model.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Latitude E7450"
+        },
+        {
+          "name": "model.manufacturer.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Dell"
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "type": "target_user",
+      "attributes": [
+        {
+          "name": "email",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "client1@fim-rc.de"
+        },
+        {
+          "name": "first_name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Client 1"
+        },
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "target_user"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "target"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "target_user_1094"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "users/1094"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "C1"
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "type": "item_asset",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset_10201"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "hardware/10201"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "P2"
+        },
+        {
+          "name": "asset_tag",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "P2"
+        },
+        {
+          "name": "physical",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "1"
+        },
+        {
+          "name": "last_checkout",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2024-03-25T11:36:26Z"
+        },
+        {
+          "name": "last_checkin",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2024-03-25T09:36:08Z"
+        },
+        {
+          "name": "checkin_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "1"
+        },
+        {
+          "name": "checkout_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2"
+        },
+        {
+          "name": "model.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Logitech M500s"
+        },
+        {
+          "name": "model.manufacturer.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Logitech"
+        }
+      ]
+    },
+    {
+      "id": "M1",
+      "type": "item_asset",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset_6278"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "hardware/6278"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "M1"
+        },
+        {
+          "name": "asset_tag",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "M1"
+        },
+        {
+          "name": "physical",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "1"
+        },
+        {
+          "name": "last_checkin",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2024-03-25T17:29:05Z"
+        },
+        {
+          "name": "checkin_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "4"
+        },
+        {
+          "name": "checkout_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "4"
+        },
+        {
+          "name": "model.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Fujitsu 24\""
+        },
+        {
+          "name": "model.manufacturer.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Fujitsu"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "target_user",
+      "attributes": [
+        {
+          "name": "email",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "client2@fim-rc.de"
+        },
+        {
+          "name": "first_name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Client 2"
+        },
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "target_user"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "target"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "target_user_1052"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "users/1052"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "C2"
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "type": "item_asset",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset_10204"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "hardware/10204"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "P3"
+        },
+        {
+          "name": "asset_tag",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "P3"
+        },
+        {
+          "name": "physical",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "1"
+        },
+        {
+          "name": "last_checkout",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2024-03-25T13:26:59Z"
+        },
+        {
+          "name": "last_checkin",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2024-03-25T09:55:50Z"
+        },
+        {
+          "name": "checkin_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "1"
+        },
+        {
+          "name": "checkout_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2"
+        },
+        {
+          "name": "model.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Logitech M500s"
+        },
+        {
+          "name": "model.manufacturer.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Logitech"
+        }
+      ]
+    },
+    {
+      "id": "C6",
+      "type": "target_user",
+      "attributes": [
+        {
+          "name": "email",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "client6@fim-rc.de"
+        },
+        {
+          "name": "first_name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Client 6"
+        },
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "target_user"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "target"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "target_user_1014"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "users/1014"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "C6"
+        }
+      ]
+    },
+    {
+      "id": "L2",
+      "type": "item_asset",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset_6061"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "hardware/6061"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "L2"
+        },
+        {
+          "name": "name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "paschik"
+        },
+        {
+          "name": "asset_tag",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "L2"
+        },
+        {
+          "name": "physical",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "1"
+        },
+        {
+          "name": "last_checkin",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2024-03-25T16:51:22Z"
+        },
+        {
+          "name": "checkin_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "3"
+        },
+        {
+          "name": "checkout_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "3"
+        },
+        {
+          "name": "model.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Latitude E7450"
+        },
+        {
+          "name": "model.manufacturer.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Dell"
+        }
+      ]
+    },
+    {
+      "id": "it_working_desk_1",
+      "type": "it_working_desk",
+      "attributes": [
+        {
+          "name": "type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "location"
+        }
+      ]
+    },
+    {
+      "id": "laptop_shelf_1",
+      "type": "laptop_shelf",
+      "attributes": [
+        {
+          "name": "room_location",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "warehouse area"
+        }
+      ]
+    },
+    {
+      "id": "monitor_storage_1",
+      "type": "monitor_storage",
+      "attributes": [
+        {
+          "name": "type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "location"
+        }
+      ]
+    },
+    {
+      "id": "door_1",
+      "type": "door",
+      "attributes": [
+        {
+          "name": "room_location",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "self service area"
+        }
+      ]
+    },
+    {
+      "id": "mouse_cupboard_1",
+      "type": "mouse_cupboard",
+      "attributes": [
+        {
+          "name": "room_location",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "warehouse area"
+        }
+      ]
+    },
+    {
+      "id": "it_working_desk_handover_area",
+      "type": "it_working_desk",
+      "attributes": [
+        {
+          "name": "type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "location"
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_1",
+      "type": "reed_switch_door",
+      "attributes": [
+        {
+          "name": "location",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "door"
+        },
+        {
+          "name": "microcontroller model",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Raspberry Pi 3B+"
+        },
+        {
+          "name": "sensor model",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "reed switch"
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_mouse_cupboard_1",
+      "type": "reed_switch_mouse_cupboard",
+      "attributes": [
+        {
+          "name": "location",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "cupboard left"
+        },
+        {
+          "name": "microcontroller model",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Raspberry Pi 3B+"
+        },
+        {
+          "name": "sensor model",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "reed switch"
+        }
+      ]
+    },
+    {
+      "id": "distance_sensor_laptop_shelf_1",
+      "type": "distance_sensor_laptop_shelf",
+      "attributes": [
+        {
+          "name": "location",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "laptop shelf"
+        },
+        {
+          "name": "microcontroller model",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Raspberry Pi 3B+"
+        },
+        {
+          "name": "sensor model",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "HC-SR04 Ultrasonic Sensor"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "Check asset quality / Check-Out asset to user_3d6d92e8-4424-4677-8f44-4b341d692db2",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:48:23Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_opened_3dc8f336-5cd0-4faa-92f5-161693d62aaa",
+      "type": "reed_switch_door_opened",
+      "time": "2024-03-25T08:48:33Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_opened"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "reed_switch_door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room / Leave room_438627ad-ed05-430a-b569-643b7d2ef465",
+      "type": "Enter room / Leave room",
+      "time": "2024-03-25T08:48:34Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_closed_19d9febf-e764-4aa8-b5f9-4f2f8f2ab677",
+      "type": "reed_switch_door_closed",
+      "time": "2024-03-25T08:48:37Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_closed"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "reed_switch_door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality / Check-Out asset to user_54f2bf44-9ad2-4be7-aaf2-9db5f63c8c45",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:48:50Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality / Check-Out asset to user_d2ea3d5a-fa78-47d5-8b88-933a69aabbe6",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:48:50Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse_bc060f81-9250-4861-ba31-c3bdf7f817dc",
+      "type": "Pick asset from warehouse",
+      "time": "2024-03-25T08:48:52Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality / Check-Out asset to user_2f953144-a4df-4f11-bd63-1e8c7320c3b5",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:48:52Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse_7fb5a0f4-d5ce-4f5e-9e79-6d11b3404108",
+      "type": "Pick asset from warehouse",
+      "time": "2024-03-25T08:48:53Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse_c4284b75-c230-43b5-b75f-40f843ba679f",
+      "type": "Pick asset from warehouse",
+      "time": "2024-03-25T08:48:55Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "laptop_shelf_laptop_removed_fc739047-781b-48db-99ea-cb609ed031c2",
+      "type": "laptop_shelf_laptop_removed",
+      "time": "2024-03-25T08:48:57Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_distance_sensor_laptop_shelf"
+        },
+        {
+          "name": "sensor_value_window",
+          "value": "1"
+        },
+        {
+          "name": "sensor_threshold",
+          "value": "2.0"
+        },
+        {
+          "name": "sensor_old_value",
+          "value": "24.13"
+        },
+        {
+          "name": "sensor_new_value",
+          "value": "26.94"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "distance_sensor_laptop_shelf_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse_57d14573-b6ad-486f-aa89-242a3f6d64bf",
+      "type": "Pick asset from warehouse",
+      "time": "2024-03-25T08:49:06Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse_89d818c3-a303-4367-abfe-ca9671aad70a",
+      "type": "Pick asset from warehouse",
+      "time": "2024-03-25T08:49:06Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "mouse_cupboard_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_mouse_cupboard_opened_253fb3db-dd33-4a64-ace0-7e3e0276c462",
+      "type": "reed_switch_mouse_cupboard_opened",
+      "time": "2024-03-25T08:49:10Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_reed_switch_mouse_cupboard"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_opened"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "mouse_cupboard_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "reed_switch_mouse_cupboard_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_mouse_cupboard_closed_c23cfe87-b948-4c71-b518-6d319e6ddfbf",
+      "type": "reed_switch_mouse_cupboard_closed",
+      "time": "2024-03-25T08:49:16Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_reed_switch_mouse_cupboard"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_closed"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "mouse_cupboard_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "reed_switch_mouse_cupboard_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse_4391b336-a9a7-4587-97c9-072314152065",
+      "type": "Pick asset from warehouse",
+      "time": "2024-03-25T08:49:18Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Handover asset to user_a2f60183-7f33-4e0b-b312-788e56ccfb74",
+      "type": "Handover asset to user",
+      "time": "2024-03-25T08:49:20Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room / Leave room_21ec057b-c30d-45ca-889f-1ce17393bcbb",
+      "type": "Enter room / Leave room",
+      "time": "2024-03-25T08:49:21Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_c20fe534-c0d1-4d7e-9fbb-adee6da53d8c",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:49:39Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44378",
+      "type": "checkout",
+      "time": "2024-03-25T08:50:29Z",
+      "attributes": [
+        {
+          "name": "log_meta",
+          "value": "{\"location_id\":{\"old\":1490,\"new\":null}}"
+        },
+        {
+          "name": "action_date",
+          "value": "2024-03-25T08:50:29Z"
+        },
+        {
+          "name": "action_source",
+          "value": "gui"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "L1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_96c59357-f3d6-4d5b-bd13-3ae219ef8eda",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:50:32Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_cc1524a9-df0d-42be-a930-7ad4aa5871f3",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:50:32Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_1ec262d7-5444-4508-9f39-1ada71d42fc0",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:50:38Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44379",
+      "type": "checkout",
+      "time": "2024-03-25T08:50:47Z",
+      "attributes": [
+        {
+          "name": "log_meta",
+          "value": "{\"location_id\":{\"old\":1490,\"new\":null}}"
+        },
+        {
+          "name": "action_date",
+          "value": "2024-03-25T08:50:47Z"
+        },
+        {
+          "name": "action_source",
+          "value": "gui"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "P2",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality / Check-Out asset to user_4ac80b8d-5d6e-442c-967f-14c7e90be9af",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:50:48Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Handover asset to user_c8a4fa65-e390-42ed-8599-c7bc279008bc",
+      "type": "Handover asset to user",
+      "time": "2024-03-25T08:50:49Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_d2cedc83-857b-4e3a-8244-49af4863d3e3",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:50:50Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room / Leave room_a190059c-2971-4783-987a-777f7a07a6cc",
+      "type": "Enter room / Leave room",
+      "time": "2024-03-25T08:50:54Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room / Leave room_463f3fed-8fc2-4e21-88ca-cbd543494ecb",
+      "type": "Enter room / Leave room",
+      "time": "2024-03-25T08:50:54Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality / Check-Out asset to user_510fef38-b7a1-4c41-8fb2-c30192b3d147",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:50:56Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality / Check-Out asset to user_f8ab5092-d1de-4e23-b038-2159de65035a",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:50:57Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_opened_99b628d3-7ca1-49af-945c-e3e92cda1c1b",
+      "type": "reed_switch_door_opened",
+      "time": "2024-03-25T08:50:57Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_opened"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "reed_switch_door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room / Leave room_074c7535-f4e3-42a0-b672-34577083621d",
+      "type": "Enter room / Leave room",
+      "time": "2024-03-25T08:50:57Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_closed_db1d044e-269e-44cf-a61d-688e25a6a7b9",
+      "type": "reed_switch_door_closed",
+      "time": "2024-03-25T08:51:00Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_closed"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "reed_switch_door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_opened_e364e5d8-62f2-43a2-aa1f-b016681afe10",
+      "type": "reed_switch_door_opened",
+      "time": "2024-03-25T08:51:20Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_opened"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "reed_switch_door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room / Leave room_3a9d4294-b667-4185-9492-1bd61fa94627",
+      "type": "Enter room / Leave room",
+      "time": "2024-03-25T08:51:20Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C2",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room / Leave room_a9b2f364-caf7-404c-b348-08ed3ede2449",
+      "type": "Enter room / Leave room",
+      "time": "2024-03-25T08:51:23Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C2",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_closed_a5c1d1e3-d6a1-4867-b4f7-12c1e1ae1ed9",
+      "type": "reed_switch_door_closed",
+      "time": "2024-03-25T08:51:23Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_closed"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "reed_switch_door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse_6162d4c6-bfd0-43f6-9cca-b8188d4fa6fe",
+      "type": "Pick asset from warehouse",
+      "time": "2024-03-25T08:51:34Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "mouse_cupboard_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44380",
+      "type": "accepted",
+      "time": "2024-03-25T08:51:36Z",
+      "attributes": [
+        {
+          "name": "filename",
+          "value": "accepted-eula-2024-03-25-07-51-36.pdf"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "P2",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse_a7e87503-5e43-4982-8874-0bb326205cc8",
+      "type": "Pick asset from warehouse",
+      "time": "2024-03-25T08:51:36Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "monitor_storage_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse_cfe446eb-3f8c-40fa-9a91-8f9ea69613a6",
+      "type": "Pick asset from warehouse",
+      "time": "2024-03-25T08:51:37Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "monitor_storage_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse_31b2b9ca-f692-4176-bdb9-41e9d7c60258",
+      "type": "Pick asset from warehouse",
+      "time": "2024-03-25T08:51:39Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "mouse_cupboard_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality / Check-Out asset to user_779f1e52-12f2-4336-b88b-d63df0f2cede",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:51:40Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse_1009c0fb-8891-4733-9c08-8892479fa3c3",
+      "type": "Pick asset from warehouse",
+      "time": "2024-03-25T08:51:40Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality / Check-Out asset to user_e5a37b8f-f112-41c7-a094-7cf044accd68",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:51:40Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_21223741-57d3-42bb-b5e6-1b01a66cb14f",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:51:42Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C2",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44381",
+      "type": "accepted",
+      "time": "2024-03-25T08:51:47Z",
+      "attributes": [
+        {
+          "name": "filename",
+          "value": "accepted-eula-2024-03-25-07-51-47.pdf"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "L1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_opened_1570d3af-cf66-4193-b20d-60721836e8e7",
+      "type": "reed_switch_door_opened",
+      "time": "2024-03-25T08:52:02Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_opened"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "reed_switch_door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality / Check-Out asset to user_31ec92c4-d12b-40a8-a1f9-63a487ca40e5",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:52:02Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_7a22ffec-cd3f-4880-ac7a-1c67e1f79666",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:52:03Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C2",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_3a35abdb-f906-4824-9549-764bc4b1684d",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:52:03Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C2",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room / Leave room_9708a131-4f12-4909-a33b-00f156dd7cc6",
+      "type": "Enter room / Leave room",
+      "time": "2024-03-25T08:52:03Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_81e72324-0d40-4f1f-9436-e1b82f38e3d5",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:52:05Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C2",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_closed_dd44d482-5991-464b-89f8-72bd26671031",
+      "type": "reed_switch_door_closed",
+      "time": "2024-03-25T08:52:06Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_closed"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "reed_switch_door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room / Leave room_026975c6-e08e-49f8-8888-8dd47e0dee2a",
+      "type": "Enter room / Leave room",
+      "time": "2024-03-25T08:52:07Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room / Leave room_1ed49b42-6fbc-4f3c-9cb9-f8f1438a3e9b",
+      "type": "Enter room / Leave room",
+      "time": "2024-03-25T08:52:07Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_ab383aa9-38ee-4160-b197-d07e735398c0",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:52:19Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C2",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44382",
+      "type": "checkout",
+      "time": "2024-03-25T08:52:29Z",
+      "attributes": [
+        {
+          "name": "log_meta",
+          "value": "{\"location_id\":{\"old\":1490,\"new\":null}}"
+        },
+        {
+          "name": "action_date",
+          "value": "2024-03-25T08:52:29Z"
+        },
+        {
+          "name": "action_source",
+          "value": "gui"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C2",
+          "qualifier": ""
+        },
+        {
+          "objectId": "M1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality / Check-Out asset to user_535c2901-3954-4649-80c8-cc7838f3d4b8",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:52:32Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_888684a8-96bc-465a-9292-3b45306bd636",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:52:34Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C2",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality / Check-Out asset to user_aae0404f-7ca8-4de7-a96d-941c69775837",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:52:38Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room / Leave room_fa83962e-ade3-4c2c-9f86-487c8ad62aea",
+      "type": "Enter room / Leave room",
+      "time": "2024-03-25T08:52:39Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C2",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_opened_e334e4e4-e1ba-470c-a0d9-ab6ab80bfbfa",
+      "type": "reed_switch_door_opened",
+      "time": "2024-03-25T08:52:41Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_opened"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "reed_switch_door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_closed_1724a349-4485-463e-9475-f87463dc3914",
+      "type": "reed_switch_door_closed",
+      "time": "2024-03-25T08:52:46Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_closed"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "reed_switch_door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse_4425c6cc-5ec4-4451-a040-d10695a80ca3",
+      "type": "Pick asset from warehouse",
+      "time": "2024-03-25T08:52:54Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse_46e9fb55-5fbd-4500-bc78-c16202aec9bd",
+      "type": "Pick asset from warehouse",
+      "time": "2024-03-25T08:52:55Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "mouse_cupboard_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_mouse_cupboard_opened_654b6ca9-c774-42e3-8f7d-52450bd06ae3",
+      "type": "reed_switch_mouse_cupboard_opened",
+      "time": "2024-03-25T08:52:57Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_reed_switch_mouse_cupboard"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_opened"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "mouse_cupboard_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "reed_switch_mouse_cupboard_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_mouse_cupboard_closed_0103380a-6ce3-4edc-87b9-0114bf34107b",
+      "type": "reed_switch_mouse_cupboard_closed",
+      "time": "2024-03-25T08:53:03Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_reed_switch_mouse_cupboard"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_closed"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "mouse_cupboard_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "reed_switch_mouse_cupboard_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse_7531fdea-0b08-4a68-a36e-18b138d17065",
+      "type": "Pick asset from warehouse",
+      "time": "2024-03-25T08:53:03Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality / Check-Out asset to user_24ef5892-d0c9-458b-a513-266b3c3caaa8",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:53:04Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse_6b2ef2c2-9b16-4401-ad5b-e9a522e5d03b",
+      "type": "Pick asset from warehouse",
+      "time": "2024-03-25T08:53:04Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Handover asset to user_a5586969-7ee5-454b-9c31-85f9225304cd",
+      "type": "Handover asset to user",
+      "time": "2024-03-25T08:53:06Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_3ae06742-4821-4c19-8aa4-90d77a6a8318",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:53:07Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_7b2b3875-f3db-496e-b82b-0fa70633c310",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:53:07Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse_4c02a13e-ea39-4aaf-9700-5149a092614b",
+      "type": "Pick asset from warehouse",
+      "time": "2024-03-25T08:53:08Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44383",
+      "type": "accepted",
+      "time": "2024-03-25T08:53:12Z",
+      "attributes": [
+        {
+          "name": "filename",
+          "value": "accepted-eula-2024-03-25-07-53-12.pdf"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C2",
+          "qualifier": ""
+        },
+        {
+          "objectId": "M1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "laptop_shelf_laptop_removed_61d76328-7634-47a9-be6f-4a1ad081f997",
+      "type": "laptop_shelf_laptop_removed",
+      "time": "2024-03-25T08:53:13Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_distance_sensor_laptop_shelf"
+        },
+        {
+          "name": "sensor_value_window",
+          "value": "1"
+        },
+        {
+          "name": "sensor_threshold",
+          "value": "2.0"
+        },
+        {
+          "name": "sensor_old_value",
+          "value": "26.8"
+        },
+        {
+          "name": "sensor_new_value",
+          "value": "29.16"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "distance_sensor_laptop_shelf_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_e8cb35e5-c4f3-4ead-b8f4-5e855d1f7a10",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:53:18Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_07a39749-afda-4b72-af5a-7015fdd08c96",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:53:26Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_ecebe60b-2048-457d-9555-2d2064c42703",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:53:26Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_f028cf85-8b3e-4b93-8dcf-638369af8e66",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:53:26Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_cc4c6af4-75af-4c1b-a03a-282fa4e1a1ed",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:53:27Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Receive asset from admin_32735a3c-786e-403f-9b61-efe5508c0762",
+      "type": "Receive asset from admin",
+      "time": "2024-03-25T08:53:27Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Handover asset to user_38d75944-0515-43da-8714-ac54f43594a8",
+      "type": "Handover asset to user",
+      "time": "2024-03-25T08:53:31Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality / Check-Out asset to user_88bd784d-49b6-496e-b9f6-da9ff4e2401a",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:53:54Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44384",
+      "type": "checkout",
+      "time": "2024-03-25T08:54:14Z",
+      "attributes": [
+        {
+          "name": "log_meta",
+          "value": "{\"location_id\":{\"old\":1490,\"new\":null}}"
+        },
+        {
+          "name": "action_date",
+          "value": "2024-03-25T08:54:14Z"
+        },
+        {
+          "name": "action_source",
+          "value": "gui"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "P3",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44385",
+      "type": "checkout",
+      "time": "2024-03-25T08:54:32Z",
+      "attributes": [
+        {
+          "name": "log_meta",
+          "value": "{\"location_id\":{\"old\":1490,\"new\":null}}"
+        },
+        {
+          "name": "action_date",
+          "value": "2024-03-25T08:54:32Z"
+        },
+        {
+          "name": "action_source",
+          "value": "gui"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        },
+        {
+          "objectId": "L2",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality / Check-Out asset to user_01b8ae53-f0c0-415a-8967-15225a05eb33",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:54:33Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Handover asset to user_58ad48e8-3021-49d8-b4c4-1c9d93e14299",
+      "type": "Handover asset to user",
+      "time": "2024-03-25T08:54:35Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Handover asset to user_3f0baf49-5225-422a-bb3c-b55a01e430e6",
+      "type": "Handover asset to user",
+      "time": "2024-03-25T08:54:39Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Handover asset to user_4308013f-6fc0-4470-ae69-8e15f48db7ae",
+      "type": "Handover asset to user",
+      "time": "2024-03-25T08:54:42Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_handover_area",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room / Leave room_6255face-b28f-4ecd-aeef-831228449d9d",
+      "type": "Enter room / Leave room",
+      "time": "2024-03-25T08:54:51Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room / Leave room_724b1f5c-ef5e-4d66-86bd-509df0a64e45",
+      "type": "Enter room / Leave room",
+      "time": "2024-03-25T08:54:51Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality / Check-Out asset to user_f434e059-e6da-41ee-99ed-1449a73d284b",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:54:51Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_opened_4d9bba58-e0df-4a3f-8c83-4cee4504f39a",
+      "type": "reed_switch_door_opened",
+      "time": "2024-03-25T08:54:53Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_opened"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "door_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "reed_switch_door_1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality / Check-Out asset to user_a4f73e5a-4c7f-4407-80ce-bf1d20ed1a38",
+      "type": "Check asset quality / Check-Out asset to user",
+      "time": "2024-03-25T08:54:54Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene01"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "it_working_desk_1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44386",
+      "type": "accepted",
+      "time": "2024-03-25T08:55:38Z",
+      "attributes": [
+        {
+          "name": "filename",
+          "value": "accepted-eula-2024-03-25-07-55-38.pdf"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        },
+        {
+          "objectId": "L2",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44387",
+      "type": "accepted",
+      "time": "2024-03-25T08:55:54Z",
+      "attributes": [
+        {
+          "name": "filename",
+          "value": "accepted-eula-2024-03-25-07-55-54.pdf"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "P3",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        }
+      ]
+    }
+  ]
+}
