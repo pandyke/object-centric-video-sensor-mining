@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="A1" />
+		<string key="ocel:type" value="admin_user" />
+		<string key="email" value="admin1@fim-rc.de" />
+		<string key="first_name" value="Admin 1" />
+		<string key="obj.type" value="admin_user" />
+		<string key="obj.relationType" value="admin" />
+		<string key="obj.id_full" value="admin_user_4" />
+		<string key="obj.link" value="users/4" />
+		<string key="obj.id" value="A1" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="type" value="nan" />
+		<float key="room_location" value="nan" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from warehouse_de03afbf-00b7-42fc-85ae-d5a83321e8c3" />
+			<date key="time:timestamp" value="2024-03-25T08:57:06+00:00" />
+			<string key="concept:name" value="Pick asset from warehouse/Move asset to storage" />
+			<string key="scene" value="2" />
+			<string key="end_time" value="2024-03-25T08:57:17.430" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset_d2dea073-083e-4087-9a98-95d2bd2c48fd" />
+			<date key="time:timestamp" value="2024-03-25T08:57:17+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset" />
+			<string key="scene" value="2" />
+			<string key="end_time" value="2024-03-25T08:57:20.422" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44388" />
+			<date key="time:timestamp" value="2024-03-25T08:58:28+00:00" />
+			<string key="concept:name" value="create" />
+			<float key="scene" value="nan" />
+			<float key="end_time" value="nan" />
+			<string key="action_source" value="gui" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Move asset to storage_b474f0c9-4d58-485d-b9e3-1634e214f0ce" />
+			<date key="time:timestamp" value="2024-03-25T08:58:36+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk/Move asset to storage" />
+			<string key="scene" value="2" />
+			<string key="end_time" value="2024-03-25T08:58:42.325" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Pick asset from self service desk_58128d1d-b291-47e8-a3e7-6729c33596b8" />
+			<date key="time:timestamp" value="2024-03-25T08:58:50+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk/Move asset to storage" />
+			<string key="scene" value="2" />
+			<string key="end_time" value="2024-03-25T08:58:53.830" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset_a7c08037-4de0-455e-8f2f-53ca35def1d7" />
+			<date key="time:timestamp" value="2024-03-25T08:58:53+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Create system entry for asset" />
+			<string key="scene" value="2" />
+			<string key="end_time" value="2024-03-25T08:59:10.237" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44389" />
+			<date key="time:timestamp" value="2024-03-25T09:00:32+00:00" />
+			<string key="concept:name" value="update" />
+			<float key="scene" value="nan" />
+			<float key="end_time" value="nan" />
+			<string key="action_source" value="gui" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Move asset to storage_2437e641-a933-4c02-92c6-d9a97f4e2d8c" />
+			<date key="time:timestamp" value="2024-03-25T09:00:33+00:00" />
+			<string key="concept:name" value="Pick asset from self service desk/Move asset to storage" />
+			<string key="scene" value="2" />
+			<string key="end_time" value="2024-03-25T09:00:39.047" />
+			<float key="action_source" value="nan" />
+		</event>
+	</trace>
+</log>
