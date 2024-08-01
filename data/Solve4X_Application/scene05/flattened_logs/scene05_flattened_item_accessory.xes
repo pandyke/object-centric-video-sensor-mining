@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="Webcam USB" />
+		<string key="ocel:type" value="item_accessory" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<string key="obj.type" value="item_accessory" />
+		<string key="obj.relationType" value="item" />
+		<string key="obj.id_full" value="item_accessory_68" />
+		<string key="obj.link" value="accessories/68" />
+		<string key="obj.id" value="Webcam USB" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="room_location" value="nan" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<float key="type" value="nan" />
+		<event>
+			<string key="ocel:eid" value="44401" />
+			<date key="time:timestamp" value="2024-03-25T09:25:02+00:00" />
+			<string key="concept:name" value="checkout" />
+			<float key="scene" value="nan" />
+			<float key="end_time" value="nan" />
+			<string key="action_date" value="2024-03-25T09:25:02Z" />
+			<string key="action_source" value="gui" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44402" />
+			<date key="time:timestamp" value="2024-03-25T09:26:58+00:00" />
+			<string key="concept:name" value="accepted" />
+			<float key="scene" value="nan" />
+			<float key="end_time" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<string key="filename" value="accepted-eula-2024-03-25-08-26-58.pdf" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+	</trace>
+</log>

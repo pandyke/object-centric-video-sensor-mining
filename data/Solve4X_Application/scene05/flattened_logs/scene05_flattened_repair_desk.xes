@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="repair_desk" />
+		<string key="ocel:type" value="repair_desk" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="room_location" value="nan" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<string key="type" value="location" />
+		<event>
+			<string key="ocel:eid" value="other, see notes_5d801654-f8fe-4ffe-ba9c-2b8c7ad2e0da" />
+			<date key="time:timestamp" value="2024-03-25T09:24:31+00:00" />
+			<string key="concept:name" value="Carry out repair/Check asset quality/Update asset status in the system/other, see notes" />
+			<string key="scene" value="5" />
+			<string key="end_time" value="2024-03-25T09:24:36.077" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Check asset quality_cb105aa1-bf1a-4e47-ac50-01cfa6054b11" />
+			<date key="time:timestamp" value="2024-03-25T09:26:27+00:00" />
+			<string key="concept:name" value="Carry out repair/Check asset quality/Update asset status in the system/other, see notes" />
+			<string key="scene" value="5" />
+			<string key="end_time" value="2024-03-25T09:26:52.165" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Update asset status in the system_b09526ab-3021-4fbf-a5ca-27935e8eb8ee" />
+			<date key="time:timestamp" value="2024-03-25T09:27:02+00:00" />
+			<string key="concept:name" value="Carry out repair/Check asset quality/Update asset status in the system/other, see notes" />
+			<string key="scene" value="5" />
+			<string key="end_time" value="2024-03-25T09:27:14.238" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="filename" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="humidity_change_percent" value="nan" />
+		</event>
+	</trace>
+</log>
