@@ -1,0 +1,109 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:object-types": [
+      "item_asset",
+      "admin_user",
+      "item_accessory"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "44401": {
+      "ocel:activity": "checkout",
+      "ocel:timestamp": "2024-03-25T09:25:02Z",
+      "ocel:vmap": {
+        "action_date": "2024-03-25T09:25:02Z",
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "C4",
+        "Webcam USB"
+      ]
+    },
+    "44402": {
+      "ocel:activity": "accepted",
+      "ocel:timestamp": "2024-03-25T09:26:58Z",
+      "ocel:vmap": {
+        "filename": "accepted-eula-2024-03-25-08-26-58.pdf"
+      },
+      "ocel:omap": [
+        "Webcam USB",
+        "C4"
+      ]
+    },
+    "44403": {
+      "ocel:activity": "update",
+      "ocel:timestamp": "2024-03-25T09:27:13Z",
+      "ocel:vmap": {
+        "log_meta": "{\"status_id\":{\"old\":13,\"new\":\"11\"}}",
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "A1",
+        "L1"
+      ]
+    }
+  },
+  "ocel:objects": {
+    "A1": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {
+        "email": "admin1@fim-rc.de",
+        "first_name": "Admin 1",
+        "obj.type": "admin_user",
+        "obj.relationType": "admin",
+        "obj.id_full": "admin_user_4",
+        "obj.link": "users/4",
+        "obj.id": "A1"
+      }
+    },
+    "L1": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {
+        "obj.type": "item_asset",
+        "obj.relationType": "item",
+        "obj.id_full": "item_asset_6030",
+        "obj.link": "hardware/6030",
+        "obj.id": "L1",
+        "name": "tintenklecks",
+        "asset_tag": "L1",
+        "physical": "1",
+        "last_checkout": "2024-03-25T17:19:16Z",
+        "last_checkin": "2024-03-25T17:11:18Z",
+        "checkin_counter": "5",
+        "checkout_counter": "6",
+        "model.name": "Latitude E7450",
+        "model.manufacturer.name": "Dell"
+      }
+    },
+    "Webcam USB": {
+      "ocel:type": "item_accessory",
+      "ocel:ovmap": {
+        "obj.type": "item_accessory",
+        "obj.relationType": "item",
+        "obj.id_full": "item_accessory_68",
+        "obj.link": "accessories/68",
+        "obj.id": "Webcam USB"
+      }
+    },
+    "C4": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {
+        "email": "client4@fim-rc.de",
+        "first_name": "Client 4",
+        "obj.type": "admin_user",
+        "obj.relationType": "admin",
+        "obj.id_full": "admin_user_1095",
+        "obj.link": "users/1095",
+        "obj.id": "C4"
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+time,reed_switch,reed_switch_state
+2024-03-25 09:26:11.186815,reed_switch_door,reed_switch_opened
+2024-03-25 09:26:16.093914,reed_switch_door,reed_switch_closed
+2024-03-25 09:26:25.514468,reed_switch_door,reed_switch_opened
+2024-03-25 09:26:29.924300,reed_switch_door,reed_switch_closed

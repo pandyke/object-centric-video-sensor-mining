@@ -1,0 +1,1258 @@
+{
+  "objectTypes": [
+    {
+      "name": "admin_user",
+      "attributes": [
+        {
+          "name": "email",
+          "type": "string"
+        },
+        {
+          "name": "first_name",
+          "type": "string"
+        },
+        {
+          "name": "obj.type",
+          "type": "string"
+        },
+        {
+          "name": "obj.relationType",
+          "type": "string"
+        },
+        {
+          "name": "obj.id_full",
+          "type": "string"
+        },
+        {
+          "name": "obj.link",
+          "type": "string"
+        },
+        {
+          "name": "obj.id",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "distance_sensor_laptop_shelf",
+      "attributes": [
+        {
+          "name": "location",
+          "type": "string"
+        },
+        {
+          "name": "microcontroller model",
+          "type": "string"
+        },
+        {
+          "name": "sensor model",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "door",
+      "attributes": [
+        {
+          "name": "room_location",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "item_accessory",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "type": "string"
+        },
+        {
+          "name": "obj.relationType",
+          "type": "string"
+        },
+        {
+          "name": "obj.id_full",
+          "type": "string"
+        },
+        {
+          "name": "obj.link",
+          "type": "string"
+        },
+        {
+          "name": "obj.id",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "item_asset",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "type": "string"
+        },
+        {
+          "name": "obj.relationType",
+          "type": "string"
+        },
+        {
+          "name": "obj.id_full",
+          "type": "string"
+        },
+        {
+          "name": "obj.link",
+          "type": "string"
+        },
+        {
+          "name": "obj.id",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "asset_tag",
+          "type": "string"
+        },
+        {
+          "name": "physical",
+          "type": "string"
+        },
+        {
+          "name": "last_checkout",
+          "type": "string"
+        },
+        {
+          "name": "last_checkin",
+          "type": "string"
+        },
+        {
+          "name": "checkin_counter",
+          "type": "string"
+        },
+        {
+          "name": "checkout_counter",
+          "type": "string"
+        },
+        {
+          "name": "model.name",
+          "type": "string"
+        },
+        {
+          "name": "model.manufacturer.name",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "laptop_shelf",
+      "attributes": [
+        {
+          "name": "room_location",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "reed_switch_door",
+      "attributes": [
+        {
+          "name": "location",
+          "type": "string"
+        },
+        {
+          "name": "microcontroller model",
+          "type": "string"
+        },
+        {
+          "name": "sensor model",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "repair_desk",
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "self_service_storage",
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "temp_hum_sensor_window",
+      "attributes": [
+        {
+          "name": "location",
+          "type": "string"
+        },
+        {
+          "name": "microcontroller model",
+          "type": "string"
+        },
+        {
+          "name": "sensor model",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "window",
+      "attributes": [
+        {
+          "name": "room_location",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "eventTypes": [
+    {
+      "name": "Carry out repair",
+      "attributes": [
+        {
+          "name": "scene",
+          "type": "string"
+        },
+        {
+          "name": "end_time",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Chat",
+      "attributes": [
+        {
+          "name": "scene",
+          "type": "string"
+        },
+        {
+          "name": "end_time",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Check asset quality",
+      "attributes": [
+        {
+          "name": "scene",
+          "type": "string"
+        },
+        {
+          "name": "end_time",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Enter room",
+      "attributes": [
+        {
+          "name": "scene",
+          "type": "string"
+        },
+        {
+          "name": "end_time",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Leave room",
+      "attributes": [
+        {
+          "name": "scene",
+          "type": "string"
+        },
+        {
+          "name": "end_time",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Move asset to storage",
+      "attributes": [
+        {
+          "name": "scene",
+          "type": "string"
+        },
+        {
+          "name": "end_time",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Open window",
+      "attributes": [
+        {
+          "name": "scene",
+          "type": "string"
+        },
+        {
+          "name": "end_time",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Pick asset from self service desk",
+      "attributes": [
+        {
+          "name": "scene",
+          "type": "string"
+        },
+        {
+          "name": "end_time",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Update asset status in the system",
+      "attributes": [
+        {
+          "name": "scene",
+          "type": "string"
+        },
+        {
+          "name": "end_time",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "accepted",
+      "attributes": [
+        {
+          "name": "filename",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "checkout",
+      "attributes": [
+        {
+          "name": "action_date",
+          "type": "string"
+        },
+        {
+          "name": "action_source",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "laptop_shelf_laptop_added",
+      "attributes": [
+        {
+          "name": "scene",
+          "type": "string"
+        },
+        {
+          "name": "distance_change_cm",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "laptop_shelf_laptop_removed",
+      "attributes": [
+        {
+          "name": "scene",
+          "type": "string"
+        },
+        {
+          "name": "distance_change_cm",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "other, see notes",
+      "attributes": [
+        {
+          "name": "scene",
+          "type": "string"
+        },
+        {
+          "name": "end_time",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "reed_switch_door_closed",
+      "attributes": [
+        {
+          "name": "scene",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "reed_switch_door_opened",
+      "attributes": [
+        {
+          "name": "scene",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "room_humidity_dropped",
+      "attributes": [
+        {
+          "name": "scene",
+          "type": "string"
+        },
+        {
+          "name": "humidity_change_percent",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "update",
+      "attributes": [
+        {
+          "name": "action_source",
+          "type": "string"
+        },
+        {
+          "name": "log_meta",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "A1",
+      "type": "admin_user",
+      "attributes": [
+        {
+          "name": "email",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin1@fim-rc.de"
+        },
+        {
+          "name": "first_name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Admin 1"
+        },
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin_user"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin_user_4"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "users/4"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "A1"
+        }
+      ]
+    },
+    {
+      "id": "L1",
+      "type": "item_asset",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset_6030"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "hardware/6030"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "L1"
+        },
+        {
+          "name": "name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "tintenklecks"
+        },
+        {
+          "name": "asset_tag",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "L1"
+        },
+        {
+          "name": "physical",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "1"
+        },
+        {
+          "name": "last_checkout",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2024-03-25T17:19:16Z"
+        },
+        {
+          "name": "last_checkin",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2024-03-25T17:11:18Z"
+        },
+        {
+          "name": "checkin_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "5"
+        },
+        {
+          "name": "checkout_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "6"
+        },
+        {
+          "name": "model.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Latitude E7450"
+        },
+        {
+          "name": "model.manufacturer.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Dell"
+        }
+      ]
+    },
+    {
+      "id": "Webcam USB",
+      "type": "item_accessory",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_accessory"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_accessory_68"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "accessories/68"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Webcam USB"
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "admin_user",
+      "attributes": [
+        {
+          "name": "email",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "client4@fim-rc.de"
+        },
+        {
+          "name": "first_name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Client 4"
+        },
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin_user"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin_user_1095"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "users/1095"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "C4"
+        }
+      ]
+    },
+    {
+      "id": "door",
+      "type": "door",
+      "attributes": [
+        {
+          "name": "room_location",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "self service area"
+        }
+      ]
+    },
+    {
+      "id": "laptop_shelf",
+      "type": "laptop_shelf",
+      "attributes": [
+        {
+          "name": "room_location",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "warehouse area"
+        }
+      ]
+    },
+    {
+      "id": "distance_sensor_laptop_shelf",
+      "type": "distance_sensor_laptop_shelf",
+      "attributes": [
+        {
+          "name": "location",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "laptop shelf"
+        },
+        {
+          "name": "microcontroller model",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Raspberry Pi 3B+"
+        },
+        {
+          "name": "sensor model",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "HC-SR04 Ultrasonic Sensor"
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door",
+      "type": "reed_switch_door",
+      "attributes": [
+        {
+          "name": "location",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "door"
+        },
+        {
+          "name": "microcontroller model",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Raspberry Pi 3B+"
+        },
+        {
+          "name": "sensor model",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "reed switch"
+        }
+      ]
+    },
+    {
+      "id": "temp_hum_sensor_window",
+      "type": "temp_hum_sensor_window",
+      "attributes": [
+        {
+          "name": "location",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "window"
+        },
+        {
+          "name": "microcontroller model",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Raspberry Pi 3B+"
+        },
+        {
+          "name": "sensor model",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "DHT11 temperature and humidity sensor"
+        }
+      ]
+    },
+    {
+      "id": "window",
+      "type": "window",
+      "attributes": [
+        {
+          "name": "room_location",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "issue area"
+        }
+      ]
+    },
+    {
+      "id": "self_service_storage",
+      "type": "self_service_storage",
+      "attributes": [
+        {
+          "name": "type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "location"
+        }
+      ]
+    },
+    {
+      "id": "repair_desk",
+      "type": "repair_desk",
+      "attributes": [
+        {
+          "name": "type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "location"
+        }
+      ]
+    },
+    {
+      "id": "K3",
+      "type": "item_asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "Open window_3c428351-b6ec-477b-b69c-b394194149ed",
+      "type": "Open window",
+      "time": "2024-03-25T09:24:18Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        },
+        {
+          "name": "end_time",
+          "value": "2024-03-25T09:24:25.216"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": null
+        },
+        {
+          "objectId": "window",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "other, see notes_5d801654-f8fe-4ffe-ba9c-2b8c7ad2e0da",
+      "type": "other, see notes",
+      "time": "2024-03-25T09:24:31Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        },
+        {
+          "name": "end_time",
+          "value": "2024-03-25T09:24:36.077"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": null
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "Carry out repair_f4e4a6a2-51b9-4aa3-a26e-cb57f3d9a11e",
+      "type": "Carry out repair",
+      "time": "2024-03-25T09:24:38Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        },
+        {
+          "name": "end_time",
+          "value": "2024-03-25T09:26:27.940"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "L1",
+          "qualifier": null
+        },
+        {
+          "objectId": "A1",
+          "qualifier": null
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "44401",
+      "type": "checkout",
+      "time": "2024-03-25T09:25:02Z",
+      "attributes": [
+        {
+          "name": "action_date",
+          "value": "2024-03-25T09:25:02Z"
+        },
+        {
+          "name": "action_source",
+          "value": "gui"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C4",
+          "qualifier": null
+        },
+        {
+          "objectId": "Webcam USB",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "Enter room_d953c051-bc69-40ee-98e0-4813611ea1d3",
+      "type": "Enter room",
+      "time": "2024-03-25T09:26:10Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        },
+        {
+          "name": "end_time",
+          "value": "2024-03-25T09:26:16.496"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C4",
+          "qualifier": null
+        },
+        {
+          "objectId": "door",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_opened_1ec21cc3-a7b5-4672-88dc-2d4dc6ab4d35",
+      "type": "reed_switch_door_opened",
+      "time": "2024-03-25T09:26:11Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_door",
+          "qualifier": null
+        },
+        {
+          "objectId": "door",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_closed_10f22b48-e61b-4bc8-9a5c-57ca95e35833",
+      "type": "reed_switch_door_closed",
+      "time": "2024-03-25T09:26:16Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_door",
+          "qualifier": null
+        },
+        {
+          "objectId": "door",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "Chat_cb09fd36-3a3a-4dbd-b3fe-58ef601dfef2",
+      "type": "Chat",
+      "time": "2024-03-25T09:26:16Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        },
+        {
+          "name": "end_time",
+          "value": "2024-03-25T09:26:19.155"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": null
+        },
+        {
+          "objectId": "C4",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from self service desk_1e5f3504-d367-4a8b-b81d-970c4139be7d",
+      "type": "Pick asset from self service desk",
+      "time": "2024-03-25T09:26:17Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        },
+        {
+          "name": "end_time",
+          "value": "2024-03-25T09:26:17.417"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "K3",
+          "qualifier": null
+        },
+        {
+          "objectId": "C4",
+          "qualifier": null
+        },
+        {
+          "objectId": "self_service_storage",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "Leave room_cc8d5904-c2b4-4106-8e65-d38d3dd5d1ff",
+      "type": "Leave room",
+      "time": "2024-03-25T09:26:23Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        },
+        {
+          "name": "end_time",
+          "value": "2024-03-25T09:26:29.508"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C4",
+          "qualifier": null
+        },
+        {
+          "objectId": "door",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_opened_89dd0e6d-3b0e-40c4-b9c1-cca35ca757a9",
+      "type": "reed_switch_door_opened",
+      "time": "2024-03-25T09:26:25Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_door",
+          "qualifier": null
+        },
+        {
+          "objectId": "door",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "Check asset quality_cb105aa1-bf1a-4e47-ac50-01cfa6054b11",
+      "type": "Check asset quality",
+      "time": "2024-03-25T09:26:27Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        },
+        {
+          "name": "end_time",
+          "value": "2024-03-25T09:26:52.165"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "L1",
+          "qualifier": null
+        },
+        {
+          "objectId": "A1",
+          "qualifier": null
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_closed_0d2cf792-fa92-4e67-828f-d5363962e96d",
+      "type": "reed_switch_door_closed",
+      "time": "2024-03-25T09:26:29Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_door",
+          "qualifier": null
+        },
+        {
+          "objectId": "door",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "44402",
+      "type": "accepted",
+      "time": "2024-03-25T09:26:58Z",
+      "attributes": [
+        {
+          "name": "filename",
+          "value": "accepted-eula-2024-03-25-08-26-58.pdf"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "Webcam USB",
+          "qualifier": null
+        },
+        {
+          "objectId": "C4",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "Update asset status in the system_b09526ab-3021-4fbf-a5ca-27935e8eb8ee",
+      "type": "Update asset status in the system",
+      "time": "2024-03-25T09:27:02Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        },
+        {
+          "name": "end_time",
+          "value": "2024-03-25T09:27:14.238"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "L1",
+          "qualifier": null
+        },
+        {
+          "objectId": "A1",
+          "qualifier": null
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "44403",
+      "type": "update",
+      "time": "2024-03-25T09:27:13Z",
+      "attributes": [
+        {
+          "name": "action_source",
+          "value": "gui"
+        },
+        {
+          "name": "log_meta",
+          "value": "{\"status_id\":{\"old\":13,\"new\":\"11\"}}"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": null
+        },
+        {
+          "objectId": "L1",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "Move asset to storage_809104e9-7ce7-45da-802a-fbbf13e10918",
+      "type": "Move asset to storage",
+      "time": "2024-03-25T09:27:15Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        },
+        {
+          "name": "end_time",
+          "value": "2024-03-25T09:27:22.475"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "L1",
+          "qualifier": null
+        },
+        {
+          "objectId": "A1",
+          "qualifier": null
+        },
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "laptop_shelf_laptop_added_902d55d7-5d9e-4c1a-b505-0b485be2d5b0",
+      "type": "laptop_shelf_laptop_added",
+      "time": "2024-03-25T09:27:20Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        },
+        {
+          "name": "distance_change_cm",
+          "value": "-4.49"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "distance_sensor_laptop_shelf",
+          "qualifier": null
+        },
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "laptop_shelf_laptop_removed_1a40a545-bca4-423e-81ae-ebb338f8ea41",
+      "type": "laptop_shelf_laptop_removed",
+      "time": "2024-03-25T09:27:22Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        },
+        {
+          "name": "distance_change_cm",
+          "value": "+2.82"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "distance_sensor_laptop_shelf",
+          "qualifier": null
+        },
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "room_humidity_dropped_ac810adb-208d-4551-a3cd-d0a24e8b4d49",
+      "type": "room_humidity_dropped",
+      "time": "2024-03-25T09:27:31Z",
+      "attributes": [
+        {
+          "name": "scene",
+          "value": "5"
+        },
+        {
+          "name": "humidity_change_percent",
+          "value": "-3.0"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "temp_hum_sensor_window",
+          "qualifier": null
+        },
+        {
+          "objectId": "window",
+          "qualifier": null
+        }
+      ]
+    }
+  ]
+}

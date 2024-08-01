@@ -1,0 +1,381 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:object-types": [
+      "laptop_shelf",
+      "item_asset",
+      "distance_sensor_laptop_shelf",
+      "repair_desk",
+      "target_user",
+      "window",
+      "admin_user",
+      "item_accessory",
+      "reed_switch_door",
+      "temp_hum_sensor_window",
+      "self_service_storage",
+      "door"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "Open window_3c428351-b6ec-477b-b69c-b394194149ed": {
+      "ocel:timestamp": "2024-03-25T09:24:18.350",
+      "ocel:activity": "Open window",
+      "ocel:omap": [
+        "A1",
+        "window"
+      ],
+      "ocel:vmap": {
+        "scene": "5",
+        "end_time": "2024-03-25T09:24:25.216"
+      }
+    },
+    "other, see notes_5d801654-f8fe-4ffe-ba9c-2b8c7ad2e0da": {
+      "ocel:timestamp": "2024-03-25T09:24:31.990",
+      "ocel:activity": "other, see notes",
+      "ocel:omap": [
+        "A1",
+        "repair_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "5",
+        "end_time": "2024-03-25T09:24:36.077"
+      }
+    },
+    "Carry out repair_f4e4a6a2-51b9-4aa3-a26e-cb57f3d9a11e": {
+      "ocel:timestamp": "2024-03-25T09:24:38.892",
+      "ocel:activity": "Carry out repair",
+      "ocel:omap": [
+        "L1",
+        "A1",
+        "repair_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "5",
+        "end_time": "2024-03-25T09:26:27.940"
+      }
+    },
+    "44401": {
+      "ocel:activity": "checkout",
+      "ocel:timestamp": "2024-03-25T09:25:02Z",
+      "ocel:vmap": {
+        "action_date": "2024-03-25T09:25:02Z",
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "C4",
+        "Webcam USB"
+      ]
+    },
+    "Enter room_d953c051-bc69-40ee-98e0-4813611ea1d3": {
+      "ocel:timestamp": "2024-03-25T09:26:10.000",
+      "ocel:activity": "Enter room",
+      "ocel:omap": [
+        "C4",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "5",
+        "end_time": "2024-03-25T09:26:16.496"
+      }
+    },
+    "reed_switch_door_opened_1ec21cc3-a7b5-4672-88dc-2d4dc6ab4d35": {
+      "ocel:timestamp": "2024-03-25T09:26:11.186815",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "5"
+      }
+    },
+    "reed_switch_door_closed_10f22b48-e61b-4bc8-9a5c-57ca95e35833": {
+      "ocel:timestamp": "2024-03-25T09:26:16.093914",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "5"
+      }
+    },
+    "Chat_cb09fd36-3a3a-4dbd-b3fe-58ef601dfef2": {
+      "ocel:timestamp": "2024-03-25T09:26:16.597",
+      "ocel:activity": "Chat",
+      "ocel:omap": [
+        "A1",
+        "C4"
+      ],
+      "ocel:vmap": {
+        "scene": "5",
+        "end_time": "2024-03-25T09:26:19.155"
+      }
+    },
+    "Pick asset from self service desk_1e5f3504-d367-4a8b-b81d-970c4139be7d": {
+      "ocel:timestamp": "2024-03-25T09:26:17.417",
+      "ocel:activity": "Pick asset from self service desk",
+      "ocel:omap": [
+        "K3",
+        "C4",
+        "self_service_storage"
+      ],
+      "ocel:vmap": {
+        "scene": "5",
+        "end_time": "2024-03-25T09:26:17.417"
+      }
+    },
+    "Leave room_cc8d5904-c2b4-4106-8e65-d38d3dd5d1ff": {
+      "ocel:timestamp": "2024-03-25T09:26:23.937",
+      "ocel:activity": "Leave room",
+      "ocel:omap": [
+        "C4",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "5",
+        "end_time": "2024-03-25T09:26:29.508"
+      }
+    },
+    "reed_switch_door_opened_89dd0e6d-3b0e-40c4-b9c1-cca35ca757a9": {
+      "ocel:timestamp": "2024-03-25T09:26:25.514468",
+      "ocel:activity": "reed_switch_door_opened",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "5"
+      }
+    },
+    "Check asset quality_cb105aa1-bf1a-4e47-ac50-01cfa6054b11": {
+      "ocel:timestamp": "2024-03-25T09:26:27.940",
+      "ocel:activity": "Check asset quality",
+      "ocel:omap": [
+        "L1",
+        "A1",
+        "repair_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "5",
+        "end_time": "2024-03-25T09:26:52.165"
+      }
+    },
+    "reed_switch_door_closed_0d2cf792-fa92-4e67-828f-d5363962e96d": {
+      "ocel:timestamp": "2024-03-25T09:26:29.924300",
+      "ocel:activity": "reed_switch_door_closed",
+      "ocel:omap": [
+        "reed_switch_door",
+        "door"
+      ],
+      "ocel:vmap": {
+        "scene": "5"
+      }
+    },
+    "44402": {
+      "ocel:activity": "accepted",
+      "ocel:timestamp": "2024-03-25T09:26:58Z",
+      "ocel:vmap": {
+        "filename": "accepted-eula-2024-03-25-08-26-58.pdf"
+      },
+      "ocel:omap": [
+        "Webcam USB",
+        "C4"
+      ]
+    },
+    "Update asset status in the system_b09526ab-3021-4fbf-a5ca-27935e8eb8ee": {
+      "ocel:timestamp": "2024-03-25T09:27:02.837",
+      "ocel:activity": "Update asset status in the system",
+      "ocel:omap": [
+        "L1",
+        "A1",
+        "repair_desk"
+      ],
+      "ocel:vmap": {
+        "scene": "5",
+        "end_time": "2024-03-25T09:27:14.238"
+      }
+    },
+    "44403": {
+      "ocel:activity": "update",
+      "ocel:timestamp": "2024-03-25T09:27:13Z",
+      "ocel:vmap": {
+        "log_meta": "{\"status_id\":{\"old\":13,\"new\":\"11\"}}",
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "A1",
+        "L1"
+      ]
+    },
+    "Move asset to storage_809104e9-7ce7-45da-802a-fbbf13e10918": {
+      "ocel:timestamp": "2024-03-25T09:27:15.677",
+      "ocel:activity": "Move asset to storage",
+      "ocel:omap": [
+        "L1",
+        "A1",
+        "laptop_shelf"
+      ],
+      "ocel:vmap": {
+        "scene": "5",
+        "end_time": "2024-03-25T09:27:22.475"
+      }
+    },
+    "laptop_shelf_laptop_added_902d55d7-5d9e-4c1a-b505-0b485be2d5b0": {
+      "ocel:timestamp": "2024-03-25T09:27:20.987587",
+      "ocel:activity": "laptop_shelf_laptop_added",
+      "ocel:omap": [
+        "distance_sensor_laptop_shelf",
+        "laptop_shelf"
+      ],
+      "ocel:vmap": {
+        "scene": "5",
+        "distance_change_cm": "-4.49"
+      }
+    },
+    "laptop_shelf_laptop_removed_1a40a545-bca4-423e-81ae-ebb338f8ea41": {
+      "ocel:timestamp": "2024-03-25T09:27:22.705832",
+      "ocel:activity": "laptop_shelf_laptop_removed",
+      "ocel:omap": [
+        "distance_sensor_laptop_shelf",
+        "laptop_shelf"
+      ],
+      "ocel:vmap": {
+        "scene": "5",
+        "distance_change_cm": "+2.82"
+      }
+    },
+    "room_humidity_dropped_ac810adb-208d-4551-a3cd-d0a24e8b4d49": {
+      "ocel:timestamp": "2024-03-25T09:27:31.022556",
+      "ocel:activity": "room_humidity_dropped",
+      "ocel:omap": [
+        "temp_hum_sensor_window",
+        "window"
+      ],
+      "ocel:vmap": {
+        "scene": "5",
+        "humidity_change_percent": "-3.0"
+      }
+    }
+  },
+  "ocel:objects": {
+    "A1": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {
+        "email": "admin1@fim-rc.de",
+        "first_name": "Admin 1",
+        "obj.type": "admin_user",
+        "obj.relationType": "admin",
+        "obj.id_full": "admin_user_4",
+        "obj.link": "users/4",
+        "obj.id": "A1"
+      }
+    },
+    "L1": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {
+        "obj.type": "item_asset",
+        "obj.relationType": "item",
+        "obj.id_full": "item_asset_6030",
+        "obj.link": "hardware/6030",
+        "obj.id": "L1",
+        "name": "tintenklecks",
+        "asset_tag": "L1",
+        "physical": "1",
+        "last_checkout": "2024-03-25T17:19:16Z",
+        "last_checkin": "2024-03-25T17:11:18Z",
+        "checkin_counter": "5",
+        "checkout_counter": "6",
+        "model.name": "Latitude E7450",
+        "model.manufacturer.name": "Dell"
+      }
+    },
+    "Webcam USB": {
+      "ocel:type": "item_accessory",
+      "ocel:ovmap": {
+        "obj.type": "item_accessory",
+        "obj.relationType": "item",
+        "obj.id_full": "item_accessory_68",
+        "obj.link": "accessories/68",
+        "obj.id": "Webcam USB"
+      }
+    },
+    "C4": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {
+        "email": "client4@fim-rc.de",
+        "first_name": "Client 4",
+        "obj.type": "admin_user",
+        "obj.relationType": "admin",
+        "obj.id_full": "admin_user_1095",
+        "obj.link": "users/1095",
+        "obj.id": "C4"
+      }
+    },
+    "door": {
+      "ocel:type": "door",
+      "ocel:ovmap": {
+        "room_location": "self service area"
+      }
+    },
+    "laptop_shelf": {
+      "ocel:type": "laptop_shelf",
+      "ocel:ovmap": {
+        "room_location": "warehouse area"
+      }
+    },
+    "distance_sensor_laptop_shelf": {
+      "ocel:type": "distance_sensor_laptop_shelf",
+      "ocel:ovmap": {
+        "location": "laptop shelf",
+        "microcontroller model": "Raspberry Pi 3B+",
+        "sensor model": "HC-SR04 Ultrasonic Sensor"
+      }
+    },
+    "reed_switch_door": {
+      "ocel:type": "reed_switch_door",
+      "ocel:ovmap": {
+        "location": "door",
+        "microcontroller model": "Raspberry Pi 3B+",
+        "sensor model": "reed switch"
+      }
+    },
+    "temp_hum_sensor_window": {
+      "ocel:type": "temp_hum_sensor_window",
+      "ocel:ovmap": {
+        "location": "window",
+        "microcontroller model": "Raspberry Pi 3B+",
+        "sensor model": "DHT11 temperature and humidity sensor"
+      }
+    },
+    "window": {
+      "ocel:type": "window",
+      "ocel:ovmap": {
+        "room_location": "issue area"
+      }
+    },
+    "self_service_storage": {
+      "ocel:type": "self_service_storage",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
+    "repair_desk": {
+      "ocel:type": "repair_desk",
+      "ocel:ovmap": {
+        "type": "location"
+      }
+    },
+    "K3": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {}
+    }
+  }
+}
