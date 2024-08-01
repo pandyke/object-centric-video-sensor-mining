@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="repair_desk" />
+		<string key="ocel:type" value="repair_desk" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_5eccb0c5-8f7d-41a9-bf7a-6db3a5565eca" />
+			<date key="time:timestamp" value="2024-03-25T09:20:07+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene04" />
+			<float key="sensor_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_e097efc0-3ab5-4ed6-8d4e-400dfd0429e8" />
+			<date key="time:timestamp" value="2024-03-25T09:20:17+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene04" />
+			<float key="sensor_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_f7a2e12f-8804-4560-8b7c-efd8a73e22d8" />
+			<date key="time:timestamp" value="2024-03-25T09:20:57+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene04" />
+			<float key="sensor_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_6f141f86-619f-4630-ba34-ad2ca547a162" />
+			<date key="time:timestamp" value="2024-03-25T09:21:27+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene04" />
+			<float key="sensor_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset_c541a3bd-7b91-4042-90b2-14726fcea776" />
+			<date key="time:timestamp" value="2024-03-25T09:21:35+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Label asset" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene04" />
+			<float key="sensor_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+	</trace>
+</log>

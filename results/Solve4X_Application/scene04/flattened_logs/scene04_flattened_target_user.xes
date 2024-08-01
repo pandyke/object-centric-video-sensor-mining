@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="C2" />
+		<string key="ocel:type" value="target_user" />
+		<string key="email" value="client2@fim-rc.de" />
+		<string key="first_name" value="Client 2" />
+		<string key="obj.type" value="target_user" />
+		<string key="obj.relationType" value="target" />
+		<string key="obj.id_full" value="target_user_1052" />
+		<string key="obj.link" value="users/1052" />
+		<string key="obj.id" value="C2" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Enter room/Leave room_b61dd716-14ce-4846-84e5-d489c54e4528" />
+			<date key="time:timestamp" value="2024-03-25T09:22:16+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene04" />
+			<float key="sensor_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Handover asset to admin_01339ecb-8775-4a39-8d87-3a7458b6edfa" />
+			<date key="time:timestamp" value="2024-03-25T09:22:16+00:00" />
+			<string key="concept:name" value="Handover asset to admin" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene04" />
+			<float key="sensor_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Handover asset to admin_7ede6c3d-d268-4623-87ff-e35cc61631a8" />
+			<date key="time:timestamp" value="2024-03-25T09:22:18+00:00" />
+			<string key="concept:name" value="Handover asset to admin" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene04" />
+			<float key="sensor_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="44400" />
+			<date key="time:timestamp" value="2024-03-25T09:23:00+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<string key="log_meta" value='{"location_id":{"old":null,"new":1490}}' />
+			<string key="action_date" value="2024-03-25T09:23:00Z" />
+			<string key="action_source" value="gui" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Enter room/Leave room_7f83d2f5-e786-499e-ab3a-587fa516734f" />
+			<date key="time:timestamp" value="2024-03-25T09:23:06+00:00" />
+			<string key="concept:name" value="Enter room/Leave room" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene04" />
+			<float key="sensor_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Handover asset to admin_14daa057-16ec-4c83-9cc7-c98993963469" />
+			<date key="time:timestamp" value="2024-03-25T09:23:06+00:00" />
+			<string key="concept:name" value="Handover asset to admin" />
+			<string key="event_source" value="video" />
+			<string key="event_source_file" value="scene04" />
+			<float key="sensor_value" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="action_source" value="nan" />
+		</event>
+	</trace>
+</log>

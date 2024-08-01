@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="M1" />
+		<string key="ocel:type" value="item_asset" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<string key="obj.type" value="item_asset" />
+		<string key="obj.relationType" value="item" />
+		<string key="obj.id_full" value="item_asset_6278" />
+		<string key="obj.link" value="hardware/6278" />
+		<string key="obj.id" value="M1" />
+		<string key="asset_tag" value="M1" />
+		<string key="physical" value="1" />
+		<string key="last_checkin" value="2024-03-25T17:29:05Z" />
+		<string key="checkin_counter" value="4" />
+		<string key="checkout_counter" value="4" />
+		<string key="model.name" value='Fujitsu 24"' />
+		<string key="model.manufacturer.name" value="Fujitsu" />
+		<event>
+			<string key="ocel:eid" value="44400" />
+			<date key="time:timestamp" value="2024-03-25T09:23:00+00:00" />
+			<string key="concept:name" value="checkin from" />
+			<float key="event_source" value="nan" />
+			<float key="event_source_file" value="nan" />
+			<float key="sensor_value" value="nan" />
+			<string key="log_meta" value='{"location_id":{"old":null,"new":1490}}' />
+			<string key="action_date" value="2024-03-25T09:23:00Z" />
+			<string key="action_source" value="gui" />
+		</event>
+	</trace>
+</log>
