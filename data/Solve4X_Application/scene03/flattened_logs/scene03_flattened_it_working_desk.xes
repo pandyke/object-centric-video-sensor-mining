@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="it_working_desk" />
+		<string key="ocel:type" value="it_working_desk" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<float key="room_location" value="nan" />
+		<string key="type" value="location" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Create system entry for asset_10335247-1a12-46d8-999f-a33ed53776ab" />
+			<date key="time:timestamp" value="2024-03-25T09:07:35+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user" />
+			<string key="scene" value="3" />
+			<string key="end_time" value="2024-03-25T09:09:17.005" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Check asset quality_0fb86f60-500a-4bbb-a466-940609ae95b2" />
+			<date key="time:timestamp" value="2024-03-25T09:09:54+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user" />
+			<string key="scene" value="3" />
+			<string key="end_time" value="2024-03-25T09:10:24.193" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Check-Out asset to user_f1fd1f8c-2036-497d-adfd-c283101896bb" />
+			<date key="time:timestamp" value="2024-03-25T09:11:58+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user" />
+			<string key="scene" value="3" />
+			<string key="end_time" value="2024-03-25T09:12:28.514" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Handover asset to user_b847f4e9-28bc-4066-8a87-1009a5fbdc36" />
+			<date key="time:timestamp" value="2024-03-25T09:12:32+00:00" />
+			<string key="concept:name" value="Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user" />
+			<string key="scene" value="3" />
+			<string key="end_time" value="2024-03-25T09:12:34.343" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+	</trace>
+</log>

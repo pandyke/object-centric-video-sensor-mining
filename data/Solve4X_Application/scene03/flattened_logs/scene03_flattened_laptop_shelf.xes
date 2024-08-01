@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="laptop_shelf" />
+		<string key="ocel:type" value="laptop_shelf" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<string key="room_location" value="warehouse area" />
+		<float key="type" value="nan" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Pick asset from warehouse_46851491-f479-4c8d-bdb1-7c99b5d0dc35" />
+			<date key="time:timestamp" value="2024-03-25T09:06:13+00:00" />
+			<string key="concept:name" value="Pick asset from warehouse/Move asset to storage" />
+			<string key="scene" value="3" />
+			<string key="end_time" value="2024-03-25T09:06:27.738" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="laptop_shelf_laptop_removed_83d34b59-869d-42f8-8cde-af1c4ff79fc7" />
+			<date key="time:timestamp" value="2024-03-25T09:09:26+00:00" />
+			<string key="concept:name" value="laptop_shelf_laptop_removed" />
+			<string key="scene" value="3" />
+			<float key="end_time" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<string key="distance_change_cm" value="+2.37" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Pick asset from warehouse_7bea230e-4ad4-42a6-8293-4d16e96eafa8" />
+			<date key="time:timestamp" value="2024-03-25T09:11:22+00:00" />
+			<string key="concept:name" value="Pick asset from warehouse/Move asset to storage" />
+			<string key="scene" value="3" />
+			<string key="end_time" value="2024-03-25T09:11:29.590" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="laptop_shelf_laptop_removed_b121494e-a6fc-42e1-b0c1-c9bfb648e193" />
+			<date key="time:timestamp" value="2024-03-25T09:11:29+00:00" />
+			<string key="concept:name" value="laptop_shelf_laptop_removed" />
+			<string key="scene" value="3" />
+			<float key="end_time" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<string key="distance_change_cm" value="+2.08" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Move asset to storage_f6e04c8c-5f25-4b10-b5df-288bc1425baa" />
+			<date key="time:timestamp" value="2024-03-25T09:18:17+00:00" />
+			<string key="concept:name" value="Pick asset from warehouse/Move asset to storage" />
+			<string key="scene" value="3" />
+			<string key="end_time" value="2024-03-25T09:18:44.646" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="laptop_shelf_laptop_added_698e1221-0ecc-4e2c-a825-aa48ca59047e" />
+			<date key="time:timestamp" value="2024-03-25T09:18:43+00:00" />
+			<string key="concept:name" value="laptop_shelf_laptop_added" />
+			<string key="scene" value="3" />
+			<float key="end_time" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<string key="distance_change_cm" value="-4.77" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="laptop_shelf_laptop_removed_8f3d9af0-6e99-4765-8ce4-590b7ac033b4" />
+			<date key="time:timestamp" value="2024-03-25T09:18:45+00:00" />
+			<string key="concept:name" value="laptop_shelf_laptop_removed" />
+			<string key="scene" value="3" />
+			<float key="end_time" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<string key="distance_change_cm" value="+3.23" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+	</trace>
+</log>

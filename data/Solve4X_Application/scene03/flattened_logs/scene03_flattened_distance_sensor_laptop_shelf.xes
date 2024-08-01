@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="distance_sensor_laptop_shelf" />
+		<string key="ocel:type" value="distance_sensor_laptop_shelf" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<float key="room_location" value="nan" />
+		<float key="type" value="nan" />
+		<string key="location" value="laptop shelf" />
+		<string key="microcontroller model" value="Raspberry Pi 3B+" />
+		<string key="sensor model" value="HC-SR04 Ultrasonic Sensor" />
+		<event>
+			<string key="ocel:eid" value="laptop_shelf_laptop_removed_83d34b59-869d-42f8-8cde-af1c4ff79fc7" />
+			<date key="time:timestamp" value="2024-03-25T09:09:26+00:00" />
+			<string key="concept:name" value="laptop_shelf_laptop_removed" />
+			<string key="scene" value="3" />
+			<float key="end_time" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<string key="distance_change_cm" value="+2.37" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="laptop_shelf_laptop_removed_b121494e-a6fc-42e1-b0c1-c9bfb648e193" />
+			<date key="time:timestamp" value="2024-03-25T09:11:29+00:00" />
+			<string key="concept:name" value="laptop_shelf_laptop_removed" />
+			<string key="scene" value="3" />
+			<float key="end_time" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<string key="distance_change_cm" value="+2.08" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="laptop_shelf_laptop_added_698e1221-0ecc-4e2c-a825-aa48ca59047e" />
+			<date key="time:timestamp" value="2024-03-25T09:18:43+00:00" />
+			<string key="concept:name" value="laptop_shelf_laptop_added" />
+			<string key="scene" value="3" />
+			<float key="end_time" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<string key="distance_change_cm" value="-4.77" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="laptop_shelf_laptop_removed_8f3d9af0-6e99-4765-8ce4-590b7ac033b4" />
+			<date key="time:timestamp" value="2024-03-25T09:18:45+00:00" />
+			<string key="concept:name" value="laptop_shelf_laptop_removed" />
+			<string key="scene" value="3" />
+			<float key="end_time" value="nan" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<string key="distance_change_cm" value="+3.23" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+	</trace>
+</log>

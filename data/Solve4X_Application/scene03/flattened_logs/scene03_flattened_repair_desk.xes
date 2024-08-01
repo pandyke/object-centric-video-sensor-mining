@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="repair_desk" />
+		<string key="ocel:type" value="repair_desk" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<float key="obj.type" value="nan" />
+		<float key="obj.relationType" value="nan" />
+		<float key="obj.id_full" value="nan" />
+		<float key="obj.link" value="nan" />
+		<float key="obj.id" value="nan" />
+		<float key="name" value="nan" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkout" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="requestable" value="nan" />
+		<float key="room_location" value="nan" />
+		<string key="type" value="location" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<event>
+			<string key="ocel:eid" value="Unpack asset_b4dd413e-35fd-4d69-bbd7-85465768dde8" />
+			<date key="time:timestamp" value="2024-03-25T09:06:46+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="scene" value="3" />
+			<string key="end_time" value="2024-03-25T09:06:52.058" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Install and configure asset_992de79e-77b6-4683-b6a5-c82b920158fa" />
+			<date key="time:timestamp" value="2024-03-25T09:09:21+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="scene" value="3" />
+			<string key="end_time" value="2024-03-25T09:09:45.179" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Move asset to repair desk_7ac1a7af-0ef1-48aa-99da-9f6f6fa97d1e" />
+			<date key="time:timestamp" value="2024-03-25T09:11:15+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="scene" value="3" />
+			<string key="end_time" value="2024-03-25T09:11:21.338" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Install and configure asset_54bbfdd6-52cb-46e4-83fe-e78606f03336" />
+			<date key="time:timestamp" value="2024-03-25T09:13:02+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="scene" value="3" />
+			<string key="end_time" value="2024-03-25T09:14:19.447" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Install and configure asset_4841d80a-b3bb-46dd-b457-9bd202596780" />
+			<date key="time:timestamp" value="2024-03-25T09:14:49+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="scene" value="3" />
+			<string key="end_time" value="2024-03-25T09:16:01.112" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+		<event>
+			<string key="ocel:eid" value="Label asset_9d3f8d8b-9976-4dd6-a0ce-d19b1874552f" />
+			<date key="time:timestamp" value="2024-03-25T09:17:05+00:00" />
+			<string key="concept:name" value="Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset" />
+			<string key="scene" value="3" />
+			<string key="end_time" value="2024-03-25T09:18:09.487" />
+			<float key="action_source" value="nan" />
+			<float key="log_meta" value="nan" />
+			<float key="distance_change_cm" value="nan" />
+			<float key="action_date" value="nan" />
+			<float key="note" value="nan" />
+			<float key="filename" value="nan" />
+		</event>
+	</trace>
+</log>
