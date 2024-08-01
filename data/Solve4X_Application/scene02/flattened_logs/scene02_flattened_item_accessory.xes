@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="Webcam USB" />
+		<string key="ocel:type" value="item_accessory" />
+		<float key="email" value="nan" />
+		<float key="first_name" value="nan" />
+		<string key="obj.type" value="item_accessory" />
+		<string key="obj.relationType" value="item" />
+		<string key="obj.id_full" value="item_accessory_68" />
+		<string key="obj.link" value="accessories/68" />
+		<string key="obj.id" value="Webcam USB" />
+		<float key="asset_tag" value="nan" />
+		<float key="physical" value="nan" />
+		<float key="last_checkin" value="nan" />
+		<float key="checkin_counter" value="nan" />
+		<float key="checkout_counter" value="nan" />
+		<float key="model.name" value="nan" />
+		<float key="model.manufacturer.name" value="nan" />
+		<float key="type" value="nan" />
+		<float key="room_location" value="nan" />
+		<float key="location" value="nan" />
+		<float key="microcontroller model" value="nan" />
+		<float key="sensor model" value="nan" />
+		<event>
+			<string key="ocel:eid" value="44389" />
+			<date key="time:timestamp" value="2024-03-25T09:00:32+00:00" />
+			<string key="concept:name" value="update" />
+			<float key="scene" value="nan" />
+			<float key="end_time" value="nan" />
+			<string key="action_source" value="gui" />
+		</event>
+	</trace>
+</log>
