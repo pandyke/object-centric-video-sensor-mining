@@ -1,0 +1,4257 @@
+{
+  "objectTypes": [
+    {
+      "name": "admin_user",
+      "attributes": [
+        {
+          "name": "email",
+          "type": "string"
+        },
+        {
+          "name": "first_name",
+          "type": "string"
+        },
+        {
+          "name": "obj.type",
+          "type": "string"
+        },
+        {
+          "name": "obj.relationType",
+          "type": "string"
+        },
+        {
+          "name": "obj.id_full",
+          "type": "string"
+        },
+        {
+          "name": "obj.link",
+          "type": "string"
+        },
+        {
+          "name": "obj.id",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "distance_sensor_laptop_shelf",
+      "attributes": []
+    },
+    {
+      "name": "door",
+      "attributes": []
+    },
+    {
+      "name": "it_working_desk",
+      "attributes": []
+    },
+    {
+      "name": "item_accessory",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "type": "string"
+        },
+        {
+          "name": "obj.relationType",
+          "type": "string"
+        },
+        {
+          "name": "obj.id_full",
+          "type": "string"
+        },
+        {
+          "name": "obj.link",
+          "type": "string"
+        },
+        {
+          "name": "obj.id",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "item_asset",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "type": "string"
+        },
+        {
+          "name": "obj.relationType",
+          "type": "string"
+        },
+        {
+          "name": "obj.id_full",
+          "type": "string"
+        },
+        {
+          "name": "obj.link",
+          "type": "string"
+        },
+        {
+          "name": "obj.id",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "asset_tag",
+          "type": "string"
+        },
+        {
+          "name": "physical",
+          "type": "string"
+        },
+        {
+          "name": "last_checkout",
+          "type": "string"
+        },
+        {
+          "name": "last_checkin",
+          "type": "string"
+        },
+        {
+          "name": "checkin_counter",
+          "type": "string"
+        },
+        {
+          "name": "checkout_counter",
+          "type": "string"
+        },
+        {
+          "name": "model.name",
+          "type": "string"
+        },
+        {
+          "name": "model.manufacturer.name",
+          "type": "string"
+        },
+        {
+          "name": "requestable",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "laptop_shelf",
+      "attributes": []
+    },
+    {
+      "name": "reed_switch_door",
+      "attributes": []
+    },
+    {
+      "name": "repair_desk",
+      "attributes": []
+    },
+    {
+      "name": "self_service_storage",
+      "attributes": []
+    },
+    {
+      "name": "target_user",
+      "attributes": [
+        {
+          "name": "email",
+          "type": "string"
+        },
+        {
+          "name": "first_name",
+          "type": "string"
+        },
+        {
+          "name": "obj.type",
+          "type": "string"
+        },
+        {
+          "name": "obj.relationType",
+          "type": "string"
+        },
+        {
+          "name": "obj.id_full",
+          "type": "string"
+        },
+        {
+          "name": "obj.link",
+          "type": "string"
+        },
+        {
+          "name": "obj.id",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "eventTypes": [
+    {
+      "name": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Enter room/Leave room",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Pick asset from self service desk",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Pick asset from warehouse/Move asset to storage",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "accepted",
+      "attributes": [
+        {
+          "name": "filename",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "checkin from",
+      "attributes": [
+        {
+          "name": "action_source",
+          "type": "string"
+        },
+        {
+          "name": "log_meta",
+          "type": "string"
+        },
+        {
+          "name": "action_date",
+          "type": "string"
+        },
+        {
+          "name": "note",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "checkout",
+      "attributes": [
+        {
+          "name": "action_source",
+          "type": "string"
+        },
+        {
+          "name": "log_meta",
+          "type": "string"
+        },
+        {
+          "name": "action_date",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "create",
+      "attributes": [
+        {
+          "name": "action_source",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "laptop_shelf_laptop_added",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        },
+        {
+          "name": "sensor_value_window",
+          "type": "string"
+        },
+        {
+          "name": "sensor_threshold",
+          "type": "string"
+        },
+        {
+          "name": "sensor_old_value",
+          "type": "string"
+        },
+        {
+          "name": "sensor_new_value",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "laptop_shelf_laptop_removed",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        },
+        {
+          "name": "sensor_value_window",
+          "type": "string"
+        },
+        {
+          "name": "sensor_threshold",
+          "type": "string"
+        },
+        {
+          "name": "sensor_old_value",
+          "type": "string"
+        },
+        {
+          "name": "sensor_new_value",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "reed_switch_door_closed",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        },
+        {
+          "name": "sensor_value",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "reed_switch_door_opened",
+      "attributes": [
+        {
+          "name": "event_source",
+          "type": "string"
+        },
+        {
+          "name": "event_source_file",
+          "type": "string"
+        },
+        {
+          "name": "sensor_value",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "update",
+      "attributes": [
+        {
+          "name": "action_source",
+          "type": "string"
+        },
+        {
+          "name": "log_meta",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "A1",
+      "type": "admin_user",
+      "attributes": [
+        {
+          "name": "email",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin1@fim-rc.de"
+        },
+        {
+          "name": "first_name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Admin 1"
+        },
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin_user"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin_user_4"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "users/4"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "A1"
+        }
+      ]
+    },
+    {
+      "id": "L1",
+      "type": "item_asset",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset_6030"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "hardware/6030"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "L1"
+        },
+        {
+          "name": "name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "tintenklecks"
+        },
+        {
+          "name": "asset_tag",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "L1"
+        },
+        {
+          "name": "physical",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "1"
+        },
+        {
+          "name": "last_checkout",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2024-03-25T17:19:16Z"
+        },
+        {
+          "name": "last_checkin",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2024-03-25T17:11:18Z"
+        },
+        {
+          "name": "checkin_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "5"
+        },
+        {
+          "name": "checkout_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "6"
+        },
+        {
+          "name": "model.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Latitude E7450"
+        },
+        {
+          "name": "model.manufacturer.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Dell"
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "type": "target_user",
+      "attributes": [
+        {
+          "name": "email",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "client1@fim-rc.de"
+        },
+        {
+          "name": "first_name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Client 1"
+        },
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "target_user"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "target"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "target_user_1094"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "users/1094"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "C1"
+        }
+      ]
+    },
+    {
+      "id": "C6",
+      "type": "target_user",
+      "attributes": [
+        {
+          "name": "email",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "client6@fim-rc.de"
+        },
+        {
+          "name": "first_name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Client 6"
+        },
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "target_user"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "target"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "target_user_1014"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "users/1014"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "C6"
+        }
+      ]
+    },
+    {
+      "id": "Webcam USB",
+      "type": "item_accessory",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_accessory"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_accessory_68"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "accessories/68"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Webcam USB"
+        }
+      ]
+    },
+    {
+      "id": "L5",
+      "type": "item_asset",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset_10229"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "hardware/10229"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "L5"
+        },
+        {
+          "name": "name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "tintenklecks"
+        },
+        {
+          "name": "asset_tag",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "L5"
+        },
+        {
+          "name": "physical",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "1"
+        },
+        {
+          "name": "model.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Latitude E7450"
+        },
+        {
+          "name": "model.manufacturer.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Dell"
+        }
+      ]
+    },
+    {
+      "id": "L3",
+      "type": "item_asset",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_asset_6060"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "hardware/6060"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "L3"
+        },
+        {
+          "name": "name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "mikesch"
+        },
+        {
+          "name": "asset_tag",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "L3"
+        },
+        {
+          "name": "physical",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "1"
+        },
+        {
+          "name": "last_checkout",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2024-03-25T15:27:58Z"
+        },
+        {
+          "name": "last_checkin",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "2024-03-25T11:41:50Z"
+        },
+        {
+          "name": "checkin_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "3"
+        },
+        {
+          "name": "checkout_counter",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "5"
+        },
+        {
+          "name": "model.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Latitude E7450"
+        },
+        {
+          "name": "model.manufacturer.name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Dell"
+        },
+        {
+          "name": "requestable",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "type": "admin_user",
+      "attributes": [
+        {
+          "name": "email",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "client5@fim-rc.de"
+        },
+        {
+          "name": "first_name",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Client 5"
+        },
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin_user"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "admin_user_1053"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "users/1053"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "C5"
+        }
+      ]
+    },
+    {
+      "id": "Headset USB",
+      "type": "item_accessory",
+      "attributes": [
+        {
+          "name": "obj.type",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_accessory"
+        },
+        {
+          "name": "obj.relationType",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item"
+        },
+        {
+          "name": "obj.id_full",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "item_accessory_67"
+        },
+        {
+          "name": "obj.link",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "accessories/67"
+        },
+        {
+          "name": "obj.id",
+          "time": "1970-01-01T00:00:00Z",
+          "value": "Headset USB"
+        }
+      ]
+    },
+    {
+      "id": "door",
+      "type": "door"
+    },
+    {
+      "id": "it_working_desk",
+      "type": "it_working_desk"
+    },
+    {
+      "id": "laptop_shelf",
+      "type": "laptop_shelf"
+    },
+    {
+      "id": "self_service_storage",
+      "type": "self_service_storage"
+    },
+    {
+      "id": "repair_desk",
+      "type": "repair_desk"
+    },
+    {
+      "id": "reed_switch_door",
+      "type": "reed_switch_door"
+    },
+    {
+      "id": "distance_sensor_laptop_shelf",
+      "type": "distance_sensor_laptop_shelf"
+    }
+  ],
+  "events": [
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_955b1151-cee3-4dfb-a535-badc15463d0d",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:06:13Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse/Move asset to storage_128e8644-8704-4df7-b88a-ba956ede46f0",
+      "type": "Pick asset from warehouse/Move asset to storage",
+      "time": "2024-03-25T09:06:15Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse/Move asset to storage_5e78ba22-d163-4f7e-b037-e76a7097155a",
+      "type": "Pick asset from warehouse/Move asset to storage",
+      "time": "2024-03-25T09:06:16Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse/Move asset to storage_04c9c60d-63a3-482a-9140-4a4915ff962e",
+      "type": "Pick asset from warehouse/Move asset to storage",
+      "time": "2024-03-25T09:06:19Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse/Move asset to storage_3466e93b-d13b-467e-b6fa-f3869e242efd",
+      "type": "Pick asset from warehouse/Move asset to storage",
+      "time": "2024-03-25T09:06:23Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse/Move asset to storage_e3fc1902-9d57-4dfa-a313-8ff84c92b23e",
+      "type": "Pick asset from warehouse/Move asset to storage",
+      "time": "2024-03-25T09:06:25Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse/Move asset to storage_b8a9429a-2f12-4a6f-a2fa-b443f13f8492",
+      "type": "Pick asset from warehouse/Move asset to storage",
+      "time": "2024-03-25T09:06:34Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse/Move asset to storage_fbe71d2d-5818-49ba-af9b-c74eee31ce6f",
+      "type": "Pick asset from warehouse/Move asset to storage",
+      "time": "2024-03-25T09:06:35Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse/Move asset to storage_e3a66ee6-c4e1-4e09-a792-3d10f2adc4fa",
+      "type": "Pick asset from warehouse/Move asset to storage",
+      "time": "2024-03-25T09:06:36Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_f57ae8b5-87bf-484e-95ce-97c5c1f67c70",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:06:49Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_456673e4-86fe-41ae-a10f-bdc247b528b7",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:06:49Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_cdf5bbb8-8a7b-4bb0-bac1-66948c7a6354",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:06:50Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_1400c761-f861-4aac-8907-13b3481c0eae",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:06:51Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_a9c20fe2-6e5f-42f9-b884-9e68478eaf33",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:07:06Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_d9038533-f797-488f-90e2-a8bc2c2153bf",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:07:06Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_4b044f76-397c-4a16-b2f1-6597e586823c",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:07:07Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_c62ce497-30e2-4738-a43f-e0761bb0fa31",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:07:08Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_825690d8-b40e-4462-a417-86ab49591d1f",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:07:11Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_892e3d2e-d8d0-4be4-b7c3-18ee624c5839",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:07:17Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_a4bc20e7-26bd-4bb4-8feb-91daf09505fa",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:07:19Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_78fd73c5-666c-46fd-b2d7-25e3536caea8",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:07:19Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_553e4e15-88c4-483b-8908-c4b35bb3ea7d",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:07:20Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_4bc538ce-abe6-4574-ad61-45af165c232d",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:08:31Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_5a392ac9-8412-4e24-a507-7e133cff5085",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:08:32Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_1a9e866e-4492-437b-8ae8-fee89177796d",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:08:36Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44390",
+      "type": "create",
+      "time": "2024-03-25T09:08:59Z",
+      "attributes": [
+        {
+          "name": "action_source",
+          "value": "gui"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "L5",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44391",
+      "type": "update",
+      "time": "2024-03-25T09:09:14Z",
+      "attributes": [
+        {
+          "name": "action_source",
+          "value": "gui"
+        },
+        {
+          "name": "log_meta",
+          "value": "{\"status_id\":{\"old\":11,\"new\":\"13\"}}"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "L5",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_74a51f97-9d35-42bc-85f9-0f77ef2729db",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:09:21Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_f7aada7a-acad-4a80-a874-e50010e59f0b",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:09:21Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "laptop_shelf_laptop_removed_1b0c5be6-7dbc-4654-b454-186464cfec91",
+      "type": "laptop_shelf_laptop_removed",
+      "time": "2024-03-25T09:09:26Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03_distance_sensor_laptop_shelf"
+        },
+        {
+          "name": "sensor_value_window",
+          "value": "1"
+        },
+        {
+          "name": "sensor_threshold",
+          "value": "2.0"
+        },
+        {
+          "name": "sensor_old_value",
+          "value": "27.29"
+        },
+        {
+          "name": "sensor_new_value",
+          "value": "29.66"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": ""
+        },
+        {
+          "objectId": "distance_sensor_laptop_shelf",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_opened_5413143b-da8d-4b76-b9d5-d7ad63429bea",
+      "type": "reed_switch_door_opened",
+      "time": "2024-03-25T09:09:42Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_opened"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room/Leave room_01c0311d-ea16-466c-a665-03f6ec5c877c",
+      "type": "Enter room/Leave room",
+      "time": "2024-03-25T09:09:42Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_closed_0c297211-744e-4b32-87de-4c88059523aa",
+      "type": "reed_switch_door_closed",
+      "time": "2024-03-25T09:09:46Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_closed"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_cacd4862-bb6d-4ee9-ae4e-e8acd5f35869",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:10:35Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_40bb37ca-688b-4498-9754-6eac57987cf6",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:10:35Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44392",
+      "type": "checkin from",
+      "time": "2024-03-25T09:11:10Z",
+      "attributes": [
+        {
+          "name": "action_source",
+          "value": "gui"
+        },
+        {
+          "name": "log_meta",
+          "value": "{\"status_id\":{\"old\":11,\"new\":\"13\"},\"location_id\":{\"old\":null,\"new\":1490}}"
+        },
+        {
+          "name": "action_date",
+          "value": "2024-03-25T09:11:10Z"
+        },
+        {
+          "name": "note",
+          "value": "checked in for repair by client 1"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "L1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse/Move asset to storage_7e893697-3435-415f-be88-e6670ceab67e",
+      "type": "Pick asset from warehouse/Move asset to storage",
+      "time": "2024-03-25T09:11:24Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse/Move asset to storage_10750d17-70a1-42cb-9898-0fbae9645165",
+      "type": "Pick asset from warehouse/Move asset to storage",
+      "time": "2024-03-25T09:11:28Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "laptop_shelf_laptop_removed_aef111a5-3e56-4621-a0c3-54fd437aefe5",
+      "type": "laptop_shelf_laptop_removed",
+      "time": "2024-03-25T09:11:29Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03_distance_sensor_laptop_shelf"
+        },
+        {
+          "name": "sensor_value_window",
+          "value": "1"
+        },
+        {
+          "name": "sensor_threshold",
+          "value": "2.0"
+        },
+        {
+          "name": "sensor_old_value",
+          "value": "29.13"
+        },
+        {
+          "name": "sensor_new_value",
+          "value": "31.21"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": ""
+        },
+        {
+          "objectId": "distance_sensor_laptop_shelf",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse/Move asset to storage_74d11275-ae13-4ece-ae5a-29449d0f8d9d",
+      "type": "Pick asset from warehouse/Move asset to storage",
+      "time": "2024-03-25T09:11:37Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_9d753054-20fd-4aba-97f3-22fc452fae05",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:11:44Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_0738b2d6-c1c8-4da3-9c28-fd7a929e8c6a",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:11:45Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_05672b13-537b-423e-8b73-1435ca0bbd24",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:11:47Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_009e64e3-4c33-4aed-b3a1-7876dd3d7a33",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:11:48Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_3f6f4c81-3c98-49ba-89c4-a516197c4bbc",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:11:50Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_86b3503d-1639-4273-ba9e-0ffb8bf0da44",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:11:53Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_b9fc2987-cd82-458e-810f-977b374d6d2d",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:11:56Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_ca26e06b-215f-43fc-88e3-53b0164b868d",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:12:04Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44393",
+      "type": "checkout",
+      "time": "2024-03-25T09:12:21Z",
+      "attributes": [
+        {
+          "name": "action_source",
+          "value": "gui"
+        },
+        {
+          "name": "log_meta",
+          "value": "{\"location_id\":{\"old\":1490,\"new\":null}}"
+        },
+        {
+          "name": "action_date",
+          "value": "2024-03-25T09:12:21Z"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "L3",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_8b66b830-dbb4-4c91-9a8c-d092235f05f6",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:12:29Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_ae082706-16cf-4242-b834-90b41b0d088b",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:12:29Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room/Leave room_69514522-65ed-45d3-b37c-b2459f4af37d",
+      "type": "Enter room/Leave room",
+      "time": "2024-03-25T09:12:36Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_27b8653a-7f4a-4d2e-9991-c4994fa2e5e3",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:12:40Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room/Leave room_542a6e77-2524-419f-ae40-23f6279b3fa8",
+      "type": "Enter room/Leave room",
+      "time": "2024-03-25T09:12:40Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_opened_1a21c4dd-0593-44e3-be50-c414bdc9c9ec",
+      "type": "reed_switch_door_opened",
+      "time": "2024-03-25T09:12:40Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_opened"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_closed_164c0d24-774f-49e9-a609-6f47bef778fa",
+      "type": "reed_switch_door_closed",
+      "time": "2024-03-25T09:12:43Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_closed"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_d07f0416-e7a6-43c3-b660-44ef6b974bf0",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:12:58Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_37453579-b2a0-415f-b59d-8b42ef90008f",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:12:59Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_0a1f1a7e-ec9f-4ab3-9b7d-397812af9d77",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:13:01Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_4a3070c8-1c8d-4927-9c63-0b427a8fec57",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:13:22Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_607270cd-9ba5-4189-b3d3-534539f456d0",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:13:28Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_95c964b9-830a-4854-8a7b-5ea77263eff6",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:13:30Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44394",
+      "type": "checkout",
+      "time": "2024-03-25T09:13:56Z",
+      "attributes": [
+        {
+          "name": "action_source",
+          "value": "gui"
+        },
+        {
+          "name": "action_date",
+          "value": "2024-03-25T09:13:56Z"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C5",
+          "qualifier": ""
+        },
+        {
+          "objectId": "Webcam USB",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_490063df-0f1d-4261-810b-08fd1ca6e2a7",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:13:56Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_6abad395-2951-4f01-851b-2a93785823f0",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:13:58Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_f133b245-ef4b-4cb8-a014-1b5fa22fc969",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:13:58Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_49936e38-3aec-49b5-bb83-728646dd923c",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:13:59Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_c7c9a1c1-5aaa-43d6-86e0-88cee812b357",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:13:59Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_fb7c3000-2954-441a-98bb-27d132e098a8",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:14:03Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_55953cbe-7e61-4579-9e5a-094c851727e6",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:14:04Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_0a2d871e-4bed-4283-b0ab-71847daddf09",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:14:04Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_2e82babd-89d7-414c-8390-561c9426d980",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:14:04Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_opened_7e2bfdcf-17d2-46f3-9d0d-883b6f4bad3d",
+      "type": "reed_switch_door_opened",
+      "time": "2024-03-25T09:14:14Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_opened"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room/Leave room_ec957b60-3fb2-4a42-816d-de8c0bf6fb03",
+      "type": "Enter room/Leave room",
+      "time": "2024-03-25T09:14:14Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C5",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from self service desk_8120a0e8-3d12-452b-bc2c-823043a76519",
+      "type": "Pick asset from self service desk",
+      "time": "2024-03-25T09:14:17Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C5",
+          "qualifier": ""
+        },
+        {
+          "objectId": "self_service_storage",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_closed_1f2ffa53-f087-4873-bae4-39dc6f02272e",
+      "type": "reed_switch_door_closed",
+      "time": "2024-03-25T09:14:17Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_closed"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from self service desk_d2418b09-e005-4637-a535-0050572a8850",
+      "type": "Pick asset from self service desk",
+      "time": "2024-03-25T09:14:23Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C5",
+          "qualifier": ""
+        },
+        {
+          "objectId": "self_service_storage",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from self service desk_beb2aefe-459b-4944-b446-301f01e25661",
+      "type": "Pick asset from self service desk",
+      "time": "2024-03-25T09:14:24Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C5",
+          "qualifier": ""
+        },
+        {
+          "objectId": "self_service_storage",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44395",
+      "type": "accepted",
+      "time": "2024-03-25T09:14:37Z",
+      "attributes": [
+        {
+          "name": "filename",
+          "value": "accepted-eula-2024-03-25-08-14-37.pdf"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "L3",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from self service desk_208c7485-0ec8-47a2-98b0-6bf1af52a6f4",
+      "type": "Pick asset from self service desk",
+      "time": "2024-03-25T09:14:41Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C5",
+          "qualifier": ""
+        },
+        {
+          "objectId": "self_service_storage",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_4a61a054-4671-40c3-bd72-e05efdfc6048",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:14:44Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room/Leave room_43aa1164-1d34-49e2-8a0b-00dfb0b6dcd3",
+      "type": "Enter room/Leave room",
+      "time": "2024-03-25T09:14:47Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C5",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_opened_f9927b49-a2c8-4b42-8ae8-465daeede494",
+      "type": "reed_switch_door_opened",
+      "time": "2024-03-25T09:14:50Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_opened"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_closed_b81a4f09-acb0-47d5-bf5e-ab0f42806f38",
+      "type": "reed_switch_door_closed",
+      "time": "2024-03-25T09:14:54Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_closed"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_dd6c99e2-80a2-4236-b9ac-05925f166789",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:14:55Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_0bf208ea-9aee-441c-95fb-aa8df07679a6",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:14:56Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_7c7ef087-cb29-41ae-95b7-12a3913d6f30",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:14:59Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_cc92bef3-2087-4e34-b93c-b12ea73bfe70",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:15:01Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_5b0e4fa1-ba48-4857-b80d-00053aaa27ed",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:15:05Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44396",
+      "type": "accepted",
+      "time": "2024-03-25T09:15:48Z",
+      "attributes": [
+        {
+          "name": "filename",
+          "value": "accepted-eula-2024-03-25-08-15-48.pdf"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "C5",
+          "qualifier": ""
+        },
+        {
+          "objectId": "Webcam USB",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_b7b3d371-14df-4976-90c2-5f53f9318320",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:15:50Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_opened_49bcd288-2dd8-48ff-98cd-1b82b0773efd",
+      "type": "reed_switch_door_opened",
+      "time": "2024-03-25T09:15:58Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_opened"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room/Leave room_45bd644c-62c3-4df3-967f-37b4dc9f157b",
+      "type": "Enter room/Leave room",
+      "time": "2024-03-25T09:15:58Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_61bbbfce-6a76-40e2-85e1-914b650cd57c",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:15:59Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_c50348e5-bdcb-40da-8796-25ad6eae9cef",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:16:01Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_ba827531-89ce-4499-8d72-2b8978b59bd9",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:16:01Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_6b876d90-0b4f-4466-a223-60e976250d1e",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:16:01Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_cb21ba25-5e5d-4e0d-800f-4f7c8e040bfe",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:16:01Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_closed_29bb213f-fedb-4c27-badb-3f7d428b0781",
+      "type": "reed_switch_door_closed",
+      "time": "2024-03-25T09:16:03Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_closed"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from self service desk_430fba35-cbd9-4e41-a43d-2d54df614d9d",
+      "type": "Pick asset from self service desk",
+      "time": "2024-03-25T09:16:03Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "self_service_storage",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_6426c40a-d33c-42c3-9713-079aefc457f2",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:16:03Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_97d144a3-47a9-4aa7-aabd-b222d29474b3",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:16:32Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_40c486f0-ef21-4449-99d0-4d956e2ca1aa",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:16:33Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_35e36832-0756-4af4-9373-4133a47152fb",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:16:34Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from self service desk_eb62c2c6-874e-43d2-a6ec-15f169bb14bf",
+      "type": "Pick asset from self service desk",
+      "time": "2024-03-25T09:16:38Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "self_service_storage",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from self service desk_f266b8d4-91e9-4082-966f-3695c5d1b6fe",
+      "type": "Pick asset from self service desk",
+      "time": "2024-03-25T09:16:42Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "self_service_storage",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from self service desk_ada93052-b8da-4f92-a9b5-53b5eed59979",
+      "type": "Pick asset from self service desk",
+      "time": "2024-03-25T09:16:48Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "self_service_storage",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from self service desk_3a64e1a2-6119-4821-8ec6-a6170f067131",
+      "type": "Pick asset from self service desk",
+      "time": "2024-03-25T09:16:55Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "self_service_storage",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44397",
+      "type": "checkout",
+      "time": "2024-03-25T09:17:00Z",
+      "attributes": [
+        {
+          "name": "action_source",
+          "value": "gui"
+        },
+        {
+          "name": "action_date",
+          "value": "2024-03-25T09:17:00Z"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "Headset USB",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_9a6640ed-2ba1-4203-88e6-c94fa16a5aa6",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:17:02Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from self service desk_4c1e25ee-8d9c-48b2-a71f-1349f666e59e",
+      "type": "Pick asset from self service desk",
+      "time": "2024-03-25T09:17:02Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "self_service_storage",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from self service desk_faf789ca-8ff6-4fa1-8734-b2340bb5e376",
+      "type": "Pick asset from self service desk",
+      "time": "2024-03-25T09:17:04Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "self_service_storage",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Enter room/Leave room_be525b43-73ec-43ed-b6c6-1e9f1d310a29",
+      "type": "Enter room/Leave room",
+      "time": "2024-03-25T09:17:04Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_opened_cf8f2de4-88af-4f8a-8007-982af14ce1cd",
+      "type": "reed_switch_door_opened",
+      "time": "2024-03-25T09:17:07Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_opened"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "reed_switch_door_closed_107f2a20-964c-49fa-8b45-f7f2797ae383",
+      "type": "reed_switch_door_closed",
+      "time": "2024-03-25T09:17:10Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03_reed_switch_door"
+        },
+        {
+          "name": "sensor_value",
+          "value": "reed_switch_closed"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "reed_switch_door",
+          "qualifier": ""
+        },
+        {
+          "objectId": "door",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_4dc47543-fb3a-44e7-bc45-1dc4e1b337a7",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:17:31Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_eb1f2809-56d8-4f54-b62e-e9dc88743737",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:17:47Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_b954bb66-aba8-473e-95bf-69ed7881bb04",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:17:48Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_ee2f2622-4ffa-45a5-95c9-0569894433f2",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:17:53Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_e59afaca-4f78-44df-b1b0-0f6f8ac73829",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:17:54Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44398",
+      "type": "accepted",
+      "time": "2024-03-25T09:18:06Z",
+      "attributes": [
+        {
+          "name": "filename",
+          "value": "accepted-eula-2024-03-25-08-18-06.pdf"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "Headset USB",
+          "qualifier": ""
+        },
+        {
+          "objectId": "C6",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_1d1d02c3-fcbc-4fd5-bacb-bd0536c0342c",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:18:12Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_d9bc6cf3-c181-4139-8b1d-a282ab47b32d",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:18:12Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_a10db197-604c-4956-82c9-c433bf355aba",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:18:16Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset_72e2ec2c-5a81-47ad-a758-5b786c1eb03e",
+      "type": "Unpack asset/Test asset quality and functionality/Install and configure asset/Move asset to repair desk/Label asset",
+      "time": "2024-03-25T09:18:19Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "repair_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user_bdad23cf-e14c-4fd0-b8c1-52232ab28300",
+      "type": "Create system entry for asset/Check asset quality/Check-In asset for repair/Check-Out asset to user/Handover asset to user",
+      "time": "2024-03-25T09:18:20Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "it_working_desk",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "44399",
+      "type": "update",
+      "time": "2024-03-25T09:18:36Z",
+      "attributes": [
+        {
+          "name": "action_source",
+          "value": "gui"
+        },
+        {
+          "name": "log_meta",
+          "value": "{\"status_id\":{\"old\":13,\"new\":\"11\"}}"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        },
+        {
+          "objectId": "L5",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "Pick asset from warehouse/Move asset to storage_08543598-a995-4b40-9d84-7e20c632194d",
+      "type": "Pick asset from warehouse/Move asset to storage",
+      "time": "2024-03-25T09:18:40Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "video"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": ""
+        },
+        {
+          "objectId": "A1",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "laptop_shelf_laptop_added_ae4765d3-7b4b-40ec-ac32-f4dd4a211d9d",
+      "type": "laptop_shelf_laptop_added",
+      "time": "2024-03-25T09:18:43Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03_distance_sensor_laptop_shelf"
+        },
+        {
+          "name": "sensor_value_window",
+          "value": "1"
+        },
+        {
+          "name": "sensor_threshold",
+          "value": "-2.0"
+        },
+        {
+          "name": "sensor_old_value",
+          "value": "31.28"
+        },
+        {
+          "name": "sensor_new_value",
+          "value": "26.51"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": ""
+        },
+        {
+          "objectId": "distance_sensor_laptop_shelf",
+          "qualifier": ""
+        }
+      ]
+    },
+    {
+      "id": "laptop_shelf_laptop_removed_6fb270d6-60a4-4ce3-89f1-1ec47d88ded9",
+      "type": "laptop_shelf_laptop_removed",
+      "time": "2024-03-25T09:18:45Z",
+      "attributes": [
+        {
+          "name": "event_source",
+          "value": "sensor"
+        },
+        {
+          "name": "event_source_file",
+          "value": "scene03_distance_sensor_laptop_shelf"
+        },
+        {
+          "name": "sensor_value_window",
+          "value": "1"
+        },
+        {
+          "name": "sensor_threshold",
+          "value": "2.0"
+        },
+        {
+          "name": "sensor_old_value",
+          "value": "26.51"
+        },
+        {
+          "name": "sensor_new_value",
+          "value": "29.74"
+        }
+      ],
+      "relationships": [
+        {
+          "objectId": "laptop_shelf",
+          "qualifier": ""
+        },
+        {
+          "objectId": "distance_sensor_laptop_shelf",
+          "qualifier": ""
+        }
+      ]
+    }
+  ]
+}
