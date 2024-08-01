@@ -1,0 +1,76 @@
+{
+  "ocel:global-event": {
+    "ocel:activity": "__INVALID__"
+  },
+  "ocel:global-object": {
+    "ocel:type": "__INVALID__"
+  },
+  "ocel:global-log": {
+    "ocel:object-types": [
+      "item_asset",
+      "target_user",
+      "admin_user"
+    ],
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp"
+  },
+  "ocel:events": {
+    "44400": {
+      "ocel:activity": "checkin from",
+      "ocel:timestamp": "2024-03-25T09:23:00Z",
+      "ocel:vmap": {
+        "log_meta": "{\"location_id\":{\"old\":null,\"new\":1490}}",
+        "action_date": "2024-03-25T09:23:00Z",
+        "action_source": "gui"
+      },
+      "ocel:omap": [
+        "A1",
+        "M1",
+        "C2"
+      ]
+    }
+  },
+  "ocel:objects": {
+    "A1": {
+      "ocel:type": "admin_user",
+      "ocel:ovmap": {
+        "email": "admin1@fim-rc.de",
+        "first_name": "Admin 1",
+        "obj.type": "admin_user",
+        "obj.relationType": "admin",
+        "obj.id_full": "admin_user_4",
+        "obj.link": "users/4",
+        "obj.id": "A1"
+      }
+    },
+    "M1": {
+      "ocel:type": "item_asset",
+      "ocel:ovmap": {
+        "obj.type": "item_asset",
+        "obj.relationType": "item",
+        "obj.id_full": "item_asset_6278",
+        "obj.link": "hardware/6278",
+        "obj.id": "M1",
+        "asset_tag": "M1",
+        "physical": "1",
+        "last_checkin": "2024-03-25T17:29:05Z",
+        "checkin_counter": "4",
+        "checkout_counter": "4",
+        "model.name": "Fujitsu 24\"",
+        "model.manufacturer.name": "Fujitsu"
+      }
+    },
+    "C2": {
+      "ocel:type": "target_user",
+      "ocel:ovmap": {
+        "email": "client2@fim-rc.de",
+        "first_name": "Client 2",
+        "obj.type": "target_user",
+        "obj.relationType": "target",
+        "obj.id_full": "target_user_1052",
+        "obj.link": "users/1052",
+        "obj.id": "C2"
+      }
+    }
+  }
+}
