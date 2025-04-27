@@ -29,13 +29,13 @@ Thereby, the user functions as a domain expert and can give input at specific st
 The output is a valid OCEL 2.0 file comprising events and objects that were extracted from the various data sources.
 
 Thereby, the menu shows the following steps with respective functionalities:
-- Start: 
-- Process Log: 
-- Video Object Labeler: 
-- Video Object Area Definer: 
-- Video Event Extractor: 
-- Sensor: 
-- Analysis: 
+- Start: Allows starting a new session or loading an existing session. By starting a new session a folder is created that saves all your work already done with all respective files. You can then later load this session and continue where you stopped.
+- Process Log: A process log can be loaded, either already in the valid OCEL format or from a file in table format that is then preprocessed.
+- Video Object Labeler: In this step, a video file can be selected on which an object tracking algorithm is then run. The results of the algorithm are recognized objects with bounding boxes which can then be manually labelled.
+- Video Object Area Definer: Here, own static objects can be manually defined in the video frame. If the object tracking algorithm does not recognize certain objects but these are important for the process (e.g., a cupboard from which items are regularly removed or placed in), one can define these objects here by drawing manual bounding boxes in the video frame and labelling them.
+- Video Event Extractor: This step allows for defining event rules in the form of: When the bounding boxes of OBJECT1 and OBJECT2 start overlapping an event called ACTIVITYNAME is created. Thereby, OBJECT1, OBJECT2, and ACTIVITYNAME can be defined and several rules for different objects can be set.
+- Sensor: Here, sensor CSV files containing timestamps and sensor values can be loaded (discrete and continuous sensor data are both posssible). The sensor can then be allocated to a known object or a new object can be defined for the sensor. Moreover, rules can be defined as to when events should be created from the sensor values. For continuous data, a rule is in the form: When the sensor values in a certain timeframe change greater or smaller than a threshold then an event with a certain name is created. For discrete sensor values, in the form: When the sensor switches to a certain state, then an event with a certain name is created.
+- Analysis: The last step creates a valid OCEL file based on all the previous steps, then shows basic statistics on this file (e.g., number of events and objects) and finally saves and shows directly follows multigraphs of the OCEL file, displaying all involved objects and events.
 
 
 The following screenshot shows the object labeling step of the prototype used on the Solve4X dataset ([Chvirova et al. 2024](https://doi.org/10.1016/j.dib.2024.110716)).
