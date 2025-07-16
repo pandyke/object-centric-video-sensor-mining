@@ -1,7 +1,7 @@
 # Unstructured Data in Object-Centric Process Mining
 
 This repository contains the source code for the paper 'Refining the Process Picture: Unstructured Data in Object-Centric Process Mining'. 
-For a more comprehensive overview of the approach we refer to the ([paper](https://www.sciencedirect.com/science/article/pii/S0306437925000663#:~:text=To%20answer%20this%20research%20question%2C%20we%20propose%20the,and%20traditional%20event%20logs%20for%20object-centric%20process%20mining)).
+For a more comprehensive overview of the approach we refer to the [paper](https://www.sciencedirect.com/science/article/pii/S0306437925000663#:~:text=To%20answer%20this%20research%20question%2C%20we%20propose%20the,and%20traditional%20event%20logs%20for%20object-centric%20process%20mining).
 
 
 ## Installation
